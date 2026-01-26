@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Protocolo de Exercícios | Recuperação de LCA e Menisco</title>
+    <meta name="title" content="Protocolo de Exercícios | Recuperação de LCA e Menisco">
+    <meta name="description" content="Guia prático de exercícios para reabilitação de LCA e sutura de menisco. Foco em ativação de quadríceps, extensão total e ganho de amplitude com segurança.">
+    <meta name="keywords" content="exercícios LCA, fisioterapia joelho, sutura de menisco, reabilitação LCA, ativação quadríceps, pós-operatório joelho">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Portuguese">
+    <meta name="author" content="Dariusz Czarcinski">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.joelhodevolta.com.br/exercises.html"> <meta property="og:title" content="Protocolo de Exercícios | Recuperação de LCA e Menisco">
+    <meta property="og:description" content="Confira os exercícios essenciais para as primeiras semanas de pós-operatório. Ativação muscular e mobilidade guiada.">
+    <meta property="og:image" content="https://www.joelhodevolta.com.br/imgages/og_home.jpg"> <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.joelhodevolta.com.br/exercices.html">
+    <meta property="twitter:title" content="Protocolo de Exercícios | Recuperação de LCA e Menisco">
+    <meta property="twitter:description" content="Guia de reabilitação para LCA e Menisco.">
+    <meta property="twitter:image" content="https://www.joelhodevolta.com.br/imges/og_home.jpg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <style>
+        /* Smooth Scroll and Font Fix */
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800 antialiased">
+
+<nav class="border-b border-gray-100 sticky top-0 bg-white/95 backdrop-blur-md z-50">
+    <div class="max-w-5xl mx-auto px-5 py-4 flex justify-between items-center">
+        <a href="index.html" class="text-xl font-bold tracking-tight text-gray-900">
+            Joelho<span class="google-blue"> de Volta</span>
+        </a>
+         
+        <div class="flex items-center">
+            <div class="hidden md:flex space-x-8 text-sm font-semibold text-gray-500 mr-8">
+                <a href="index.html" class="hover:text-blue-600 transition-colors">Diário</a>
+                <a href="exercises.html" class="google-blue">Exercícios</a>
+                <a href="tips.html" class="hover:text-blue-600 transition-colors">Dicas</a>
+                <a href="about.html" class="hover:text-blue-600 transition-colors">Sobre</a>
+            </div>
+
+            <div class="flex items-center space-x-4 border-l pl-4 border-gray-200">
+                <div class="relative inline-block text-left">
+                  
+                </div>
+
+                <button id="menu-btn" class="md:hidden text-gray-500 focus:outline-none" aria-label="Alternar menu">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 px-5 py-6 space-y-4 shadow-xl">
+        <a href="index.html" class="block text-lg font-medium text-gray-600 hover:text-blue-600">Diário</a>
+        <a href="exercises.html" class="block text-lg font-bold google-blue">Exercícios</a>
+        <a href="tips.html" class="block text-lg font-medium text-gray-600 hover:text-blue-600">Dicas</a>
+        <a href="about.html" class="block text-lg font-medium text-gray-600 hover:text-blue-600">Sobre</a>
+    </div>
+</nav>
+
+<section class="py-16 bg-gray-50 border-b border-gray-100">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight mb-6">
+            Protocolo de Reabilitação: LCA e Menisco
+        </h1>
+        <p class="text-xl text-gray-500 leading-relaxed">
+            Apenas para fins educativos: siga as restrições do cirurgião e adapte conforme os níveis de dor e evolução da cicatrização.
+        </p>
+    </div>
+</section>
+
+
+  <main class="max-w-3xl mx-auto px-4 py-12">
+        <div class="flex space-x-2 border-b border-gray-200 mb-10 overflow-x-auto no-scrollbar">
+            <button onclick="showPhase('w1')" id="tab-w1" class="active-tab py-3 px-4 text-sm whitespace-nowrap">Semana 1</button>
+            <button onclick="showPhase('w2')" id="tab-w2" class="text-gray-500 py-3 px-4 text-sm whitespace-nowrap border-b-2 border-transparent">Semana 2</button>
+            <button onclick="showPhase('w3')" id="tab-w3" class="text-gray-500 py-3 px-4 text-sm whitespace-nowrap border-b-2 border-transparent">Semanas 3–4</button>
+            <button onclick="showPhase('w5')" id="tab-w5" class="text-gray-500 py-3 px-4 text-sm whitespace-nowrap border-b-2 border-transparent">Semanas 5–8</button>
+            <button onclick="showPhase('w9')" id="tab-w9" class="text-gray-500 py-3 px-4 text-sm whitespace-nowrap border-b-2 border-transparent">Semanas 9–12</button>
+        </div>
+
+        <div id="exercise-content">
+            
+        <section id="phase-w1" class="phase-content space-y-4">
+  <div class="bg-blue-50 border border-blue-100 p-4 rounded-xl mb-6 text-sm text-blue-800">
+    <strong>Objetivos:</strong> Controlar dor e edema pós-operatório, proteger o enxerto de LCA e a sutura de menisco, restaurar a <strong>extensão passiva completa</strong>, iniciar a ativação do quadríceps (vencer a inibição muscular) e garantir a segurança na descarga de peso.
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/v1yaOz3o5VA/hqdefault.jpg" class="w-full" alt="Exercício de Bombeio de Calcanhar para circulação pós-cirúrgica">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w1e1', 'v1yaOz3o5VA')">
+      <div>
+        <h3 class="font-bold">Bombeio de Tornozelo (Prevenção de TVP)</h3>
+        <p class="text-sm text-gray-500">4–5 × 20–30 repetições por dia</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+        </svg>
+      </div>
+    </div>
+    <div id="w1e1" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w1e1" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Bombeio do Calcanhar"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/yHNVIrAjLSE/hqdefault.jpg" class="w-full" alt="Exercício de Extensão e Flexão assistida de joelho">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w1e3', 'yHNVIrAjLSE')">
+      <div>
+        <h3 class="font-bold">Mobilização de ADM Assistida (Sentado)</h3>
+        <p class="text-sm text-gray-500">4 × 8–10 repetições por dia</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+        </svg>
+      </div>
+    </div>
+    <div id="w1e3" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w1e3" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão e Flexão de Joelho"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/-Ks3LQ9hupY/hqdefault.jpg" class="w-full" alt="Flexão de joelho com apoio na parede - Heel Slides">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w1e4', '-Ks3LQ9hupY')">
+      <div>
+        <h3 class="font-bold">Heel Slides na Parede (Ganho de Flexão)</h3>
+        <p class="text-sm text-gray-500">2–3 × 10–12 repetições</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+        </svg>
+      </div>
+    </div>
+    <div id="w1e4" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w1e4" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Flexão na Parede"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Exercício de isometria para ativação de quadríceps">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w1e5', 'INSERT_ID')">
+      <div>
+        <h3 class="font-bold">Isometria de Quadríceps (Despertar Muscular)</h3>
+        <p class="text-sm text-gray-500">4–5 × sustentações de 8 segundos</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+        </svg>
+      </div>
+    </div>
+    <div id="w1e5" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w1e5" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Contração de Quadríceps"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Exercício de deslizamento de joelho sentado para ganho de flexão">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w1e6', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Deslizamento de Joelho Sentado (Toalha / Tábua / Rolo)</h3>
+      <p class="text-sm text-gray-500">5 × 30 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+      </svg>
+    </div>
+  </div>
+  <div id="w1e6" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w1e6" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Deslizamento de Joelho Sentado"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Exercício de extensão passiva de joelho com calcanhar elevado">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w1e7', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Extensão Passiva de Joelho (Calcanhar Elevado – Gravidade)</h3>
+      <p class="text-sm text-gray-500">3 × 5 minutos por dia</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+      </svg>
+    </div>
+  </div>
+  <div id="w1e7" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w1e7" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão Passiva de Joelho"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/lgGCODyb_PM/hqdefault.jpg" class="w-full" alt="Exercício de extensão de joelho com bola suíça e EMS">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w1e8', 'lgGCODyb_PM')">
+    <div>
+      <h3 class="font-bold">Exercício de Extensão de Joelho com Bola Suíça & EMS</h3>
+      <p class="text-sm text-gray-500">3 × 5 minutos por dia</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+      </svg>
+    </div>
+  </div>
+  <div id="w1e8" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w1e8" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão de Joelho com Bola Suíça"></iframe>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<section id="phase-w2" class="phase-content hidden space-y-4">
+  <div class="bg-blue-50 border border-blue-100 p-4 rounded-xl mb-6 text-sm text-blue-800">
+    <strong>Objetivos:</strong> Reduzir ainda mais o inchaço e a inflamação, melhorar a ativação e o controle do quadríceps, aumentar com segurança a amplitude de movimento do joelho com ênfase na extensão, introduzir flexão leve dentro dos limites, iniciar ativação de quadril e core e ganhar mais confiança nos movimentos básicos do dia a dia.
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/v1yaOz3o5VA/hqdefault.jpg" class="w-full" alt="Exercício de bombeio de calcanhar para circulação e controle de edema">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w2e1', 'v1yaOz3o5VA')">
+      <div>
+        <h3 class="font-bold">Bombeio do Calcanhar (Bola Suíça & Elástico)</h3>
+        <p class="text-sm text-gray-500">4–5 × 20–30 repetições por dia</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+        </svg>
+      </div>
+    </div>
+    <div id="w2e1" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w2e1" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Bombeio do Calcanhar com Bola Suíça"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/Y_NgNvyEXJ0/hqdefault.jpg" class="w-full" alt="Exercício de extensão de joelho em decúbito ventral para ganho de ADM">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w2e2', 'Y_NgNvyEXJ0')">
+      <div>
+        <h3 class="font-bold">Extensão de Joelho em Decúbito Ventral (Somente Gravidade)</h3>
+        <p class="text-sm text-gray-500">3–5 × sustentações de 2 minutos por dia</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+        </svg>
+      </div>
+    </div>
+    <div id="w2e2" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w2e2" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão de Joelho em Decúbito Ventral"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/yHNVIrAjLSE/hqdefault.jpg" class="w-full" alt="Exercício assistido de extensão e flexão de joelho sentado">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w2e3', 'yHNVIrAjLSE')">
+      <div>
+        <h3 class="font-bold">Extensão e Flexão de Joelho Assistidas (Sentado)</h3>
+        <p class="text-sm text-gray-500">4 × 8–10 repetições por dia</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+        </svg>
+      </div>
+    </div>
+    <div id="w2e3" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w2e3" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão e Flexão Assistidas"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/-Ks3LQ9hupY/hqdefault.jpg" class="w-full" alt="Exercício de flexão de joelho com apoio na parede para mobilidade">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w2e4', '-Ks3LQ9hupY')">
+      <div>
+        <h3 class="font-bold">Flexão de Joelho com Apoio na Parede</h3>
+        <p class="text-sm text-gray-500">2–3 × 10–12 repetições</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+        </svg>
+      </div>
+    </div>
+    <div id="w2e4" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w2e4" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Flexão de Joelho na Parede"></iframe>
+      </div>
+    </div>
+  </div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Ativação de quadríceps com eletroestimulação EMS pós-LCA">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w2e5', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Contração de Quadríceps (com ou sem EMS)</h3>
+      <p class="text-sm text-gray-500">4–5 × sustentações de 8 segundos</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w2e5" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w2e5" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Contração de Quadríceps"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Exercício de deslizamento de calcanhar para amplitude de movimento">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w2e6', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Deslizamento de Joelho Sentado (Toalha / Tábua / Rolo)</h3>
+      <p class="text-sm text-gray-500">5 × 30 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w2e6" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w2e6" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Deslizamento de Joelho"></iframe>
+    </div>
+  </div>
+</div>
+
+ <div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Extensão passiva de joelho com gravidade para reabilitação">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w2e7', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Extensão Passiva de Joelho (Calcanhar Elevado – Gravidade)</h3>
+      <p class="text-sm text-gray-500">3 × 5 minutos por dia</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w2e7" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w2e7" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão Passiva"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/lgGCODyb_PM/hqdefault.jpg" class="w-full" alt="Exercício de extensão de joelho com bola suíça e EMS">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w2e8', 'lgGCODyb_PM')">
+    <div>
+      <h3 class="font-bold">Exercício de Extensão de Joelho com Bola Suíça & EMS</h3>
+      <p class="text-sm text-gray-500">3 × 5 minutos por dia</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w2e8" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w2e8" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão com Bola Suíça"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/xeR8ontAVdI/hqdefault.jpg" class="w-full" alt="Treino de fortalecimento de quadríceps com eletroestimulação">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w2e9', 'xeR8ontAVdI')">
+    <div>
+      <h3 class="font-bold">Exercício de Extensão de Joelho com EMS</h3>
+      <p class="text-sm text-gray-500">3 × 8–10 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w2e9" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w2e9" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão de Joelho EMS"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/9826f40-5yU/hqdefault.jpg" class="w-full" alt="Elevação lateral de perna para fortalecimento de glúteo médio">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w2e10', '9826f40-5yU')">
+    <div>
+      <h3 class="font-bold">Elevação de Perna de Lado (Deitado)</h3>
+      <p class="text-sm text-gray-500">5 × 8–10 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w2e10" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w2e10" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Elevação Lateral de Perna"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/ozNX6HeMDiE/hqdefault.jpg" class="w-full" alt="Exercício clamshell concha para estabilidade de quadril">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w2e11', 'ozNX6HeMDiE')">
+    <div>
+      <h3 class="font-bold">Concha (Sem Elástico ou Elástico Leve)</h3>
+      <p class="text-sm text-gray-500">3 × 10–12 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w2e11" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w2e11" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Exercício Concha"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/wJRZRqGTEPs/hqdefault.jpg" class="w-full" alt="Exercício de mobilidade patelar e deslizamento da patela pós-cirúrgico">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w2e12', 'wJRZRqGTEPs')">
+      <div>
+        <h3 class="font-bold">Mobilidade Patelar (Deslizamentos da Patela)</h3>
+        <p class="text-sm text-gray-500">2 minutos por dia</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+      </div>
+    </div>
+    <div id="w2e12" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w2e12" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Mobilidade Patelar"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="phase-w3" class="phase-content hidden space-y-4">
+  <div class="bg-blue-50 border border-blue-100 p-4 rounded-xl mb-6 text-sm text-blue-800">
+    <strong>Objetivos:</strong> Alcançar e manter a extensão total do joelho, melhorar progressivamente a amplitude de flexão, aumentar força e resistência do quadríceps, melhorar o controle neuromuscular do joelho, iniciar fortalecimento geral (membros superiores, core e perna não operada), aumentar a estabilidade do quadril e normalizar o padrão de marcha dentro das restrições do protocolo.
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/v1yaOz3o5VA/hqdefault.jpg" class="w-full" alt="Exercício de bombeamento de calcanhar com bola suíça para circulação">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w3e1', 'v1yaOz3o5VA')">
+      <div>
+        <h3 class="font-bold">Bombeamento do Calcanhar (Bola Suíça & Faixa)</h3>
+        <p class="text-sm text-gray-500">4–5 × 20–30 repetições por dia</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+      </div>
+    </div>
+    <div id="w3e1" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w3e1" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Bombeamento do Calcanhar"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/yHNVIrAjLSE/hqdefault.jpg" class="w-full" alt="Exercício de extensão e flexão assistida de joelho para reabilitação">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w3e2', 'yHNVIrAjLSE')">
+      <div>
+        <h3 class="font-bold">Extensão e Flexão de Joelho Assistidas (Sentado)</h3>
+        <p class="text-sm text-gray-500">4 × 8–10 repetições por dia</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+      </div>
+    </div>
+    <div id="w3e2" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w3e2" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão e Flexão Assistidas"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/-Ks3LQ9hupY/hqdefault.jpg" class="w-full" alt="Exercício de flexão de joelho com apoio na parede para mobilidade">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w3e3', '-Ks3LQ9hupY')">
+      <div>
+        <h3 class="font-bold">Flexão de Joelho com Apoio na Parede</h3>
+        <p class="text-sm text-gray-500">2–3 × 10–12 repetições</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+      </div>
+    </div>
+    <div id="w3e3" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w3e3" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Flexão de Joelho na Parede"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Ativação e contração de quadríceps com eletroestimulação">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w3e4', 'INSERT_ID')">
+      <div>
+        <h3 class="font-bold">Contração de Quadríceps (com ou sem EMS)</h3>
+        <p class="text-sm text-gray-500">4–5 × sustentações de 8 segundos</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+      </div>
+    </div>
+    <div id="w3e4" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w3e4" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Contração de Quadríceps"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Deslizamento de joelho sentado para ganho de flexão articular">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w3e5', 'INSERT_ID')">
+      <div>
+        <h3 class="font-bold">Deslizamento de Joelho Sentado (Toalha / Tábua / Rolo)</h3>
+        <p class="text-sm text-gray-500">5 × 30 repetições</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+      </div>
+    </div>
+    <div id="w3e5" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w3e5" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Deslizamento de Joelho Sentado"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Exercício de extensão passiva do joelho com calcanhar elevado e carga leve">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w3e6', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Extensão Passiva do Joelho (Calcanhar Elevado – Com Peso)</h3>
+      <p class="text-sm text-gray-500">3 × 5 min por dia</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w3e6" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w3e6" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão Passiva do Joelho com Peso"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/xeR8ontAVdI/hqdefault.jpg" class="w-full" alt="Fortalecimento de quadríceps com uso de eletroestimulação EMS">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w3e7', 'xeR8ontAVdI')">
+    <div>
+      <h3 class="font-bold">Extensão de Joelho com EMS</h3>
+      <p class="text-sm text-gray-500">3 × 8–10 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w3e7" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w3e7" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão de Joelho com EMS"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/9826f40-5yU/hqdefault.jpg" class="w-full" alt="Exercício de abdução de quadril com elevação lateral de perna deitado">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w3e8', '9826f40-5yU')">
+    <div>
+      <h3 class="font-bold">Elevação de Perna de Lado (Abdução – Deitado)</h3>
+      <p class="text-sm text-gray-500">5 × 8–10 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w3e8" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w3e8" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Elevação de Perna Lateral"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/BWQhYYMucNU/hqdefault.jpg" class="w-full" alt="Técnica de massagem para mobilização de cicatriz cirúrgica no joelho">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w3e9', 'BWQhYYMucNU')">
+    <div>
+      <h3 class="font-bold">Mobilização da Cicatriz (Técnica de Deslizamento)</h3>
+      <p class="text-sm text-gray-500">1 × 30–40 repetições por cicatriz</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w3e9" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w3e9" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Mobilização da Cicatriz"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/wJRZRqGTEPs/hqdefault.jpg" class="w-full" alt="Técnica de deslizamento patelar para melhorar mobilidade do joelho">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w3e10', 'wJRZRqGTEPs')">
+    <div>
+      <h3 class="font-bold">Mobilidade Patelar (Deslizamentos da Patela)</h3>
+      <p class="text-sm text-gray-500">2 min por dia</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w3e10" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w3e10" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Mobilidade Patelar"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/ozNX6HeMDiE/hqdefault.jpg" class="w-full" alt="Exercício de ostra clamshell com mini-band para estabilidade lateral">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w3e11', 'ozNX6HeMDiE')">
+    <div>
+      <h3 class="font-bold">Clamshell (Faixa Leve)</h3>
+      <p class="text-sm text-gray-500">3 × 10–12 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w3e11" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w3e11" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Exercício Clamshell"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/rFnJM_3pnOo/hqdefault.jpg" class="w-full" alt="Exercício de ativação isquiotibiais em pé para fortalecimento posterior">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w3e12', 'rFnJM_3pnOo')">
+    <div>
+      <h3 class="font-bold">Ativação de Isquiotibiais em Pé</h3>
+      <p class="text-sm text-gray-500">3 × 10–12 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w3e12" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w3e12" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Ativação de Isquiotibiais"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/Y_NgNvyEXJ0/hqdefault.jpg" class="w-full" alt="Exercício de extensão de joelho em prono para ganho de amplitude final">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w3e13', 'Y_NgNvyEXJ0')">
+    <div>
+      <h3 class="font-bold">Extensão de Joelho em Prono (Gravidade + Peso Opcional)</h3>
+      <p class="text-sm text-gray-500">3 × 3 min</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w3e13" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w3e13" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão de Joelho em Prono"></iframe>
+    </div>
+  </div>
+</div>
+
+ <div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Exercício de elevação de perna estendida com eletroestimulação EMS">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w3e14', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Elevação de Perna Estendida com EMS (Ativação do Quadríceps)</h3>
+      <p class="text-sm text-gray-500">5 × 8–10 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w3e14" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w3e14" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Elevação de Perna Estendida com EMS"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/2FtMHTbLH14/hqdefault.jpg" class="w-full" alt="Isometria de quadríceps com perna estendida e uso de EMS">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w3e15', '2FtMHTbLH14')">
+    <div>
+      <h3 class="font-bold">Elevação de Perna Estendida com EMS (Isometria / Segurar)</h3>
+      <p class="text-sm text-gray-500">5 × 20–30 segundos</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w3e15" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w3e15" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Isometria de Perna Estendida com EMS"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/aizVby4_bqA/hqdefault.jpg" class="w-full" alt="Movimento de balanço na bicicleta ergométrica para ganho de flexão">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w3e16', 'aizVby4_bqA')">
+    <div>
+      <h3 class="font-bold">Bicicleta Ergométrica “Rocking” (Movimento Vai-e-Volta)</h3>
+      <p class="text-sm text-gray-500">10 min</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w3e16" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w3e16" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Bicicleta Ergométrica Rocking"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/ePSSiGeN1x4/hqdefault.jpg" class="w-full" alt="Agachamento unilateral assistido com eletroestimulação EMS">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w3e17', 'ePSSiGeN1x4')">
+    <div>
+      <h3 class="font-bold">Agachamento Unilateral Elevado com EMS (Segurar)</h3>
+      <p class="text-sm text-gray-500">3 × 8–10 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w3e17" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w3e17" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Agachamento Unilateral EMS"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Exercícios de fisioterapia aquática para reabilitação de joelho">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w3e18', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Rotina Aquática de Mobilidade e Força do Joelho (Caminhada, Panturrilha, Bike, Lateral)</h3>
+      <p class="text-sm text-gray-500">10–15 min, 2× por semana</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w3e18" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w3e18" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Rotina Aquática de Mobilidade"></iframe>
+    </div>
+  </div>
+</div>
+
+</section>
+
+          <section id="phase-w5" class="phase-content hidden space-y-4">
+  <div class="bg-blue-50 border border-blue-100 p-4 rounded-xl mb-6 text-sm text-blue-800">
+    <strong>Objetivos:</strong> Restaurar a mobilidade funcional de flexão do joelho para as atividades do dia a dia, melhorar significativamente a força e a ativação do quadríceps, fortalecer abdutores do quadril, glúteos e estabilizadores laterais, melhorar a estabilidade do joelho durante movimentos controlados em cadeia cinética fechada, aumentar a tolerância à progressão de carga no membro inferior respeitando a cicatrização do menisco e ganhar confiança em padrões de movimento controlados.
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/v1yaOz3o5VA/hqdefault.jpg" class="w-full" alt="Exercício de bombeamento de calcanhar com bola de ginástica para circulação e mobilidade">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w5e1', 'v1yaOz3o5VA')">
+      <div><h3 class="font-bold">Bombeamento do Calcanhar (Bola de Ginástica + Faixa)</h3><p class="text-sm text-gray-500">4–5 × 20–30 repetições diariamente</p></div>
+      <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+    </div>
+    <div id="w5e1" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w5e1" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Bombeamento do Calcanhar"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/-Ks3LQ9hupY/hqdefault.jpg" class="w-full" alt="Exercício de flexão do joelho com apoio na parede para ganho de ADM">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w5e2', '-Ks3LQ9hupY')">
+      <div><h3 class="font-bold">Flexão do Joelho com Apoio na Parede</h3><p class="text-sm text-gray-500">2–3 × 10–12 repetições</p></div>
+      <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+    </div>
+    <div id="w5e2" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w5e2" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Flexão do Joelho na Parede"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Ativação isométrica de quadríceps para fortalecimento de joelho">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w5e3', 'INSERT_ID')">
+      <div><h3 class="font-bold">Contração do Quadríceps (com ou sem EMS)</h3><p class="text-sm text-gray-500">4–5 × 8 segundos de isometria</p></div>
+      <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+    </div>
+    <div id="w5e3" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w5e3" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Contração do Quadríceps"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/9826f40-5yU/hqdefault.jpg" class="w-full" alt="Exercício de abdução de quadril com elevação de perna lateral">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w5e4', '9826f40-5yU')">
+      <div><h3 class="font-bold">Elevação de Perna de Lado (Deitado de Lado)</h3><p class="text-sm text-gray-500">5 × 8–10 repetições</p></div>
+      <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+    </div>
+    <div id="w5e4" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w5e4" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Elevação de Perna Lateral"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+ <div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/BWQhYYMucNU/hqdefault.jpg" class="w-full" alt="Massagem de mobilização de cicatriz pós-cirúrgica do joelho">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w5e5', 'BWQhYYMucNU')">
+    <div>
+      <h3 class="font-bold">Técnica de Mobilização da Cicatriz</h3>
+      <p class="text-sm text-gray-500">1 × 30–40 repetições por cicatriz</p>
+    </div>
+    <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+  </div>
+  <div id="w5e5" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w5e5" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Mobilização da Cicatriz"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/wJRZRqGTEPs/hqdefault.jpg" class="w-full" alt="Mobilização patelar manual para saúde da articulação patelofemoral">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w5e6', 'wJRZRqGTEPs')">
+    <div>
+      <h3 class="font-bold">Mobilidade Patelofemoral (Deslizamentos da Patela)</h3>
+      <p class="text-sm text-gray-500">2 min diariamente</p>
+    </div>
+    <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+  </div>
+  <div id="w5e6" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w5e6" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Mobilidade Patelar"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/rFnJM_3pnOo/hqdefault.jpg" class="w-full" alt="Exercício de flexão de joelho em pé para ativação de isquiotibiais">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w5e7', 'rFnJM_3pnOo')">
+    <div>
+      <h3 class="font-bold">Ativação de Isquiotibiais em Pé</h3>
+      <p class="text-sm text-gray-500">3 × 10–12 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+  </div>
+  <div id="w5e7" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w5e7" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Ativação de Isquiotibiais"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/Y_NgNvyEXJ0/hqdefault.jpg" class="w-full" alt="Exercício de extensão de joelho em prono com caneleira para ganho de extensão total">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w5e8', 'Y_NgNvyEXJ0')">
+    <div>
+      <h3 class="font-bold">Extensão de Joelho em Prono (Com Peso)</h3>
+      <p class="text-sm text-gray-500">3 × 3 min</p>
+    </div>
+    <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+  </div>
+  <div id="w5e8" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w5e8" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão de Joelho em Prono com Peso"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Demonstração de mini agachamento controlado para reabilitação">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w5e9', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Mini Agachamento (0–45°)</h3>
+      <p class="text-sm text-gray-500">3 × 8–10 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+  </div>
+  <div id="w5e9" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w5e9" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Mini Agachamento"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Exercício de elevação de perna estendida SLR com eletroestimulação">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w5e10', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Elevação de Perna Estendida com EMS (Ativação do Quadríceps)</h3>
+      <p class="text-sm text-gray-500">5 × 8–10 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+  </div>
+  <div id="w5e10" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w5e10" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Elevação de Perna Estendida SLR"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/2FtMHTbLH14/hqdefault.jpg" class="w-full" alt="Isometria de quadríceps mantendo a perna elevada com suporte de EMS">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w5e11', '2FtMHTbLH14')">
+    <div>
+      <h3 class="font-bold">Elevação de Perna Estendida com EMS (Isometria / Segurar)</h3>
+      <p class="text-sm text-gray-500">5 × 20–30 segundos</p>
+    </div>
+    <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+  </div>
+  <div id="w5e11" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w5e11" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Isometria de Perna Estendida"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Exercício de bicicleta ergométrica com amplitude total de movimento">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w5e12', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Bicicleta Ergométrica (Pedalada Completa / Amplitude Total)</h3>
+      <p class="text-sm text-gray-500">10 min</p>
+    </div>
+    <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+  </div>
+  <div id="w5e12" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w5e12" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Bicicleta Ergométrica Reabilitação"></iframe>
+    </div>
+  </div>
+</div>
+
+ <div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/BpaaHGzJmpg/hqdefault.jpg" class="w-full" alt="Flexão assistida de joelho sentado com uso de faixa ou toalha">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w5e13', 'BpaaHGzJmpg')">
+    <div>
+      <h3 class="font-bold">Flexão de Joelho Assistida Sentado (Toalha / Corda)</h3>
+      <p class="text-sm text-gray-500">30 repetições com 1–2 s de pausa</p>
+    </div>
+    <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+  </div>
+  <div id="w5e13" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w5e13" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Flexão de Joelho Assistida"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Extensão terminal de joelho TKE com resistência de elástico e EMS">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w5e14', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Extensão Terminal do Joelho em Pé com Faixa + EMS</h3>
+      <p class="text-sm text-gray-500">5 × 10–12 repetições + 5 × 30 s segurando</p>
+    </div>
+    <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+  </div>
+  <div id="w5e14" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w5e14" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão Terminal do Joelho TKE"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Atividades de fisioterapia aquática para joelho em ambiente controlado">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w5e15', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Rotina Aquática de Mobilidade & Força</h3>
+      <p class="text-sm text-gray-500">10–15 min, 2× por semana</p>
+    </div>
+    <div class="text-google-blue opacity-40"><svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg></div>
+  </div>
+  <div id="w5e15" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w5e15" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Rotina Aquática de Mobilidade"></iframe>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+    <section id="phase-w9" class="phase-content hidden space-y-4">
+  <div class="bg-blue-50 border border-blue-100 p-4 rounded-xl mb-6 text-sm text-blue-800">
+    <strong>Objetivos:</strong> Alcançar força próxima do normal do quadríceps e da musculatura ao redor, melhorar o controle em apoio unilateral, equilíbrio e propriocepção, aprimorar a coordenação entre quadril, joelho e tornozelo durante movimentos funcionais, aumentar a tolerância às cargas diárias e funcionais (como escadas e caminhadas prolongadas) e preparar o joelho para a progressão para atividades de reabilitação de nível mais alto, se liberado.
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/ZFp0yzA28iI/hqdefault.jpg" class="w-full" alt="Exercício de caminhada lateral com faixa elástica para fortalecimento de glúteo médio">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w9e1', 'ZFp0yzA28iI')">
+      <div>
+        <h3 class="font-bold">Caminhada Lateral com Faixa Elástica</h3>
+        <p class="text-sm text-gray-500">3 × 10 passos para cada lado</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+      </div>
+    </div>
+    <div id="w9e1" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w9e1" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Caminhada Lateral com Faixa"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/l0opTLDawRg/hqdefault.jpg" class="w-full" alt="Exercício de equilíbrio unilateral com alcance multidirecional e faixa">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w9e2', 'l0opTLDawRg')">
+      <div>
+        <h3 class="font-bold">Alcance Unilateral com Faixa (Frente, Lado e Trás)</h3>
+        <p class="text-sm text-gray-500">3 × 10 repetições em cada direção</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+      </div>
+    </div>
+    <div id="w9e2" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w9e2" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Alcance Unilateral com Faixa"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/-Ks3LQ9hupY/hqdefault.jpg" class="w-full" alt="Exercício de flexão de joelho na parede para ganho de amplitude de movimento">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w9e3', '-Ks3LQ9hupY')">
+      <div>
+        <h3 class="font-bold">Flexão do Joelho com Apoio na Parede</h3>
+        <p class="text-sm text-gray-500">2–3 × 10–12 repetições</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+      </div>
+    </div>
+    <div id="w9e3" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w9e3" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Flexão do Joelho com Apoio na Parede"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/9826f40-5yU/hqdefault.jpg" class="w-full" alt="Exercício de elevação lateral de perna para fortalecimento de abdutores do quadril">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w9e4', '9826f40-5yU')">
+      <div>
+        <h3 class="font-bold">Elevação de Perna de Lado (Deitado de Lado)</h3>
+        <p class="text-sm text-gray-500">5 × 8–10 repetições</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+      </div>
+    </div>
+    <div id="w9e4" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w9e4" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Elevação de Perna de Lado"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="ex-card-wrapper relative">
+    <div class="video-preview">
+      <img src="https://img.youtube.com/vi/BWQhYYMucNU/hqdefault.jpg" class="w-full" alt="Técnica manual de mobilização de cicatriz pós-cirúrgica">
+    </div>
+    <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+         onclick="toggleVideo('w9e5', 'BWQhYYMucNU')">
+      <div>
+        <h3 class="font-bold">Técnica de Mobilização da Cicatriz</h3>
+        <p class="text-sm text-gray-500">1 × 30–40 repetições por cicatriz</p>
+      </div>
+      <div class="text-google-blue opacity-40">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+      </div>
+    </div>
+    <div id="w9e5" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+      <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+        <iframe id="iframe-w9e5" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Técnica de Mobilização da Cicatriz"></iframe>
+      </div>
+    </div>
+  </div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/Y_NgNvyEXJ0/hqdefault.jpg" class="w-full" alt="Exercício de extensão passiva de joelho em prono com peso para ganho de extensão total">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w9e6', 'Y_NgNvyEXJ0')">
+    <div>
+      <h3 class="font-bold">Extensão de Joelho em Prono (com Peso)</h3>
+      <p class="text-sm text-gray-500">3 × 3 min</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w9e6" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w9e6" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão de Joelho em Prono"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/AXkGXnaQ8-0/hqdefault.jpg" class="w-full" alt="Exercício de agachamento assistido utilizando fitas de suspensão TRX">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w9e7', 'AXkGXnaQ8-0')">
+    <div>
+      <h3 class="font-bold">Agachamento Assistido no TRX</h3>
+      <p class="text-sm text-gray-500">3 × 8–10 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w9e7" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w9e7" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Agachamento Assistido no TRX"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Elevação de perna estendida SLR com uso de eletroestimulação EMS">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w9e8', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Elevação de Perna Estendida com EMS (Ativação do Quadríceps)</h3>
+      <p class="text-sm text-gray-500">5 × 8–10 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w9e8" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w9e8" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Elevação de Perna Estendida com EMS"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/2FtMHTbLH14/hqdefault.jpg" class="w-full" alt="Manutenção isométrica da perna elevada com ativação por EMS">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w9e9', '2FtMHTbLH14')">
+    <div>
+      <h3 class="font-bold">Elevação de Perna Estendida em Isometria com EMS</h3>
+      <p class="text-sm text-gray-500">5 × 20–30 s</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w9e9" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w9e9" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Isometria de Perna Estendida com EMS"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Bicicleta ergométrica com ajuste progressivo de altura do banco para ganho de flexão">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w9e10', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Bicicleta Ergométrica – Pedalada Completa</h3>
+      <p class="text-sm text-gray-500">15–20 min</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w9e10" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w9e10" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Bicicleta Ergométrica Reabilitação"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/BpaaHGzJmpg/hqdefault.jpg" class="w-full" alt="Exercício de flexão de joelho sentado com assistência de toalha para mobilidade">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w9e11', 'BpaaHGzJmpg')">
+    <div>
+      <h3 class="font-bold">Flexão de Joelho Assistida Sentado (Toalha / Corda)</h3>
+      <p class="text-sm text-gray-500">30 repetições com 1–2 s de pausa</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w9e11" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w9e11" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Flexão de Joelho Assistida Sentado"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Exercício de extensão terminal de joelho TKE com banda elástica e EMS">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w9e12', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Extensão Terminal do Joelho em Pé com Faixa + EMS</h3>
+      <p class="text-sm text-gray-500">5 × 10–12 repetições + 5 × 30 s segurando</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w9e12" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w9e12" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Extensão Terminal do Joelho TKE"></iframe>
+    </div>
+  </div>
+</div>
+
+ <div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Agachamento na parede com auxílio de bola suíça para estabilização lombar">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w9e13', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Agachamento na Parede com Bola Suíça (Apoio)</h3>
+      <p class="text-sm text-gray-500">4 × 12–15 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w9e13" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w9e13" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Agachamento com Bola Suíça"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/zq4qnibMe78/hqdefault.jpg" class="w-full" alt="Exercício de elevação de panturrilha bilateral para fortalecimento de gastrocnêmio e sóleo">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w9e14', 'zq4qnibMe78')">
+    <div>
+      <h3 class="font-bold">Elevação de Panturrilha (Subir e Descer nas Pontas)</h3>
+      <p class="text-sm text-gray-500">4 × 15 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w9e14" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w9e14" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Elevação de Panturrilha"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/hMLSAbcKJpY/hqdefault.jpg" class="w-full" alt="Isometria de panturrilha em apoio unipodal para equilíbrio e resistência">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w9e15', 'hMLSAbcKJpY')">
+    <div>
+      <h3 class="font-bold">Isometria de Panturrilha em Uma Perna</h3>
+      <p class="text-sm text-gray-500">4 × até a falha</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w9e15" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w9e15" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Isometria de Panturrilha Unilateral"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Exercício na cadeira extensora para fortalecimento isolado do quadríceps">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w9e16', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Cadeira Extensora (Leg Extension)</h3>
+      <p class="text-sm text-gray-500">4 × 8–10 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w9e16" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w9e16" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Cadeira Extensora"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="ex-card-wrapper relative">
+  <div class="video-preview">
+    <img src="https://img.youtube.com/vi/INSERT_ID/hqdefault.jpg" class="w-full" alt="Exercício de leg press em máquina para fortalecimento de membros inferiores">
+  </div>
+  <div class="flex items-center justify-between p-5 border border-gray-200 rounded-2xl cursor-pointer hover:border-blue-300 transition-all bg-white"
+       onclick="toggleVideo('w9e17', 'INSERT_ID')">
+    <div>
+      <h3 class="font-bold">Leg Press (Máquina)</h3>
+      <p class="text-sm text-gray-500">4 × 8–10 repetições</p>
+    </div>
+    <div class="text-google-blue opacity-40">
+      <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+    </div>
+  </div>
+  <div id="w9e17" class="hidden mt-3 p-2 bg-gray-50 rounded-xl border border-gray-200">
+    <div class="aspect-video relative overflow-hidden rounded-lg bg-black">
+      <iframe id="iframe-w9e17" class="absolute inset-0 w-full h-full" src="" frameborder="0" allowfullscreen title="Vídeo: Leg Press"></iframe>
+    </div>
+  </div>
+</div>
+
+</section>
+
+</div>
+
+<section id="faq" class="scroll-mt-24 py-12">
+    <h2 class="text-2xl md:text-3xl font-black text-gray-900 mb-8 flex items-center">
+        
+        Dúvidas Comuns sobre Reabilitação (FAQ)
+    </h2>
+
+    <div class="space-y-4 max-w-4xl">
+        
+        <details class="group bg-white border border-gray-100 rounded-3xl shadow-sm overflow-hidden transition-all duration-300">
+            <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+                <h4 class="font-bold text-gray-900 pr-4">É normal sentir dor ou o joelho "estalar" durante os exercícios?</h4>
+                <span class="text-google-blue transition-transform duration-300 group-open:rotate-45">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="px-6 pb-6 text-sm md:text-base text-gray-600 leading-relaxed border-t border-gray-50 pt-4">
+                Um desconforto leve (nível 2 ou 3 em 10) é esperado. Estalos sem dor geralmente são tecidos cicatriciais se soltando ou gases na articulação. No entanto, se houver <strong>dor aguda, inchaço súbito ou bloqueio articular</strong>, interrompa o exercício e consulte seu fisioterapeuta.
+            </div>
+        </details>
+
+        <details class="group bg-white border border-gray-100 rounded-3xl shadow-sm overflow-hidden transition-all duration-300">
+            <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+                <h4 class="font-bold text-gray-900 pr-4">Por que a extensão total (esticar tudo) é mais importante que a flexão no início?</h4>
+                <span class="text-google-blue transition-transform duration-300 group-open:rotate-45">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="px-6 pb-6 text-sm md:text-base text-gray-600 leading-relaxed border-t border-gray-50 pt-4">
+                A falta de extensão total altera sua marcha (jeito de andar) e causa sobrecarga na patela e fadiga no quadríceps. É muito mais difícil recuperar a extensão meses depois do que a flexão. Por isso, os exercícios de <strong>extensão em prono</strong> são vitais nas primeiras semanas.
+            </div>
+        </details>
+
+        <details class="group bg-white border border-gray-100 rounded-3xl shadow-sm overflow-hidden transition-all duration-300">
+            <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+                <h4 class="font-bold text-gray-900 pr-4">Fiz cirurgia de Menisco e LCA. Por que meu protocolo é mais lento?</h4>
+                <span class="text-google-blue transition-transform duration-300 group-open:rotate-45">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="px-6 pb-6 text-sm md:text-base text-gray-600 leading-relaxed border-t border-gray-50 pt-4">
+                Quando há <strong>sutura de menisco</strong>, o tecido precisa de tempo para cicatrizar antes de suportar carga total ou flexão profunda (passar de 90°). Geralmente, limita-se a carga nas primeiras 4 a 6 semanas para evitar que os pontos se soltem, ao contrário do LCA isolado, onde a carga é estimulada precocemente.
+            </div>
+        </details>
+
+        <details class="group bg-white border border-gray-100 rounded-3xl shadow-sm overflow-hidden transition-all duration-300">
+            <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+                <h4 class="font-bold text-gray-900 pr-4">Quando poderei subir e descer escadas normalmente?</h4>
+                <span class="text-google-blue transition-transform duration-300 group-open:rotate-45">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="px-6 pb-6 text-sm md:text-base text-gray-600 leading-relaxed border-t border-gray-50 pt-4">
+                Subir escadas costuma ser possível por volta da 3ª ou 4ª semana. <strong>Descer escadas</strong> exige muito mais controle do quadríceps (contração excêntrica) e geralmente ocorre entre a 6ª e 8ª semana, dependendo da sua evolução nos exercícios de mini agachamento e fortalecimento.
+            </div>
+        </details>
+
+        <details class="group bg-white border border-gray-100 rounded-3xl shadow-sm overflow-hidden transition-all duration-300">
+            <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+                <h4 class="font-bold text-gray-900 pr-4">Já posso ir para a academia fazer Leg Press ou Cadeira Extensora?</h4>
+                <span class="text-google-blue transition-transform duration-300 group-open:rotate-45">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                    </svg>
+                </span>
+            </summary>
+            <div class="px-6 pb-6 text-sm md:text-base text-gray-600 leading-relaxed border-t border-gray-50 pt-4">
+                A liberação para aparelhos de academia ocorre geralmente após a 6ª ou 8ª semana. A <strong>Cadeira Extensora</strong> deve ser usada com cautela (amplitude limitada de 90° a 45°) no início para não sobrecarregar o enxerto do LCA. Sempre siga a angulação protegida recomendada pelo seu protocolo.
+            </div>
+        </details>
+
+    </div>
+</section>
+</main>
+
+<footer class="bg-white border-t border-gray-200 py-12 text-center">
+    <div class="max-w-4xl mx-auto px-5">
+        <div class="flex flex-col items-center space-y-4">
+            <a href="mailto:dczarcin@gmail.com" class="text-sm font-semibold text-gray-500 hover:text-google-blue transition-colors flex items-center">
+                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+                Fale comigo
+            </a>
+
+            <p class="text-base text-gray-400">
+                Minha jornada pessoal de recuperação. Não é aconselhamento médico.
+            </p>
+            
+            <a href="#" class="text-xs font-bold uppercase text-gray-300 hover:text-gray-600 transition-colors tracking-widest">
+                Voltar ao topo &uarr;
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+  // Mobile Menu Logic (guarded so it won't crash on pages without these elements)
+  const menuBtn = document.getElementById('menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  if (menuBtn && mobileMenu) {
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    const mobileLinks = mobileMenu.querySelectorAll('a');
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+  }
+
+  function toggleVideo(wrapperId, videoId) {
+    const wrapper = document.getElementById(wrapperId);
+    const iframe = document.getElementById('iframe-' + wrapperId);
+    if (!wrapper || !iframe) return;
+
+    if (wrapper.classList.contains('hidden')) {
+      // Close all other open videos (only the actual video wrappers)
+      document.querySelectorAll('.ex-card-wrapper [id^="w"]').forEach(el => {
+        if (el.id.includes('e') && !el.classList.contains('hidden')) {
+          el.classList.add('hidden');
+          const otherIframe = el.querySelector('iframe');
+          if (otherIframe) otherIframe.src = '';
+        }
+      });
+
+      wrapper.classList.remove('hidden');
+
+      // FIXED PLAYER: local vs live
+      const isLocal = window.location.protocol === 'file:';
+      const origin = isLocal ? '' : `&origin=${window.location.origin}`;
+      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0${origin}`;
+    } else {
+      wrapper.classList.add('hidden');
+      iframe.src = '';
+    }
+  }
+
+  function showPhase(phaseId) {
+    document.querySelectorAll('.phase-content').forEach(el => el.classList.add('hidden'));
+    document.querySelectorAll('.no-scrollbar button').forEach(btn => {
+      btn.classList.remove('active-tab');
+      btn.classList.add('text-gray-500', 'border-transparent');
+    });
+
+    const phase = document.getElementById('phase-' + phaseId);
+    const tab = document.getElementById('tab-' + phaseId);
+    if (phase) phase.classList.remove('hidden');
+    if (tab) tab.classList.add('active-tab');
+
+    // Stop videos when switching tabs
+    document.querySelectorAll('iframe').forEach(f => f.src = '');
+    document.querySelectorAll('.ex-card-wrapper [id^="w"]').forEach(el => {
+      if (el.id.includes('e')) el.classList.add('hidden');
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // Current Path Logic
+    const path = window.location.pathname;
+    const select = document.querySelector('select');
+
+    if (select) {
+      if (path.includes('/pt/')) {
+        select.value = "/pt/index.html";
+      } else if (path.includes('/pl/')) {
+        select.value = "/pl/index.html";
+      } else {
+        select.value = "/index.html";
+      }
+    }
+
+    // Active link highlighting
+    const currentPage = path.split("/").pop() || "index.html";
+    const navLinks = document.querySelectorAll(".nav-link");
+    navLinks.forEach(link => {
+      if (link.getAttribute("href") === currentPage) {
+        link.classList.add("google-blue", "font-bold");
+        link.classList.remove("text-gray-500");
+      }
+    });
+  });
+</script>
+</body>
+</html>
