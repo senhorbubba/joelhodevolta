@@ -1,639 +1,742 @@
 const posts = [
    {
-        tag: "Semana 9",
-        date: "14 Jan 2026",
+        tag: "Week 10",
+        date: "Jan 25, 2026",
+        pain: "3/10",
+        swelling: "4/10",
+        title: "Day 70: Movement, Comfort, and Overindulgence",
+        description: "A strong physical start gave way to a slow, comfortable Sunday rhythm. Gym work and improved flexion felt encouraging, while rest, family time, and the pool helped the knee loosen up. The day drifted off course with food and wine again, leaving the familiar feeling of heaviness and a clear intention to reset tomorrow.",
+        image: "images/Day70.jpg",
+        link: "posts/day-70.html"
+    },
+   {
+        tag: "Week 10",
+        date: "Jan 24, 2026",
         pain: "4/10",
         swelling: "4/10",
-        title: "Dia 59: De Volta Sobre as Duas Pernas",
-        description: "Um dia de marco, cheio de nervosismo, alívio e a confirmação de que o trabalho está dando resultado. As muletas ficaram oficialmente para trás, o progresso superou as expectativas e a próxima fase da recuperação ficou clara. A dor apareceu, mas desta vez veio com propósito.",
+        title: "Day 69: Indulgence and Maintenance",
+        description: "A slow, heavy day shaped more by food, social life, and fatigue than by recovery ambition. Training took a back seat, but basic maintenance stayed in place. Not a step forward, not a step back. A reminder that recovery also has days where the goal is simply not to lose ground.",
+        image: "images/Day69.jpg",
+        link: "posts/day-69.html"
+    },
+   {
+        tag: "Week 10",
+        date: "Jan 23, 2026",
+        pain: "4/10",
+        swelling: "4/10",
+        title: "Day 68: Friction, Fatigue, and a Breakthrough",
+        description: "A demanding day that started fast and stayed heavy, both physically and mentally. The knee resisted load early, fatigue lingered throughout, but the day ended with a major win in flexion. One of those days where progress shows up only at the very end.",
+        image: "images/Day68.jpg",
+        link: "posts/day-68.html"
+    },
+   {
+        tag: "Week 10",
+        date: "Jan 22, 2026",
+        pain: "4/10",
+        swelling: "4/10",
+        title: "Day 67: Listening to Signals, Returning to Basics",
+        description: "A full, ordinary day that quietly tested patience. School routines returned, work flowed, but knee signals demanded attention. Instead of pushing, I chose maintenance and recovery, a reminder that progress also means knowing when to slow down.",
+        image: "images/Day67.jpg",
+        link: "posts/day-67.html"
+    },
+   {
+        tag: "Week 10",
+        date: "Jan 21, 2026",
+        pain: "3/10",
+        swelling: "4/10",
+        title: "Day 66: Signals, Adjustments, and Resetting the Frame",
+        description: "A slow, heavy start followed by cautious progress and necessary adjustments. The knee sent mixed signals today, reminding me that pushing forward also means knowing when to recalibrate. Routine is returning, and with it, a sense of structure and relief.",
+        image: "images/Day66.jpg",
+        link: "posts/day-66.html"
+    },
+   {
+        tag: "Week 10",
+        date: "Jan 20, 2026",
+        pain: "3/10",
+        swelling: "4/10",
+        title: "Day 65: Fatigue, Friction, and Holding the Line",
+        description: "A mentally heavy day where energy dipped and the knee pushed back. Work, family logistics, and fatigue collided, leaving little space for recovery until late. Progress felt less obvious today, but discipline showed up anyway.",
+        image: "images/Day65.jpg",
+        link: "posts/day-65.html"
+    }, 
+   {
+        tag: "Week 10",
+        date: "Jan 19, 2026",
+        pain: "3/10",
+        swelling: "4/10",
+        title: "Day 64: Weak Links and Familiar Rituals",
+        description: "A workday tested consistency and time management, pushing recovery into short windows around obligations. Training highlighted where weakness still shifts load to tendons, but improved flexion closed the day on a positive note. Less ice needed now, though the ritual still carries meaning.",
+        image: "images/Day64.jpg",
+        link: "posts/day-64.html"
+    },  
+   {
+        tag: "Week 10",
+        date: "Jan 18, 2026",
+        pain: "4/10",
+        swelling: "4/10",
+        title: "Day 63: Compensation and Consequences",
+        description: "A slightly better morning quickly turned into a lesson in compensation and limits. Movement helped unlock stiffness, but standing, social time, and skipped recovery sessions showed their cost. The body made it clear that rest is still an active part of progress.",
+        image: "images/Day63.jpg",
+        link: "posts/day-63.html"
+    },
+   {
+        tag: "Week 9",
+        date: "Jan 17, 2026",
+        pain: "4/10",
+        swelling: "4/10",
+        title: "Day 62: Quiet Progress, Real Life Balance",
+        description: "An early, quiet morning set a productive tone, followed by a return to routine, family time, and gym work. Flexion remains the main challenge, but progress is visible. The day balanced recovery discipline with real life, including an overdue night out.",
+        image: "images/Day62.jpg",
+        link: "posts/day-62.html"
+    },
+       {
+        tag: "Week 9",
+        date: "Jan 16, 2026",
+        pain: "3/10",
+        swelling: "4/10",
+        title: "Day 61: Confidence Grows, Control Matters",
+        description: "Mobility is improving and daily walking feels easier, but confidence brings new risks. A more demanding physio session introduced controlled pain, visible swelling, and a reminder that strength still lags behind ambition.",
+        image: "images/Day61.jpg",
+        link: "posts/day-61.html"
+    },
+       {
+        tag: "Week 9",
+        date: "Jan 15, 2026",
+        pain: "3/10",
+        swelling: "4/10",
+        title: "Day 60: Strength Returning, Attention Required",
+        description: "Sleep is improving, training is expanding, and daily life feels more normal again. The knee allows more, but weakness and fatigue still demand focus and intention with every step.",
+        image: "images/Day60.jpg",
+        link: "posts/day-60.html"
+    }, 
+   {
+        tag: "Week 9",
+        date: "Jan 14, 2026",
+        pain: "4/10",
+        swelling: "4/10",
+        title: "Day 59: Back on Two Feet",
+        description: "A milestone day filled with nerves, relief, and confirmation that the work is paying off. Crutches officially ended, progress exceeded expectations, and the next phase of recovery became clear. Pain showed up, but this time it came with purpose.",
         image: "images/Day59.jpg",
         link: "posts/day-59.html"
     },
    {
-        tag: "Semana 9",
-        date: "13 Jan 2026",
+        tag: "Week 9",
+        date: "Jan 13, 2026",
         pain: "2/10",
         swelling: "4/10",
-        title: "Dia 58: O Caminho Longo de Volta",
-        description: "A etapa final da viagem foi marcada por exaustão, disciplina e perspectiva. O joelho aguentou melhor do que o esperado no voo mais longo, e o dia terminou com descanso, familiaridade e histórias compartilhadas que tornaram o processo menos solitário.",
+        title: "Day 58: The Long Way Back",
+        description: "A final stretch of travel marked by exhaustion, discipline, and perspective. The knee held up better than expected through the longest flight, and the day ended with rest, familiarity, and shared stories that made the process feel less lonely.",
         image: "images/Day58.jpg",
         link: "posts/day-58.html"
     },
    {
-        tag: "Semana 9",
-        date: "12 Jan 2026",
+        tag: "Week 9",
+        date: "Jan 12, 2026",
         pain: "2/10",
         swelling: "4/10",
-        title: "Dia 57: Gratidão, Encerramento e Movimento à Frente",
-        description: "Um início centrado, uma despedida significativa e um dia de viagem mais tranquilo do que o esperado. A disciplina voltou pela manhã, a perspectiva se aprofundou no final, e o joelho lidou com a jornada com mais maturidade do que antes.",
+        title: "Day 57: Gratitude, Closure, and Forward Motion",
+        description: "A grounded start, a meaningful goodbye, and a smoother travel day than expected. Discipline returned in the morning, perspective deepened at the end, and the knee handled the journey with more maturity than before.",
         image: "images/Day57.jpg",
         link: "posts/day-57.html"
     },
    {
-        tag: "Semana 9",
-        date: "12 Jan 2026",
+        tag: "Week 9",
+        date: "Jan 12, 2026",
         pain: "4/10",
         swelling: "7/10",
-        title: "Reflexão da Viagem: O Que Essa Jornada Me Ensinou Sobre Recuperação",
-        description: "Essa jornada foi um teste prolongado da recuperação em condições imperfeitas. Viagens constantes, fadiga, multidões, rotinas quebradas e carga emocional pressionaram o joelho repetidamente, mas em vez de quebrar o progresso, esclareceram como a recuperação realmente funciona. A viagem substituiu o medo por compreensão, a rigidez por adaptação e o ego por consciência.",
+        title: "Trip Reflection: What This Journey Taught Me About Recovery",
+        description: "This journey was a prolonged stress test of recovery under imperfect conditions. Constant travel, fatigue, crowds, disrupted routines, and emotional load pushed the knee repeatedly, but instead of breaking progress, they clarified how recovery truly works. The trip replaced fear with understanding, rigidity with adaptability, and ego with awareness.",
         image: "images/Day57r.jpg",
         link: "posts/day-57r.html"
     },
    {
-        tag: "Semana 8",
-        date: "11 Jan 2026",
+        tag: "Week 8",
+        date: "Jan 11, 2026",
         pain: "4/10",
         swelling: "7/10",
-        title: "Dia 56: Fechando o Ciclo, Forçando o Limite",
-        description: "O último dia inteiro começou com disciplina e intenção, e aos poucos se transformou em uma despedida longa e exigente de Tóquio. As rotinas de recuperação foram feitas corretamente, mas o joelho foi claramente exigido. Uma mistura justa de gratidão, excesso, fadiga e encerramento.",
+        title: "Day 56: Closing the Loop, Pushing the Limit",
+        description: "The final full day started with discipline and intention, then gradually turned into a long, demanding farewell to Tokyo. Recovery routines were completed properly, but the knee was clearly pushed hard. A fitting mix of gratitude, excess, fatigue, and closure.",
         image: "images/Day56.jpg",
         link: "posts/day-56.html"
     },
    {
-        tag: "Semana 8",
-        date: "10 Jan 2026",
+        tag: "Week 8",
+        date: "Jan 10, 2026",
         pain: "3/10",
         swelling: "5/10",
-        title: "Dia 55: Fé, Flexão e Soltar um Pouco",
-        description: "Um começo rígido deu lugar a um dia surpreendentemente positivo. O trabalho de flexão foi desconfortável e o progresso pareceu mais lento do que o esperado, mas a perspectiva mudou com a cultura, o simbolismo e os momentos em família. O joelho terminou o dia cansado, mas calmo.",
+        title: "Day 55: Faith, Flexion, and Letting Go a Bit",
+        description: "A stiff start gave way to a surprisingly uplifting day. Flexion work was uncomfortable and progress felt slower than hoped, but perspective shifted through culture, symbolism, and family moments. The knee ended the day tired, but calm.",
         image: "images/Day55.jpg",
         link: "posts/day-55.html"
     },
-
+   {
+        tag: "Week 8",
+        date: "Jan 9, 2026",
+        pain: "3/10",
+        swelling: "5/10",
+        title: "Day 54: Walking Freer, Moving Slower",
+        description: "A lighter morning gave way to a full sensory day. Walking confidence increased even as extension felt less reliable. Fewer crutches meant more freedom, but also required more patience and control. The knee was challenged, but the experiences were worth it.",
+        image: "images/Day54.jpg",
+        link: "posts/day-54.html"
+    },
     {
-    tag: "Semana 8",
-    date: "9 Jan 2026",
-    pain: "3/10",
-    swelling: "5/10",
-    title: "Dia 54: Caminhando com Mais Liberdade, Indo Mais Devagar",
-    description: "Uma manhã mais leve deu lugar a um dia cheio de estímulos sensoriais. A confiança ao caminhar aumentou, mesmo com a extensão parecendo menos confiável. Menos muletas trouxeram mais liberdade, mas também exigiram mais paciência e controle. O joelho foi desafiado, mas as experiências valeram a pena.",
-    image: "images/Day54.jpg",
-    link: "posts/day-54.html"
-},
-{
-    tag: "Semana 8",
-    date: "8 Jan 2026",
-    pain: "3/10",
-    swelling: "6/10",
-    title: "Dia 53: Pegando Força Emprestada das Montanhas",
-    description: "Um começo cedo e um trajeto longo e exigente testaram tanto a paciência quanto a resistência. A natureza, a história e a filosofia trouxeram perspectiva, mesmo enquanto a logística e a fadiga empurravam os limites. O joelho aguentou, mas o dia claramente pediu mais recuperação do que recebeu.",
-    image: "images/Day53.jpg",
-    link: "posts/day-53.html"
-},
-{
-    tag: "Semana 8",
-    date: "7 Jan 2026",
-    pain: "2/10",
-    swelling: "4/10",
-    title: "Dia 52: De Volta à Rotina, De Volta à Multidão",
-    description: "O descanso valeu a pena. Voltar a uma rotina estruturada trouxe alívio perceptível, mesmo com o dia se transformando em mais um longo período de caminhada e estímulos. A energia estava lá, o joelho colaborou razoavelmente bem, e o equilíbrio entre disciplina e prazer pareceu mais próximo do ideal.",
-    image: "images/Day52.jpg",
-    link: "posts/day-52.html"
-},
-{
-    tag: "Semana 8",
-    date: "6 Jan 2026",
-    pain: "3/10",
-    swelling: "6/10",
-    title: "Dia 51: Começos Lentos, Grandes Cidades",
-    description: "Um início deliberadamente mais lento ajudou a reajustar o joelho após a sobrecarga de ontem. Mesmo sem fisioterapia, um ritmo cuidadoso manteve tudo administrável ao longo de um dia inteiro de turismo. Tóquio impressionou, a fadiga se acumulou, e o joelho lembrou que a recuperação ainda precisa de planejamento.",
-    image: "images/Day51.jpg",
-    link: "posts/day-51.html"
-},
-{
-    tag: "Semana 8",
-    date: "5 Jan 2026",
-    pain: "4/10",
-    swelling: "7/10",
-    title: "Dia 50: Empolgação, Realidade e uma Lição Muito Clara",
-    description: "A adrenalina da viagem carregou a manhã, mas o joelho lembrou quem dita as regras. Mesmo voos curtos ainda provocam inchaço significativo quando a recuperação é adiada. O dia terminou bem, mas não sem um forte lembrete de que a disciplina durante viagens importa.",
-    image: "images/Day50.jpg",
-    link: "posts/day-50.html"
-},
-{
-    tag: "Semana 7",
-    date: "4 Jan 2026",
-    pain: "3/10",
-    swelling: "4/10",
-    title: "Dia 49: Forçando, Depois Protegendo",
-    description: "Um começo motivado deu lugar a uma contenção inteligente. Mesmo com uma manhã forte e uma agenda familiar cheia, escolher apoio e recuar quando necessário manteve o joelho tranquilo. O dia terminou com fechamento, tanto físico quanto mental, à medida que a viagem se aproximava do fim.",
-    image: "images/Day49.jpg",
-    link: "posts/day-49.html"
-},
-{
-    tag: "Semana 7",
-    date: "3 Jan 2026",
-    pain: "2/10",
-    swelling: "4/10",
-    title: "Dia 48: Aprendendo a Ser Mais Gentil com o Processo",
-    description: "Uma manhã mais lenta abriu espaço para a autocrítica, mas também para a clareza. Ao escolher o descanso em vez da obrigação, o joelho respondeu positivamente. O dia reforçou uma lição importante: a recuperação melhora quando esforço e compaixão estão em equilíbrio.",
-    image: "images/Day48.jpg",
-    link: "posts/day-48.html"
-},
-{
-    tag: "Semana 7",
-    date: "2 Jan 2026",
-    pain: "3/10",
-    swelling: "5/10",
-    title: "Dia 47: História, Fadiga e Não Pular o Básico",
-    description: "Um dia completo misturando rotina, história e tempo em família. O joelho se manteve razoavelmente bem durante caminhadas e períodos em pé, com o inchaço presente, mas controlado. A maior vitória veio de manter a consistência, mesmo com a energia baixa.",
-    image: "images/Day47.jpg",
-    link: "posts/day-47.html"
-},
-{
-    tag: "Semana 7",
-    date: "1 Jan 2026",
-    pain: "2/10",
-    swelling: "4/10",
-    title: "Dia 46: Deixando o Ano Começar com Calma",
-    description: "Um verdadeiro dia de descanso permitiu que o joelho assentasse. Sem academia ou fisioterapia, o movimento ficou mais fácil, o inchaço se manteve administrável e a rigidez se resolveu rapidamente com repouso. Uma noite tranquila, focada na família, encerrou o dia da forma certa.",
-    image: "images/Day46.jpg",
-    link: "posts/day-46.html"
-},
-{
-    tag: "Semana 7",
-    date: "31 Dez 2025",
-    pain: "3/10",
-    swelling: "5/10",
-    title: "Dia 45: Fechando o Ano, Escolhendo Esperança",
-    description: "Um dia equilibrado, moldado por contenção consciente e momentos significativos. Ao escolher o descanso em vez da atividade, o joelho se manteve controlado, e o ano se encerrou com gratidão, perspectiva e uma intenção clara para o que vem a seguir.",
-    image: "images/Day45.jpg",
-    link: "posts/day-45.html"
-},
-{
-    tag: "Semana 7",
-    date: "30 Dez 2025",
-    pain: "3/10",
-    swelling: "6/10",
-    title: "Dia 44: Sentindo-se Menos Quebrado",
-    description: "Um dia cheio, com muitas viagens, misturando rotinas de recuperação e momentos significativos em família. Apesar da fadiga e do inchaço, a confiança funcional aumentou. Caminhar com uma muleta e lidar com pequenas tarefas de forma independente marcou uma mudança silenciosa, mas importante.",
-    image: "images/Day44.jpg",
-    link: "posts/day-44.html"
-},
-{
-    tag: "Semana 7",
-    date: "29 Dez 2025",
-    pain: "3/10",
-    swelling: "5/10",
-    title: "Dia 43: Escolhendo Descanso em Vez de Persistência",
-    description: "Um dia mais lento, com boas intenções, ainda assim acabou cansativo. Mesmo com menos passeios e escadas leves, tudo se somou, e o simples ato de ficar em pé sem ter onde sentar se tornou o maior desgaste. Hoje reforçou o quanto é importante proteger a energia, não apenas o joelho.",
-    image: "images/Day43.jpg",
-    link: "posts/day-43.html"
-},
-{
-    tag: "Semana 6",
-    date: "28 Dez 2025",
-    pain: "3/10",
-    swelling: "6/10",
-    title: "Dia 42: Em Pé com Mais Confiança, Ainda Escolhendo Cautela",
-    description: "Um passo funcional significativo marcou o dia, equilibrado por cautela contínua. Ficar em pé e caminhar de forma independente trouxe empoderamento, mesmo com viagens, dias longos e atividade social elevando novamente o inchaço. O progresso é real, mas a disciplina ainda importa.",
-    image: "images/Day42.jpg",
-    link: "posts/day-42.html"
-},
-{
-    tag: "Semana 6",
-    date: "27 Dez 2025",
-    pain: "3/10",
-    swelling: "5/10",
-    title: "Dia 41: Ouvindo com Mais Atenção",
-    description: "Dormir melhor trouxe mais consciência do que alívio. Um novo tipo de dor e sensações desconhecidas mudaram o foco para cautela e observação. Escolher descansar, adaptar planos e evitar sobrecarga se mostrou a decisão certa hoje.",
-    image: "images/Day41.jpg",
-    link: "posts/day-41.html"
-},
-{
-    tag: "Semana 6",
-    date: "26 Dez 2025",
-    pain: "3/10",
-    swelling: "6/10",
-    title: "Dia 40: Aprendendo a Respeitar o Descanso",
-    description: "Um começo cedo, fadiga acumulada e mais um dia intenso de viagem reforçaram a mesma mensagem dos últimos dias. O progresso continua, mas a recuperação precisa de descanso mais intencional. O joelho segue colaborando, mas apenas quando eu faço a minha parte.",
-    image: "images/Day40.jpg",
-    link: "posts/day-40.html"
-},
-{
-    tag: "Semana 6",
-    date: "25 Dez 2025",
-    pain: "4/10",
-    swelling: "6/10",
-    title: "Dia 39: Quando o Descanso Vira Esforço em Silêncio",
-    description: "Um dia pensado para descansar acabou, aos poucos, se transformando em mais atividade do que o planejado. O Natal trouxe alegria e momentos de calma, mas a curiosidade e o embalo levaram a exageros. O joelho respondeu claramente, lembrando que até boas intenções precisam de limites.",
-    image: "images/Day39.jpg",
-    link: "posts/day-39.html"
-},
-{
-    tag: "Semana 6",
-    date: "24 Dez 2025",
-    pain: "2/10",
-    swelling: "4/10",
-    title: "Dia 38: Vendo Tudo de Outro Lugar",
-    description: "Um dia mais lento e contemplativo, moldado por descanso, viagem e uma mudança inesperada de perspectiva. O uso de cadeira de rodas reduziu o esforço físico e o inchaço, ao mesmo tempo em que despertou um senso mais profundo de gratidão e humildade.",
-    image: "images/Day38.jpg",
-    link: "posts/day-38.html"
-},
-{
-    tag: "Semana 6",
-    date: "23 Dez 2025",
-    pain: "3/10",
-    swelling: "6/10",
-    title: "Dia 37: Pequenas Vitórias, Saídas Inteligentes",
-    description: "Um dia de treino simples, mas significativo, trouxe um avanço técnico importante na extensão. A energia seguiu limitada, e a fadiga chegou rápido durante as saídas. Saber a hora de se afastar se mostrou tão valioso quanto seguir em frente.",
-    image: "images/Day37.jpg",
-    link: "posts/day-37.html"
-},
-{
-    tag: "Semana 6",
-    date: "22 Dez 2025",
-    pain: "3/10",
-    swelling: "6/10",
-    title: "Dia 36: Voltando a se Mover, Mais Devagar, Mas em Frente",
-    description: "Um dia estável, focado em movimento e ajustes, em vez de forçar limites. O ciclismo continuou melhorando, o inchaço persistiu desde ontem, e a viagem adicionou sua camada habitual de fadiga. Nada dramático, mas o ritmo foi aos poucos retornando.",
-    image: "images/Day36.jpg",
-    link: "posts/day-36.html"
-},
-
-{
-    tag: "Semana 5",
-    date: "21 Dez 2025",
-    pain: "4/10",
-    swelling: "7/10",
-    title: "Dia 35: Um Marco Conquistado, Um Limite Excedido",
-    description: "Um grande marco físico pela manhã aumentou a confiança, mas o dia passou muito além de limites seguros. O progresso foi real, mas a fadiga, as multidões e longas horas em pé me lembraram que a recuperação ainda precisa de limites.",
-    image: "images/Day35.jpg",
-    link: "posts/day-35.html"
-},
-{
-    tag: "Semana 5",
-    date: "20 Dez 2025",
-    pain: "3/10",
-    swelling: "6/10",
-    title: "Dia 34: Ferramentas Novas, Multidões de Sempre",
-    description: "Um começo cedo e uma nova ferramenta de recuperação trouxeram estrutura de volta ao dia. O trabalho de fisioterapia manteve a consistência, mas as caminhadas, as multidões e a fadiga pós-viagem mantiveram o inchaço alto. O progresso continua — só com mais atrito do que o ideal.",
-    image: "images/Day34.jpg",
-    link: "posts/day-34.html"
-},
-{
-    tag: "Semana 5",
-    date: "19 Dez 2025",
-    pain: "3/10",
-    swelling: "5/10",
-    title: "Dia 33: Testado Pela Viagem, Sustentado Pela Paciência",
-    description: "Privação severa de sono e a fricção da viagem empurraram o dia para o modo sobrevivência. O estresse veio mais da logística do que do joelho, que aguentou razoavelmente bem. As maiores lições vieram da preparação, do gerenciamento de multidões e de uma ajuda inesperada.",
-    image: "images/Day33.jpg",
-    link: "posts/day-33.html"
-},
-{
-    tag: "Semana 5",
-    date: "18 Dez 2025",
-    pain: "3/10",
-    swelling: "5/10",
-    title: "Dia 32: Modo Sobrevivência, Ativado",
-    description: "Um dia de viagem longa que testou mais a resistência do que o joelho em si. Improvisos inteligentes ajudaram a lidar com a rigidez, enquanto o inchaço permaneceu presente, porém controlado. A exaustão dominou, e a recuperação virou prioridade no segundo em que aterrissamos.",
-    image: "images/Day32.jpg",
-    link: "posts/day-32.html"
-},
-{
-    tag: "Semana 5",
-    date: "17 Dez 2025",
-    pain: "3/10",
-    swelling: "6/10",
-    title: "Dia 31: Voos Longos, Paciência Ainda Maior",
-    description: "O dia de viagem virou um teste de resistência, mas não foi o desastre que eu temia. Um bom planejamento, suporte para mobilidade e hábitos inteligentes de recuperação mantiveram tudo sob controle. O inchaço apareceu, mas foi administrável com os ajustes certos.",
-    image: "images/Day31.jpg",
-    link: "posts/day-31.html"
-},
-{
-    tag: "Semana 5",
-    date: "16 Dez 2025",
-    pain: "3/10",
-    swelling: "4/10",
-    title: "Dia 30: Embalo, Depois Movimento",
-    description: "Uma manhã forte e estruturada trouxe progresso tangível na mobilidade e um plano claro para as próximas semanas. Depois, o dia mudou para modo viagem, onde o estresse substituiu a estrutura, mas os sistemas de apoio ajudaram a suavizar as arestas.",
-    image: "images/Day30.jpg",
-    link: "posts/day-30.html"
-},
-{
-    tag: "Semana 5",
-    date: "15 Dez 2025",
-    pain: "3/10",
-    swelling: "5/10",
-    title: "Dia 29: Progresso Antes da Pausa",
-    description: "Um dia longo e exigente, marcado por fadiga, preparação e um otimismo cauteloso. Mesmo com o cansaço chegando cedo, o trabalho de mobilidade e ativação continuou a dar resultado. A caminhada melhorou, a confiança subiu, e o foco começou, aos poucos, a mudar para como gerenciar a recuperação durante as viagens que vêm pela frente.",
-    image: "images/Day29.jpg",
-    link: "posts/day-29.html"
-},
-{
-    tag: "Semana 4",
-    date: "14 Dez 2025",
-    pain: "2/10",
-    swelling: "4/10",
-    title: "Dia 28: Descanso, Ritmo e Mantendo a Linha",
-    description: "Um dia bem descansado, voltado para equilíbrio em vez de forçar. Movimento leve, tempo social e descanso em família mantiveram tudo estável. O joelho reagiu com um pouco de inchaço, mas nada inesperado ou difícil de controlar.",
-    image: "images/Day28.jpg",
-    link: "posts/day-28.html"
-},
-{
-    tag: "Semana 4",
-    date: "13 Dez 2025",
-    pain: "3/10",
-    swelling: "4/10",
-    title: "Dia 27: Mais Leve, Mais Forte e um Pouco Confuso",
-    description: "Dormir melhor e uma queda surpreendente na balança deram um tom reflexivo ao dia. A energia parece melhor, mesmo com a perda de massa ficando mais visível. A recuperação continua exigindo trocas, e o corpo segue reescrevendo as expectativas.",
-    image: "images/Day27.jpg",
-    link: "posts/day-27.html"
-},
-{
-    tag: "Semana 4",
-    date: "12 Dez 2025",
-    pain: "3/10",
-    swelling: "5/10",
-    title: "Dia 26: Um Vislumbre do Normal de Novo",
-    description: "Menos rigidez, melhor movimento e uma melhora perceptível no humor deram o tom do dia. Orientação técnica clara, decisões cautelosas sobre as muletas e um momento de avanço na piscina fizeram este parecer genuinamente para frente.",
-    image: "images/Day26.jpg",
-    link: "posts/day-26.html"
-},
-{
-    tag: "Semana 4",
-    date: "11 Dez 2025",
-    pain: "4/10",
-    swelling: "7/10",
-    title: "Dia 25: Avançando e Pagando o Preço",
-    description: "O dia começou com uma melhora pequena, mas bem-vinda, e confirmou o impacto de uma fisioterapia consistente. O tratamento da manhã ajudou, mas um dia longo em pé fez o inchaço subir de novo. O progresso está aí — mas claramente vem com um custo.",
-    image: "images/Day25.jpg",
-    link: "posts/day-25.html"
-},
-{
-    tag: "Semana 4",
-    date: "10 Dez 2025",
-    pain: "5/10",
-    swelling: "6/10",
-    title: "Dia 24: Rigidez, Verdade e Não Desistir",
-    description: "O dia começou rígido e teimoso, com os ganhos de ontem sumindo mais rápido do que o esperado. A perda de peso ficou visível, a fisio ficou intensa e a diferença na ativação do quadríceps ficou impossível de ignorar. Progresso doloroso — mas progresso real.",
-    image: "images/Day24.jpg",
-    link: "posts/day-24.html"
-},
-{
-    tag: "Semana 4",
-    date: "9 Dez 2025",
-    pain: "4/10",
-    swelling: "6/10",
-    title: "Dia 23: Um Lembrete de Que a Recuperação Não É Linear",
-    description: "Um dia difícil que testou paciência e perspectiva. Mais rigidez, extensão limitada e um peso mental grande fizeram o progresso parecer distante. Ao mesmo tempo, o dia trouxe lembretes importantes sobre humildade, gratidão e o valor real de uma boa fisioterapia.",
-    image: "images/Day23.jpg",
-    link: "posts/day-23.html"
-},
-{
-    tag: "Semana 4",
-    date: "8 Dez 2025",
-    pain: "3/10",
-    swelling: "5/10",
-    title: "Dia 22: Três Semanas, Um Novo Chão Sob os Pés",
-    description: "Três semanas pós-cirurgia chegaram mais rápido do que o esperado e trouxeram uma nova fase junto. Colocar mais peso pareceu menos físico e mais mental, exigindo atenção e confiança. A fadiga estava alta, e o joelho respondeu com rigidez e inchaço visíveis no fim do dia.",
-    image: "images/Day22.jpg",
-    link: "posts/day-22.html"
-},
-{
-    tag: "Semana 3",
-    date: "7 Dez 2025",
-    pain: "3/10",
-    swelling: "5/10",
-    title: "Dia 21: Quando a Recuperação Revida",
-    description: "Um dia mais quieto revelou o custo de pequenas quebras na rotina. Menos trabalho de recuperação, uma soneca durante o dia e um pouco de vinho pareceram se somar. A fadiga aumentou, o sono piorou e o joelho ficou visivelmente mais rígido.",
-    image: "images/Day21.jpg",
-    link: "posts/day-21.html"
-},
-
-{
-    tag: "Semana 3",
-    date: "6 Dez 2025",
-    pain: "3/10",
-    swelling: "6/10",
-    title: "Dia 20: A Energia É o Verdadeiro Fator Limitante",
-    description: "O dia começou forte, com uma rotina matinal completa, mas a fadiga rapidamente se tornou a principal limitação assim que saí e passei a ficar em pé. O joelho aguentou razoavelmente bem, mas a energia geral caiu rápido. Hoje deixou claro que a recuperação agora é tanto sobre resistência quanto sobre a própria articulação.",
-    image: "images/Day20.jpg",
-    link: "posts/day-20.html"
-},
-{
-    tag: "Semana 3",
-    date: "5 Dez 2025",
-    pain: "4/10",
-    swelling: "4/10",
-    title: "Dia 19: A Mobilidade Assume o Comando",
-    description: "Um dia sólido e produtivo, com foco em mobilidade. A extensão está praticamente lá, mas a flexão segue sendo o principal desafio. Melhores posições para dormir estão ajudando na recuperação.",
-    image: "images/Day19.jpg",
-    link: "posts/day-19.html"
-},
-{
-    tag: "Semana 3",
-    date: "4 Dez 2025",
-    pain: "5/10",
-    swelling: "4/10",
-    title: "Dia 18: Quando os Nervos Falam",
-    description: "A melhora continuou, mas a sensibilidade nervosa se fez presente. Um lembrete direto de que a recuperação não é apenas muscular ou mecânica — o sistema nervoso também precisa ser reeducado.",
-    image: "images/Day18.jpg",
-    link: "posts/day-18.html"
-},
-{
-    tag: "Semana 3",
-    date: "3 Dez 2025",
-    pain: "2/10",
-    swelling: "4/10",
-    title: "Dia 17: Clareza e Confiança",
-    description: "A saúde se estabilizou, a confiança voltou e a clareza substituiu o medo. Sessões fortes de fisioterapia e um plano claro para progressão de carga marcaram um ponto de virada importante.",
-    image: "images/Day17.jpg",
-    link: "posts/day-17.html"
-},
-{
-    tag: "Semana 3",
-    date: "2 Dez 2025",
-    pain: "4/10",
-    swelling: "4/10",
-    title: "Dia 16: Um Susto e Reafirmação",
-    description: "Fadiga, irritação e febre provocaram um susto, mudando o foco da recuperação para o monitoramento da saúde. Novos equipamentos de recuperação provaram seu valor.",
-    image: "images/Day16.jpg",
-    link: "posts/day-16.html"
-},
-{
-    tag: "Semana 3",
-    date: "1 Dez 2025",
-    pain: "3/10",
-    swelling: "5/10",
-    title: "Dia 15: Assumindo o Controle",
-    description: "A medicação terminou, e a responsabilidade passou totalmente para a disciplina e a rotina. Novas ferramentas de recuperação entraram em cena e a confiança cresceu.",
-    image: "images/Day15.jpg",
-    link: "posts/day-15.html"
-},
-{
-    tag: "Semana 2",
-    date: "30 Nov 2025",
-    pain: "3/10",
-    swelling: "4/10",
-    title: "Dia 14: Sinais de Progresso, Custo da Fadiga",
-    description: "Viagem, calor e fadiga acumulada se fizeram sentir. Apesar da exaustão e de novos desconfortos musculares, o alongamento consistente trouxe ganhos claros na extensão. Ferramentas de recuperação e apoios mais inteligentes começaram a entrar na conversa.",
-    image: "images/Day14.jpg",
-    link: "posts/day-14.html"
-},
-{
-    tag: "Semana 2",
-    date: "29 Nov 2025",
-    pain: "4/10",
-    swelling: "5/10",
-    title: "Dia 13: Fazendo por Conta Própria",
-    description: "Sem fisioterapia agendada, o Dia 13 exigiu autodisciplina. Os exercícios foram improvisados em meio à rotina familiar, o calor aumentou o inchaço e a contenção virou o desafio — nada de piscina, nada de álcool e atenção constante às escolhas alimentares.",
-    image: "images/Day13.jpg",
-    link: "posts/day-13.html"
-},
-{
-    tag: "Semana 2",
-    date: "28 Nov 2025",
-    pain: "4/10",
-    swelling: "4/10",
-    title: "Dia 12: Primeira Viagem",
-    description: "A primeira viagem desde a cirurgia mostrou que a mobilidade está voltando, mas o inchaço e a fadiga ainda vêm logo atrás. Viajar é possível com planejamento, elevação e gelo, enquanto o tempo social continua drenando mais energia do que o esperado.",
-    image: "images/Day12.jpg",
-    link: "posts/day-12.html"
-},
-{
-    tag: "Semana 2",
-    date: "27 Nov 2025",
-    pain: "4/10",
-    swelling: "7/10",
-    title: "Dia 11: Energia Diferente, Resultados Reais",
-    description: "O dia trouxe uma mudança perceptível com uma nova fisioterapeuta em casa. Mais intensidade, mais desconforto, mas também resultados mais claros. O inchaço diminuiu, a extensão melhorou e a estrutura do dia se traduziu em mais foco e produtividade.",
-    image: "images/Day11.jpg",
-    link: "posts/day-11.html"
-},
-{
-    tag: "Semana 2",
-    date: "26 Nov 2025",
-    pain: "3/10",
-    swelling: "7/10",
-    title: "Dia 10: Rotina, Técnica e Limites",
-    description: "O Dia 10 trouxe rotina, técnica melhor e mais um lembrete de limites. Aprender a andar corretamente com as muletas ajudou, mas dias sociais longos ainda cobram seu preço. O progresso é real — a exaustão e o inchaço também.",
-    image: "images/Day10.jpg",
-    link: "posts/day-10.html"
-},
-{
-    tag: "Semana 2",
-    date: "25 Nov 2025",
-    pain: "3/10",
-    swelling: "6/10",
-    title: "Dia 9: De Volta ao Mundo",
-    description: "Hoje pareceu um avanço importante. A energia voltou, a academia se tornou possível novamente e a vida fora de casa recomeçou — mas com um custo. Pequenas vitórias vieram acompanhadas de fadiga real, mostrando o quão exigente a recuperação ainda é, mesmo quando o progresso parece visível.",
-    image: "images/Day9.jpg",
-    link: "posts/day-9.html"
-},
-
-{
-    tag: "Semana 2",
-    date: "24 Nov 2025",
-    pain: "3/10",
-    swelling: "6/10",
-    title: "Dia 8: Checagem de Realidade",
-    description: "O Dia 8 trouxe melhor controle da dor, mais foco no trabalho e uma dose de realidade vinda da fisio: a recuperação vai levar mais tempo do que o esperado. Apesar do choque com o cronograma, cada sessão de fisioterapia traz alívio e a segurança de que o progresso está acontecendo.",
-    image: "images/Day8.jpg",
-    link: "posts/day-8.html"
-},
-{
-    tag: "Semana 1",
-    date: "23 Nov 2025",
-    pain: "4/10",
-    swelling: "7/10",
-    title: "Dia 7: Uma Semana Depois",
-    description: "Uma semana depois. A dor está diminuindo, a medicação está chegando ao fim, mas a batalha mental agora é a parte mais difícil. O Dia 7 marca a transição de sobreviver à cirurgia para encarar a paciência, a rotina e o longo caminho pela frente.",
-    image: "images/Day7.jpg",
-    link: "posts/day-7.html"
-},
-{
-    tag: "Semana 1",
-    date: "22 Nov 2025",
-    pain: "5/10",
-    swelling: "6/10",
-    title: "Dia 6: Rotina Acima da Inquietação",
-    description: "O Dia 6 desacelerou tudo. Sono ruim e dor nas costas escancararam o custo da imobilidade, enquanto estrutura, rotina e exercícios leves trouxeram de volta uma sensação de controle. Um dia tranquilo em casa, focado em movimento, família e paciência.",
-    image: "images/Day6.jpg",
-    link: "posts/day-6.html"
-},
-{
-    tag: "Semana 1",
-    date: "21 Nov 2025",
-    pain: "5/10",
-    swelling: "7/10",
-    title: "Dia 5: Primeira Fisio e Ruído Mental",
-    description: "O Dia 5 trouxe estrutura: redução da medicação, início da fisioterapia e o confronto com o caos mental que acompanha a dor e a quebra de rotina. O progresso físico é real, mas as oscilações emocionais e a necessidade de mais organização ficaram igualmente claras.",
-    image: "images/Day5.jpg",
-    link: "posts/day-5.html"
-},
-{
-    tag: "Semana 1",
-    date: "20 Nov 2025",
-    pain: "6/10",
-    swelling: "8/10",
-    title: "Dia 4: Testando Limites",
-    description: "O Dia 4 foi sobre testar limites — reduzir analgésicos, retomar a vida social e iniciar movimento de verdade. O corpo respondeu com rigidez, fadiga e sono ruim, lembrando que o progresso não é linear e que a recuperação ainda exige disciplina.",
-    image: "images/Day4.jpg",
-    link: "posts/day-4.html"
-},
-{
-    tag: "Semana 1",
-    date: "19 Nov 2025",
-    pain: "8/10",
-    swelling: "9/10",
-    title: "Dia 3: Progresso, Respostas e Confiança",
-    description: "O dia trouxe a primeira sensação real de progresso. Menos dor, mais controle e respostas claras do cirurgião transformaram confusão em confiança. Ver o ferimento, entender a escolha do enxerto e iniciar movimento adequado marcaram uma virada mental e física importante.",
-    image: "images/Day3L.jpg",
-    link: "posts/day-3.html"
-},
-{
-    tag: "Semana 1",
-    date: "18 Nov 2025",
-    pain: "10/10",
-    swelling: "10/10",
-    title: "Dia 2: Dor, Dúvida e Pequenas Vitórias",
-    description: "O Dia 2 foi marcado por dor intensa, fadiga e frustração — tentando estar presente no aniversário da minha esposa enquanto o corpo reagia com força. Entre orientações conflitantes de recuperação, desconforto com a extensão e breves momentos de alívio, o dia terminou com uma pequena vitória: encontrar uma posição que permitiu dormir.",
-    image: "images/Day2.jpg",
-    link: "posts/day-2.html"
-},
-{
-    tag: "Semana 1",
-    date: "17 Nov 2025",
-    pain: "1/10",
-    swelling: "10/10",
-    title: "Dia 1: Dor, Inchaço e Aprendendo a Ter Paciência",
-    description: "O primeiro dia completo após a cirurgia trouxe inchaço, dor, rotina de medicação e desligamento muscular total. Entre aprender a usar as muletas, atravessar a névoa e contar com família e amigos, o Dia 1 foi sobre gerenciar o desconforto e aceitar o quão vulnerável a recuperação realmente parece.",
-    image: "images/Day1.jpg",
-    link: "posts/day-1.html"
-},
-{
-    tag: "Cirurgia",
-    date: "16 Nov 2025",
-    pain: "1/10",
-    swelling: "10/10",
-    title: "Dia 0: Cirurgia",
-    description: "O dia da cirurgia foi um borrão de nervosismo, anestesia e perda de controle. O procedimento correu bem, mas o verdadeiro desafio começou imediatamente depois.",
-    image: "images/Day0.jpg",
-    link: "posts/day-0.html"
-},
-{
-    tag: "Pré-Op",
-    date: "15 Nov 2025",
-    pain: "4/10",
-    swelling: "8/10",
-    title: "Dia -1: Esperar, Confiar, Soltar",
-    description: "O dia antes da cirurgia foi uma mistura de caos familiar e decisões difíceis. Aceitar uma recuperação mais longa em troca de fazer tudo do jeito certo.",
-    image: "images/DayM1.jpg",
-    link: "posts/day-m1.html"
-},
-
-
-{
-     tag: "Pré-Op",
-     date: "14 Nov 2025",
-     pain: "4/10",
-     swelling: "4/10",
-     title: "Dia -2: Pronto-Socorro",
-     description: "Um longo dia no pronto-socorro: dor, espera, incerteza e pequenos momentos de alívio. Ver outras pessoas em situações muito piores me lembrou de ser grato.",
-     image: "images/DayM2.jpg",
-     link: "posts/day-m2.html"
-}
+        tag: "Week 8",
+        date: "Jan 8, 2026",
+        pain: "3/10",
+        swelling: "6/10",
+        title: "Day 53: Borrowing Strength From the Mountains",
+        description: "An early start and a long, demanding loop tested both patience and endurance. Nature, history, and philosophy offered perspective, even as logistics and fatigue pushed limits. The knee held on, but the day clearly asked for more recovery than it received.",
+        image: "images/Day53.jpg",
+        link: "posts/day-53.html"
+    },
+    {
+        tag: "Week 8",
+        date: "Jan 7, 2026",
+        pain: "2/10",
+        swelling: "4/10",
+        title: "Day 52: Back to Routine, Back to the Crowd",
+        description: "Rest paid off. Returning to a structured routine brought noticeable relief, even as the day unfolded into another long stretch of walking and stimulation. Energy was there, the knee cooperated reasonably well, and the balance between discipline and enjoyment felt closer to right.",
+        image: "images/Day52.jpg",
+        link: "posts/day-52.html"
+    },
+    {
+        tag: "Week 8",
+        date: "Jan 6, 2026",
+        pain: "3/10",
+        swelling: "6/10",
+        title: "Day 51: Slow Starts, Big Cities",
+        description: "A deliberately slower start helped reset the knee after yesterday’s overload. Even without physio, careful pacing kept things manageable through a full day of sightseeing. Tokyo impressed, fatigue accumulated, and the knee reminded me that recovery still needs planning.",
+        image: "images/Day51.jpg",
+        link: "posts/day-51.html"
+    },
+    {
+        tag: "Week 8",
+        date: "Jan 5, 2026",
+        pain: "4/10",
+        swelling: "7/10",
+        title: "Day 50: Excitement, Reality, and a Very Clear Lesson",
+        description: "Travel adrenaline carried the morning, but the knee reminded me who sets the rules. Even short flights still trigger major swelling if recovery is delayed. The day ended well, but not without a strong reminder that travel discipline matters.",
+        image: "images/Day50.jpg",
+        link: "posts/day-50.html"
+    },
+    {
+        tag: "Week 7",
+        date: "Jan 4, 2026",
+        pain: "3/10",
+        swelling: "4/10",
+        title: "Day 49: Pushing, Then Protecting",
+        description: "A motivated start gave way to smart restraint. Even with a strong morning and a busy family schedule, choosing support and stepping back when needed kept the knee calm. The day ended with closure, both physically and mentally, as the trip neared its end.",
+        image: "images/Day49.jpg",
+        link: "posts/day-49.html"
+    },
+    {
+        tag: "Week 7",
+        date: "Jan 3, 2026",
+        pain: "2/10",
+        swelling: "4/10",
+        title: "Day 48: Learning to Be Kinder to the Process",
+        description: "A slower morning opened space for self-doubt, but also for clarity. By choosing rest over obligation, the knee responded positively. The day reinforced an important lesson: recovery improves when effort and compassion are balanced.",
+        image: "images/Day48.jpg",
+        link: "posts/day-48.html"
+    },
+    {
+        tag: "Week 7",
+        date: "Jan 2, 2026",
+        pain: "3/10",
+        swelling: "5/10",
+        title: "Day 47: History, Fatigue, and Not Skipping the Basics",
+        description: "A full day blending routine, history, and family time. The knee held up reasonably well through walking and standing, with swelling staying present but controlled. The biggest win came from staying consistent, even when energy was low.",
+        image: "images/Day47.jpg",
+        link: "posts/day-47.html"
+    },
+    {
+        tag: "Week 7",
+        date: "Jan 1, 2026",
+        pain: "2/10",
+        swelling: "4/10",
+        title: "Day 46: Letting the Year Start Gently",
+        description: "A true rest day allowed the knee to settle. With no gym or physiotherapy, movement felt easier, swelling stayed manageable, and stiffness resolved quickly with rest. A quiet, family-focused evening closed the day on the right note.",
+        image: "images/Day46.jpg",
+        link: "posts/day-46.html"
+    },
+    {
+        tag: "Week 7",
+        date: "Dec 31, 2025",
+        pain: "3/10",
+        swelling: "5/10",
+        title: "Day 45: Closing the Year, Choosing Hope",
+        description: "A balanced day shaped by conscious restraint and meaningful moments. By choosing rest over activity, the knee stayed manageable, and the year closed with gratitude, perspective, and a clear intention for what comes next.",
+        image: "images/Day45.jpg",
+        link: "posts/day-45.html"
+    },
+    {
+        tag: "Week 7",
+        date: "Dec 30, 2025",
+        pain: "3/10",
+        swelling: "6/10",
+        title: "Day 44: Feeling Less Broken",
+        description: "A full, travel-heavy day mixed recovery routines with meaningful family moments. Despite fatigue and swelling, functional confidence increased. Walking with one crutch and handling small tasks independently marked a quiet but important shift.",
+        image: "images/Day44.jpg",
+        link: "posts/day-44.html"
+    },
+    {
+        tag: "Week 7",
+        date: "Dec 29, 2025",
+        pain: "3/10",
+        swelling: "5/10",
+        title: "Day 43: Choosing Rest Over Persistence",
+        description: "A slower day with good intentions still turned tiring. Even reduced sightseeing and light stairs added up, and the simple act of standing without a place to sit became the biggest drain. Today reinforced how important it is to protect energy, not just the knee.",
+        image: "images/Day43.jpg",
+        link: "posts/day-43.html"
+    },
+    {
+        tag: "Week 6",
+        date: "Dec 28, 2025",
+        pain: "3/10",
+        swelling: "6/10",
+        title: "Day 42: Standing Taller, Still Choosing Caution",
+        description: "A meaningful functional step forward marked the day, balanced by continued caution. Standing and walking independently felt empowering, even as travel, long days, and social activity pushed swelling back up. Progress is real, but discipline still matters.",
+        image: "images/Day42.jpg",
+        link: "posts/day-42.html"
+    },
+    {
+        tag: "Week 6",
+        date: "Dec 27, 2025",
+        pain: "3/10",
+        swelling: "5/10",
+        title: "Day 41: Listening More Carefully",
+        description: "Better sleep brought more awareness rather than relief. A new type of pain and unfamiliar sensations shifted the focus toward caution and observation. Choosing rest, adapting plans, and avoiding overload proved to be the right decisions today.",
+        image: "images/Day41.jpg",
+        link: "posts/day-41.html"
+    },
+    {
+        tag: "Week 6",
+        date: "Dec 26, 2025",
+        pain: "3/10",
+        swelling: "6/10",
+        title: "Day 40: Learning to Respect the Rest",
+        description: "An early start, lingering fatigue, and another travel-heavy day reinforced the same message from recent days. Progress continues, but recovery needs more intentional rest. The knee keeps cooperating, but only when I do my part.",
+        image: "images/Day40.jpg",
+        link: "posts/day-40.html"
+    },
+    {
+        tag: "Week 6",
+        date: "Dec 25, 2025",
+        pain: "4/10",
+        swelling: "6/10",
+        title: "Day 39: When Rest Quietly Turns Into Effort",
+        description: "A day meant for rest slowly turned into more activity than planned. Christmas brought joy and calm moments, but curiosity and momentum led to overdoing it. The knee responded clearly, reminding me that even good intentions need limits.",
+        image: "images/Day39.jpg",
+        link: "posts/day-39.html"
+    },
+    {
+        tag: "Week 6",
+        date: "Dec 24, 2025",
+        pain: "2/10",
+        swelling: "4/10",
+        title: "Day 38: Seeing It From a Different Seat",
+        description: "A slower, more contemplative day shaped by rest, travel, and an unexpected shift in perspective. Using a wheelchair reduced physical strain and swelling, while also triggering a deeper sense of gratitude and humility.",
+        image: "images/Day38.jpg",
+        link: "posts/day-38.html"
+    },
+    {
+        tag: "Week 6",
+        date: "Dec 23, 2025",
+        pain: "3/10",
+        swelling: "6/10",
+        title: "Day 37: Small Wins, Smart Exits",
+        description: "A simple but meaningful training day brought a technical breakthrough in extension. Energy remained limited, and fatigue arrived quickly during outings. Knowing when to step away proved just as valuable as pushing forward.",
+        image: "images/Day37.jpg",
+        link: "posts/day-37.html"
+    },
+    {
+        tag: "Week 6",
+        date: "Dec 22, 2025",
+        pain: "3/10",
+        swelling: "6/10",
+        title: "Day 36: Moving Again, Slower but Forward",
+        description: "A steady day focused on movement and adjustment rather than pushing limits. Cycling continued to improve, swelling lingered from yesterday, and travel added its usual layer of fatigue. Nothing dramatic, but the rhythm slowly returned.",
+        image: "images/Day36.jpg",
+        link: "posts/day-36.html"
+    },
+    {
+        tag: "Week 5",
+        date: "Dec 21, 2025",
+        pain: "4/10",
+        swelling: "7/10",
+        title: "Day 35: A Milestone Earned, a Limit Exceeded",
+        description: "A big physical milestone in the morning lifted confidence, but the day pushed far beyond safe limits. Progress was real, but fatigue, crowds, and long hours on foot reminded me that recovery still needs boundaries.",
+        image: "images/Day35.jpg",
+        link: "posts/day-35.html"
+    },
+    {
+        tag: "Week 5",
+        date: "Dec 20, 2025",
+        pain: "3/10",
+        swelling: "6/10",
+        title: "Day 34: New Tools, Old Crowds",
+        description: "An early start and a new recovery tool brought structure back into the day. Physio work stayed consistent, but walking, crowds, and post-travel fatigue kept swelling elevated. Progress continues, just with more friction than ideal.",
+        image: "images/Day34.jpg",
+        link: "posts/day-34.html"
+    },
+    {
+        tag: "Week 5",
+        date: "Dec 19, 2025",
+        pain: "3/10",
+        swelling: "5/10",
+        title: "Day 33: Tested by Travel, Carried by Patience",
+        description: "Severe sleep deprivation and travel friction pushed the day into pure survival mode. Stress came more from logistics than from the knee, which held up reasonably well. The biggest lessons came from preparation, crowd management, and unexpected help.",
+        image: "images/Day33.jpg",
+        link: "posts/day-33.html"
+    },
+    {
+        tag: "Week 5",
+        date: "Dec 18, 2025",
+        pain: "3/10",
+        swelling: "5/10",
+        title: "Day 32: Survival Mode, Activated",
+        description: "A long-haul travel day that tested endurance more than the knee itself. Smart improvisation helped manage stiffness, while swelling remained present but controlled. Exhaustion dominated, with recovery taking priority the moment we landed.",
+        image: "images/Day32-elevation-pillow-leg-above-heart.jpg",
+        link: "posts/day-32.html"
+    },
+    {
+        tag: "Week 5",
+        date: "Dec 17, 2025",
+        pain: "3/10",
+        swelling: "6/10",
+        title: "Day 31: Long Flights, Longer Patience",
+        description: "Travel day turned into an endurance test, but not the disaster I feared. Good planning, mobility support, and smart recovery habits kept things under control. Swelling showed up, but it was manageable with the right adjustments.",
+        image: "images/Day31.jpg",
+        link: "posts/day-31.html"
+    },
+    {
+        tag: "Week 5",
+        date: "Dec 16, 2025",
+        pain: "3/10",
+        swelling: "4/10",
+        title: "Day 30: Momentum, Then Motion",
+        description: "A strong, structured morning brought tangible progress in mobility and a clear plan for the weeks ahead. The day then shifted gears into travel mode, where stress replaced structure, but support systems helped smooth the edges.",
+        image: "images/Day30.jpg",
+        link: "posts/day-30.html"
+    },
+    {
+        tag: "Week 5",
+        date: "Dec 15, 2025",
+        pain: "3/10",
+        swelling: "5/10",
+        title: "Day 29: Progress Before the Pause",
+        description: "A long, demanding day marked by fatigue, preparation, and cautious optimism. Even with tiredness setting in early, mobility and activation work continued to pay off. Walking improved, confidence lifted, and the focus slowly shifted toward managing recovery during upcoming travels.",
+        image: "images/Day29.jpg",
+        link: "posts/day-29.html"
+    },
+    {
+        tag: "Week 4",
+        date: "Dec 14, 2025",
+        pain: "2/10",
+        swelling: "4/10",
+        title: "Day 28: Rest, Rhythm, and Holding the Line",
+        description: "A well-rested day that leaned into balance rather than pushing. Light movement, social time, and family rest kept things steady. The knee reacted with some swelling, but nothing unexpected or unmanageable.",
+        image: "images/Day28.jpg",
+        link: "posts/day-28.html"
+    },
+    {
+        tag: "Week 4",
+        date: "Dec 13, 2025",
+        pain: "3/10",
+        swelling: "4/10",
+        title: "Day 27: Lighter, Stronger, and Slightly Confused",
+        description: "Better sleep and a surprising drop on the scale set a reflective tone for the day. Energy feels improved, even as muscle loss becomes more visible. Recovery continues to demand trade-offs, and the body keeps rewriting expectations.",
+        image: "images/Day27.jpg",
+        link: "posts/day-27.html"
+    },
+    {
+        tag: "Week 4",
+        date: "Dec 12, 2025",
+        pain: "3/10",
+        swelling: "5/10",
+        title: "Day 26: A Glimpse of Normal Again",
+        description: "Less stiffness, better movement, and a noticeable lift in mood set the tone for the day. Clear technical guidance, cautious decisions about crutches, and a breakthrough moment in the pool made this one feel genuinely forward-moving.",
+        image: "images/Day26.jpg",
+        link: "posts/day-26.html"
+    },
+    {
+        tag: "Week 4",
+        date: "Dec 11, 2025",
+        pain: "4/10",
+        swelling: "7/10",
+        title: "Day 25: Pushing Forward, Paying the Price",
+        description: "The day started with a small but welcome improvement and confirmed the impact of consistent physiotherapy. Morning treatment helped, but a long day on my feet pushed swelling back up. Progress is there, but it clearly comes with a cost.",
+        image: "images/Day25.jpg",
+        link: "posts/day-25.html"
+    },
+    {
+        tag: "Week 4",
+        date: "Dec 10, 2025",
+        pain: "5/10",
+        swelling: "6/10",
+        title: "Day 24: Tightness, Truth, and Not Giving Up",
+        description: "The day started stiff and stubborn, with yesterday’s gains fading faster than expected. Weight loss became visible, physio turned intense, and the gap in quad activation was impossible to ignore. Painful progress, but real progress.",
+        image: "images/Day24.jpg",
+        link: "posts/day-24.html"
+    },
+    {
+        tag: "Week 4",
+        date: "Dec 9, 2025",
+        pain: "4/10",
+        swelling: "6/10",
+        title: "Day 23: A Reminder That Recovery Is Not Linear",
+        description: "A tough day that tested patience and perspective. Increased stiffness, limited extension, and a heavy mental load made progress feel distant. At the same time, the day delivered important reminders about humility, gratitude, and the real value of good physiotherapy.",
+        image: "images/Day23.jpg",
+        link: "posts/day-23.html"
+    },
+    {
+        tag: "Week 4",
+        date: "Dec 8, 2025",
+        pain: "3/10",
+        swelling: "5/10",
+        title: "Day 22: Three Weeks In, New Ground Underfoot",
+        description: "Three weeks post-surgery arrived faster than expected and brought a new phase with it. Bearing more weight felt less physical than mental, demanding attention and confidence. Fatigue was high, and the knee responded with visible stiffness and swelling by the end of the day.",
+        image: "images/Day22.jpg",
+        link: "posts/day-22.html"
+    },
+    {
+        tag: "Week 3",
+        date: "Dec 7, 2025",
+        pain: "3/10",
+        swelling: "5/10",
+        title: "Day 21: When Recovery Pushes Back",
+        description: "A quieter day that revealed the cost of small disruptions to routine. Less recovery work, a daytime nap, and some wine all seemed to add up. Fatigue increased, sleep suffered, and the knee felt noticeably stiffer.",
+        image: "images/Day21.jpg",
+        link: "posts/day-21.html"
+    },
+    {
+        tag: "Week 3",
+        date: "Dec 6, 2025",
+        pain: "3/10",
+        swelling: "6/10",
+        title: "Day 20: Energy Is the Real Limiting Factor",
+        description: "The day started strong with a full morning routine, but fatigue quickly became the main constraint once I was out and standing. The knee held up reasonably well, yet overall energy dropped fast. Today clarified that recovery is now as much about endurance as it is about the joint itself.",
+        image: "images/Day20.jpg",
+        link: "posts/day-20.html"
+    },
+    {
+        tag: "Week 3",
+        date: "Dec 5, 2025",
+        pain: "4/10",
+        swelling: "4/10",
+        title: "Day 19: Mobility Takes the Lead",
+        description: "A solid, productive day focused on mobility. Extension is largely there, but flexion remains the main challenge. Better sleep positions are helping recovery.",
+        image: "images/Day19.jpg",
+        link: "posts/day-19.html"
+    },
+    {
+        tag: "Week 3",
+        date: "Dec 4, 2025",
+        pain: "5/10",
+        swelling: "4/10",
+        title: "Day 18: When the Nerves Speak",
+        description: "Improvement continued, but nerve sensitivity made its presence felt. A sharp reminder that healing isn’t just muscular or mechanical - the nervous system needs retraining too.",
+        image: "images/Day18.jpg",
+        link: "posts/day-18.html"
+    },
+    {
+        tag: "Week 3",
+        date: "Dec 3, 2025",
+        pain: "2/10",
+        swelling: "4/10",
+        title: "Day 17: Clarity and Confidence",
+        description: "Health stabilized, confidence returned, and clarity replaced fear. Strong physio sessions and a clear plan for weight-bearing marked a major turning point.",
+        image: "images/Day17.jpg",
+        link: "posts/day-17.html"
+    },
+    {
+        tag: "Week 3",
+        date: "Dec 2, 2025",
+        pain: "4/10",
+        swelling: "4/10",
+        title: "Day 16: A Scare and Reassurance",
+        description: "Fatigue, irritation, and a fever triggered a scare, shifting the focus from recovery to health monitoring. New recovery equipment proved its value.",
+        image: "images/Day16.jpg",
+        link: "posts/day-16.html"
+    },
+    {
+        tag: "Week 3",
+        date: "Dec 1, 2025",
+        pain: "3/10",
+        swelling: "5/10",
+        title: "Day 15: Taking Control",
+        description: "Medication ended, responsibility shifted fully to discipline and routine. New recovery tools entered the picture and confidence grew.",
+        image: "images/Day15.jpg",
+        link: "posts/day-15.html"
+    },
+    {
+        tag: "Week 2",
+        date: "Nov 30, 2025",
+        pain: "3/10",
+        swelling: "4/10",
+        title: "Day 14: Signs of Progress, Cost of Fatigue",
+        description: "Travel, heat, and accumulated fatigue made their presence felt. Despite exhaustion and new muscle discomfort, consistent stretching paid off with clear gains in extension. Recovery tools and smarter support are becoming part of the conversation.",
+        image: "images/Day14.jpg",
+        link: "posts/day-14.html"
+    },
+    {
+        tag: "Week 2",
+        date: "Nov 29, 2025",
+        pain: "4/10",
+        swelling: "5/10",
+        title: "Day 13: Doing It Yourself",
+        description: "Without physio scheduled, Day 13 required self-discipline. Exercises were improvised around family life, heat increased swelling, and restraint became the challenge - no pool, no alcohol, and constant attention to food choices.",
+        image: "images/Day13.jpg",
+        link: "posts/day-13.html"
+    },
+    {
+        tag: "Week 2",
+        date: "Nov 28, 2025",
+        pain: "4/10",
+        swelling: "4/10",
+        title: "Day 12: First Trip",
+        description: "The first trip since surgery showed that mobility is returning, but swelling and fatigue are still close behind. Travel is possible with planning, elevation, and ice, while social time continues to drain more energy than expected.",
+        image: "images/Day12.jpg",
+        link: "posts/day-12.html"
+    },
+    {
+        tag: "Week 2",
+        date: "Nov 27, 2025",
+        pain: "4/10",
+        swelling: "7/10",
+        title: "Day 11: Different Energy, Real Results",
+        description: "Day brought a noticeable shift with a new physiotherapist at home. More intensity, more discomfort, but also clearer results. Swelling reduced, extension improved, and the structure of the day translated into better focus and productivity.",
+        image: "images/Day11.jpg",
+        link: "posts/day-11.html"
+    },
+    {
+        tag: "Week 2",
+        date: "Nov 26, 2025",
+        pain: "3/10",
+        swelling: "7/10",
+        title: "Day 10: Routine, Technique, and Limits",
+        description: "Day 10 brought routine, better technique, and another reminder of limits. Learning to walk properly on crutches helped, but long social days still come at a cost. Progress is real - exhaustion and swelling are too.",
+        image: "images/Day10.jpg",
+        link: "posts/day-10.html"
+    },
+    {
+        tag: "Week 2",
+        date: "Nov 25, 2025",
+        pain: "3/10",
+        swelling: "6/10",
+        title: "Day 9: Back Into the World",
+        description: "Today felt like a breakthrough. Energy returned, the gym became possible again, and life outside the house resumed - but at a cost. Small wins came with real fatigue, showing how demanding recovery still is, even when progress feels visible.",
+        image: "images/Day9.jpg",
+        link: "posts/day-9.html"
+    },
+    {
+        tag: "Week 2",
+        date: "Nov 24, 2025",
+        pain: "3/10",
+        swelling: "6/10",
+        title: "Day 8: Reality Check",
+        description: "Day 8 brought better pain control, more work focus, and a dose of reality from physio: recovery will take longer than hoped. Despite the timeline shock, each physio session brings relief and reassurance that progress is happening.",
+        image: "images/Day8.jpg",
+        link: "posts/day-8.html"
+    },
+    {
+        tag: "Week 1",
+        date: "Nov 23, 2025",
+        pain: "4/10",
+        swelling: "7/10",
+        title: "Day 7: One Week In",
+        description: "One week in. Pain is easing, medication is ending, but the mental battle is now the hardest part. Day 7 marks a shift from surviving surgery to confronting patience, routine, and the long road ahead.",
+        image: "images/Day7.jpg",
+        link: "posts/day-7.html"
+    },
+    {
+        tag: "Week 1",
+        date: "Nov 22, 2025",
+        pain: "5/10",
+        swelling: "6/10",
+        title: "Day 6: Routine Over Restlessness",
+        description: "Day 6 slowed everything down. Poor sleep and back pain highlighted the cost of immobility, while structure, routine, and gentle exercises brought a sense of control back. A quiet day at home, focused on movement, family, and patience.",
+        image: "images/Day6.jpg",
+        link: "posts/day-6.html"
+    },
+    {
+        tag: "Week 1",
+        date: "Nov 21, 2025",
+        pain: "5/10",
+        swelling: "7/10",
+        title: "Day 5: First Physio and Mental Noise",
+        description: "Day 5 introduced structure: reducing medication, starting physiotherapy, and confronting the mental chaos that comes with pain and routine disruption. Physical progress is real, but the emotional swings and need for better organization became just as clear.",
+        image: "images/Day5.jpg",
+        link: "posts/day-5.html"
+    },
+    {
+        tag: "Week 1",
+        date: "Nov 20, 2025",
+        pain: "6/10",
+        swelling: "8/10",
+        title: "Day 4: Testing Limits ",
+        description: "Day 4 was about testing limits - reducing pain medication, re-entering social life, and starting real movement. The body pushed back with stiffness, fatigue, and poor sleep, reminding me that progress isn’t linear and recovery still demands discipline.",
+        image: "images/Day4.jpg",
+        link: "posts/day-4.html"
+    },
+    {
+        tag: "Week 1",
+        date: "Nov 19, 2025",
+        pain: "8/10",
+        swelling: "9/10",
+        title: "Day 3: Progress, Answers, Confidence",
+        description: "Day brought the first real sense of progress. Less pain, better control, and clear answers from the surgeon turned confusion into confidence. Seeing the wound, understanding the graft choice, and starting proper movement marked an important mental and physical shift.",
+        image: "images/Day3L.jpg",
+        link: "posts/day-3.html"
+    },
+    {
+        tag: "Week 1",
+        date: "Nov 18, 2025",
+        pain: "10/10",
+        swelling: "10/10",
+        title: "Day 2: Pain, Doubt, and Small Wins",
+        description: "Day 2 was marked by heavy pain, fatigue, and frustration - trying to show up for my wife’s birthday while my body pushed back hard. Between conflicting recovery advice, discomfort with extension, and brief moments of relief, the day ended with a small win: finding a position that allowed sleep.",
+        image: "images/Day2.jpg",
+        link: "posts/day-2.html"
+    },
+    {
+        tag: "Week 1",
+        date: "Nov 17, 2025",
+        pain: "1/10",
+        swelling: "10/10",
+        title: "Day 1: Pain, Swelling, and Learning Patience",
+        description: "The first full day after surgery brought swelling, pain, medication routines, and total muscle shutdown. Between learning crutches, working through the fog, and leaning on family and friends, Day 1 was about managing discomfort and accepting how vulnerable recovery really feels.",
+        image: "images/Day1.jpg",
+        link: "posts/day-1.html"
+    },
+    {
+        tag: "Surgery",
+        date: "Nov 16, 2025",
+        pain: "1/10",
+        swelling: "10/10",
+        title: "Day 0: Surgery",
+        description: "Surgery day was a blur of nerves, anesthesia, and loss of control. The procedure went well, but the real challenge started immediately after.",
+        image: "images/Day0.jpg",
+        link: "posts/day-0.html"
+    },
+    {
+        tag: "Pre-Op",
+        date: "Nov 15, 2025",
+        pain: "4/10",
+        swelling: "8/10",
+        title: "Day-1: Waiting, Trusting, Letting Go",
+        description: "The day before surgery was a mix of family chaos and hard decisions. Accepting a longer recovery in exchange for doing it right.",
+        image: "images/DayM1.jpg",
+        link: "posts/day-m1.html"
+    },
+    {
+        tag: "Pre-Op",
+        date: "Nov 14, 2025",
+        pain: "4/10",
+        swelling: "4/10",
+        title: "Day-2: Emergency Room",
+        description: "A long day in the ER: pain, waiting, uncertainty, and small moments of relief. Seeing others in way worse state, reminded me to be grateful.",
+        image: "images/DayM2.jpg",
+        link: "posts/day-m2.html"
+    }
 ];
-
