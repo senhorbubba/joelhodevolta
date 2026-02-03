@@ -1,5 +1,115 @@
 const posts = [
    {
+        tag: "Semana 10",
+        date: "25 Jan 2026",
+        pain: "3/10",
+        swelling: "4/10",
+        title: "Dia 70: Movimento, Conforto e Exageros",
+        description: "Um começo forte fisicamente deu lugar a um domingo lento e confortável. A academia e a melhora na flexão animaram, enquanto descanso, família e a piscina ajudaram o joelho a soltar. O dia saiu do trilho com comida e vinho de novo, trazendo aquela sensação familiar de peso e uma intenção clara de resetar amanhã.",
+        image: "images/Day70.jpg",
+        link: "posts/day-70.html"
+    },
+   {
+        tag: "Semana 10",
+        date: "24 Jan 2026",
+        pain: "4/10",
+        swelling: "4/10",
+        title: "Dia 69: Indulgência e Manutenção",
+        description: "Um dia lento e pesado, moldado mais por comida, vida social e fadiga do que por ambição de recuperação. O treino ficou em segundo plano, mas a manutenção básica continuou. Nem um passo à frente, nem um passo atrás.",
+        image: "images/Day69.jpg",
+        link: "posts/day-69.html"
+    },
+   {
+        tag: "Semana 10",
+        date: "23 Jan 2026",
+        pain: "4/10",
+        swelling: "4/10",
+        title: "Dia 68: Atrito, Fadiga e um Avanço",
+        description: "Um dia exigente, que começou rápido e ficou pesado - física e mentalmente. O joelho resistiu à carga logo cedo, a fadiga ficou o dia inteiro, mas a noite terminou com uma grande vitória na flexão. Um daqueles dias em que o progresso só aparece no final.",
+        image: "images/Day68.jpg",
+        link: "posts/day-68.html"
+    },
+   {
+        tag: "Semana 10",
+        date: "22 Jan 2026",
+        pain: "4/10",
+        swelling: "4/10",
+        title: "Dia 67: Ouvindo os Sinais, Voltando ao Básico",
+        description: "Um dia cheio e comum que testou a paciência de um jeito silencioso. A rotina da escola voltou, o trabalho fluiu, mas os sinais do joelho pediram atenção. Em vez de forçar, escolhi manutenção e recuperação - um lembrete de que progresso também é saber desacelerar.",
+        image: "images/Day67.jpg",
+        link: "posts/day-67.html"
+    },
+   {
+        tag: "Semana 10",
+        date: "21 Jan 2026",
+        pain: "4/10",
+        swelling: "3/10",
+        title: "Dia 66: Sinais, Ajustes e Reenquadrando o Ritmo",
+        description: "Um começo lento e pesado, seguido de progresso cauteloso e ajustes necessários. O joelho mandou sinais mistos hoje, lembrando que avançar também significa saber quando recalibrar. A rotina está voltando — e com ela, uma sensação de estrutura e alívio.",
+        image: "images/Day66.jpg",
+        link: "posts/day-66.html"
+    },
+   {
+        tag: "Semana 10",
+        date: "20 Jan 2026",
+        pain: "4/10",
+        swelling: "4/10",
+        title: "Dia 65: Fadiga, Atrito e Segurar a Linha",
+        description: "Um dia mentalmente pesado, em que a energia caiu e o joelho reagiu. Trabalho, logística da família e cansaço colidiram, deixando pouco espaço para recuperação até tarde. Hoje o progresso pareceu menos óbvio, mas a disciplina apareceu mesmo assim.",
+        image: "images/Day65.jpg",
+        link: "posts/day-65.html"
+    },
+   {
+        tag: "Semana 10",
+        date: "19 Jan 2026",
+        pain: "3/10",
+        swelling: "3/10",
+        title: "Dia 64: Elo Fraco e Rituais Familiares",
+        description: "Um dia de trabalho testou consistência e gestão do tempo, empurrando a recuperação para janelas curtas entre obrigações. O treino mostrou onde a fraqueza ainda transfere carga para os tendões, mas a melhora na flexão fechou o dia com um saldo positivo. Menos gelo é necessário agora, embora o ritual ainda tenha significado.",
+        image: "images/Day64.jpg",
+        link: "posts/day-64.html"
+    },
+   {
+        tag: "Semana 9",
+        date: "18 Jan 2026",
+        pain: "3/10",
+        swelling: "4/10",
+        title: "Dia 63: Compensação e Consequências",
+        description: "Uma manhã um pouco melhor virou rapidamente uma lição sobre compensação e limites. O movimento ajudou a destravar a rigidez, mas ficar em pé, vida social e sessões de recuperação puladas cobraram seu preço. O corpo deixou claro que descanso ainda é parte ativa do progresso.",
+        image: "images/Day63.jpg",
+        link: "posts/day-63.html"
+    },
+   {
+        tag: "Semana 9",
+        date: "17 Jan 2026",
+        pain: "4/10",
+        swelling: "4/10",
+        title: "Dia 62: Progresso Silencioso, Vida Real em Equilíbrio",
+        description: "Uma manhã cedo e silenciosa deu um tom produtivo ao dia, seguida do retorno à rotina, tempo em família e treino. A flexão segue como o principal desafio, mas o progresso é visível. O dia equilibrou disciplina de recuperação com vida real — incluindo uma noite fora que já estava atrasada.",
+        image: "images/Day62.jpg",
+        link: "posts/day-62.html"
+    },
+   {
+        tag: "Semana 9",
+        date: "16 Jan 2026",
+        pain: "3/10",
+        swelling: "5/10",
+        title: "Dia 61: Confiança Cresce, Controle Importa",
+        description: "A mobilidade está melhorando e caminhar no dia a dia ficou mais fácil, mas a confiança traz novos riscos. Uma sessão de fisio mais exigente introduziu dor controlada, inchaço visível e o lembrete de que a força ainda fica atrás da ambição.",
+        image: "images/Day61.jpg",
+        link: "posts/day-61.html"
+    },
+   {
+        tag: "Semana 9",
+        date: "15 Jan 2026",
+        pain: "3/10",
+        swelling: "4/10",
+        title: "Dia 60: Força Voltando, Atenção Necessária",
+        description: "O sono está melhorando, os treinos estão expandindo e a vida diária parece mais normal novamente. O joelho permite mais, mas a fraqueza e a fadiga ainda exigem foco e intenção a cada passo.",
+        image: "images/Day60.jpg",
+        link: "posts/day-60.html"
+    },
+   {
         tag: "Semana 9",
         date: "14 Jan 2026",
         pain: "4/10",
