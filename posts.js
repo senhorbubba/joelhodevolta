@@ -45,7 +45,7 @@ const posts = [
         pain: "4/10",
         swelling: "3/10",
         title: "Dia 66: Sinais, Ajustes e Reenquadrando o Ritmo",
-        description: "Um começo lento e pesado, seguido de progresso cauteloso e ajustes necessários. O joelho mandou sinais mistos hoje, lembrando que avançar também significa saber quando recalibrar. A rotina está voltando — e com ela, uma sensação de estrutura e alívio.",
+        description: "Um começo lento e pesado, seguido de progresso cauteloso e ajustes necessários. O joelho mandou sinais mistos hoje, lembrando que avançar também significa saber quando recalibrar. A rotina está voltando - e com ela, uma sensação de estrutura e alívio.",
         image: "images/Day66.jpg",
         link: "posts/day-66.html"
     },
@@ -85,7 +85,7 @@ const posts = [
         pain: "4/10",
         swelling: "4/10",
         title: "Dia 62: Progresso Silencioso, Vida Real em Equilíbrio",
-        description: "Uma manhã cedo e silenciosa deu um tom produtivo ao dia, seguida do retorno à rotina, tempo em família e treino. A flexão segue como o principal desafio, mas o progresso é visível. O dia equilibrou disciplina de recuperação com vida real — incluindo uma noite fora que já estava atrasada.",
+        description: "Uma manhã cedo e silenciosa deu um tom produtivo ao dia, seguida do retorno à rotina, tempo em família e treino. A flexão segue como o principal desafio, mas o progresso é visível. O dia equilibrou disciplina de recuperação com vida real - incluindo uma noite fora que já estava atrasada.",
         image: "images/Day62.jpg",
         link: "posts/day-62.html"
     },
