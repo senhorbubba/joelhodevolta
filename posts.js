@@ -1,5 +1,85 @@
 const posts = [
    {
+        tag: "Semana 12",
+        date: "2 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 78: Momentum",
+        description: "Um dia motivador, mental e fisicamente. Conversas sobre negócios refletiram o mindset da recuperação: adaptar, ajustar, seguir em frente. O joelho foi bem, tolerou mais carga, e a flexão chegou a 140 graus - reforçando que o progresso é real e está sendo construído.",
+        image: "images/Day78.jpg",
+        link: "posts/day-78.html"
+    },
+   {
+        tag: "Semana 11",
+        date: "1 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 77: Vitórias Leves",
+        description: "Um domingo lento e restaurador, com movimento leve e bastante descanso. A piscina ajudou a soltar o joelho sem estresse, e um dia inteiro em casa permitiu que tudo assentasse. Menos carga, mais calma - e o joelho respondeu com uma sensação visivelmente melhor.",
+        image: "images/Day77.jpg",
+        link: "posts/day-77.html"
+    },
+   {
+        tag: "Semana 11",
+        date: "31 Jan 2026",
+        pain: "3/10",
+        swelling: "3/10",
+        title: "Dia 76: Pequenos Sinais, Dia Longo",
+        description: "Um dia cheio e ativo, com sinais encorajadores de ativação do quadríceps e trabalho consistente de flexão. Mais volume, mas com controle - o joelho terminou cansado, porém cooperando.",
+        image: "images/Day76.jpg",
+        link: "posts/day-76.html"
+    },
+   {
+        tag: "Semana 11",
+        date: "30 Jan 2026",
+        pain: "3/10",
+        swelling: "3/10",
+        title: "Dia 75: Descanso Ativo, Cabeça Mais Clara",
+        description: "Um dia mais calmo e equilibrado, onde descanso e atividade leve caminharam juntos. Menos pressão, mais escuta - e o joelho respondeu bem.",
+        image: "images/Day75.jpg",
+        link: "posts/day-75.html"
+    },
+   {
+        tag: "Semana 11",
+        date: "29 Jan 2026",
+        pain: "4/10",
+        swelling: "3/10",
+        title: "Dia 74: Progresso Que Morde de Volta",
+        description: "Um dia fisicamente exigente que mostrou o custo de ter forçado um pouco demais no dia anterior. O joelho ficou rígido e pesado, com fadiga muscular aparecendo nas caminhadas mais longas. O treino seguiu controlado e protetor, e mesmo assim a flexão chegou a um novo marco: 138 graus, enquanto a dor continua sendo o principal limitador.",
+        image: "images/Day74.jpg",
+        link: "posts/day-74.html"
+    },
+   {
+        tag: "Semana 11",
+        date: "28 Jan 2026",
+        pain: "3/10",
+        swelling: "3/10",
+        title: "Dia 73: Ajustes e Reassurance",
+        description: "Um dia um pouco mais rígido, mas com menos inchaço visível e a sensação de que tudo segue avançando na direção certa. Check-ups médicos trouxeram tranquilidade e o treino foi ajustado mais uma vez.",
+        image: "images/Day73.jpg",
+        link: "posts/day-73.html"
+    },
+   {
+        tag: "Semana 11",
+        date: "27 Jan 2026",
+        pain: "2/10",
+        swelling: "3/10",
+        title: "Dia 72: Passos Mais Leves, Confiança Silenciosa",
+        description: "O joelho se sentiu visivelmente melhor hoje, mais leve e mais fácil de conviver. Uma sessão curta de flexão pela manhã e o trabalho de mobilidade de ontem parecem estar dando resultado.",
+        image: "images/Day72.jpg",
+        link: "posts/day-72.html"
+    },
+   {
+        tag: "Semana 11",
+        date: "26 Jan 2026",
+        pain: "3/10",
+        swelling: "4/10",
+        title: "Dia 71: Passos Mais Leves, Pensamentos Mais Pesados",
+        description: "Um dia de baixa intensidade, com rigidez e calor no joelho. Uma sessão de fisio focada em mobilidade, sem forçar exercícios, melhorou a sensação do joelho e deixou a caminhada mais leve. O peso está estabilizando, mas o condicionamento e a composição corporal seguem como perguntas abertas enquanto a recuperação continua.",
+        image: "images/Day71.jpg",
+        link: "posts/day-71.html"
+    },
+   {
         tag: "Semana 10",
         date: "25 Jan 2026",
         pain: "3/10",
