@@ -1,6 +1,66 @@
 const posts = [
    {
         tag: "Semana 12",
+        date: "8 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 84: Confiança Frágil",
+        description: "Uma manhã fisicamente melhor trouxe alívio, mas uma flexão menor acendeu ansiedade sobre estar perdendo terreno depois de alguns dias sem foco. O volume de treino foi alto e deu para segurar, mas os hábitos de recuperação escorregaram de novo. Um lembrete apareceu: curar ainda exige paciência e estrutura.",
+        image: "images/Day84.jpg",
+        link: "posts/day-84.html"
+    },
+   {
+        tag: "Semana 12",
+        date: "7 Fev 2026",
+        pain: "3/10",
+        swelling: "3/10",
+        title: "Dia 83: Forçando o Normal",
+        description: "Um dia ativo e centrado na família, que empurrou o joelho além da zona de conforto. Caminhada e atividade repetida agravaram os sintomas, enquanto a necessidade emocional - principalmente estar presente nos esportes com as crianças - falou mais alto que a cautela. Um lembrete de que limites físicos e escolhas de estilo de vida ainda têm um custo.",
+        image: "images/Day83.jpg",
+        link: "posts/day-83.html"
+    },
+   {
+        tag: "Semana 12",
+        date: "6 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 82: Sinais Mistos",
+        description: "Mesmo com pouco sono, o joelho estava melhor hoje. Uma mudança inesperada na agenda abriu espaço para fisioterapia pela manhã, melhorando a mobilidade. Opiniões diferentes sobre quando começar a correr trouxeram incerteza. Um dia cheio, com família, academia e um pouco de tênis, terminou com um lembrete claro dos limites atuais.",
+        image: "images/Day82.jpg",
+        link: "posts/day-82.html"
+    },
+   {
+        tag: "Semana 12",
+        date: "5 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 81: Atrito",
+        description: "Um dia mais duro, marcado por rigidez pela manhã, dor na patela e baixa energia. Dormir mal afetou foco e produtividade, enquanto um treino curto e focado ajudou a resetar corpo e mente. O progresso continua, mas a recuperação ainda é sensível aos hábitos.",
+        image: "images/Day81.jpg",
+        link: "posts/day-81.html"
+    },
+   {
+        tag: "Semana 12",
+        date: "4 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 80: Testando as Águas",
+        description: "Um dia mais leve no geral, tanto no movimento quanto na sensação. O descanso parece virar manhãs mais fáceis, enquanto a fisio trouxe novos testes de carga que mostraram progresso, e limites bem claros. A flexão chegou a 142°, encostando no próximo marco.",
+        image: "images/Day80.jpg",
+        link: "posts/day-80.html"
+    },
+   {
+        tag: "Semana 12",
+        date: "3 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 79: Ajustes Silenciosos",
+        description: "Um dia mais silencioso, com rigidez maior pela manhã e soltura gradual ao longo do dia. O movimento continua trazendo alívio, enquanto períodos longos sentado ainda são estranhos. Progresso pequeno, constante, mesmo em baixa intensidade.",
+        image: "images/Day79.jpg",
+        link: "posts/day-79.html"
+    },
+   {
+        tag: "Semana 12",
         date: "2 Fev 2026",
         pain: "2/10",
         swelling: "2/10",
