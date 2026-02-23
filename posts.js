@@ -1,5 +1,135 @@
 const posts = [
    {
+        tag: "Semana 14",
+        date: "21 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 97: Dois Passos à Frente, Um Para Trás",
+        description: "Dormir melhor ajudou, mas a dor voltou com o treino e as caminhadas. Um dia que exige paciência e testa o emocional.",
+        image: "images/Day97.jpg",
+        link: "posts/day-97.html"
+    },
+   {
+        tag: "Semana 14",
+        date: "20 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 96: Cansaço e Atrito",
+        description: "Um corpo cansado e um joelho resistente deram o tom do dia. A disciplina apareceu cedo, mas a dor e o pouco sono pesaram.",
+        image: "images/Day96.jpg",
+        link: "posts/day-96.html"
+    },
+   {
+        tag: "Semana 14",
+        date: "19 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 95: Entre Controle e Tentação",
+        description: "Um dia de disciplina cedo, dúvidas silenciosas e um conflito interno conhecido. A recuperação segue avançando, mas ainda cobra escolhas.",
+        image: "images/Day95.jpg",
+        link: "posts/day-95.html"
+    },
+   {
+        tag: "Semana 14",
+        date: "18 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 94: Perspectiva em Movimento",
+        description: "Um dia de viagem que virou uma aula de perspectiva. Arte, natureza e silêncio mudaram o foco para além do joelho.",
+        image: "images/Day94.jpg",
+        link: "posts/day-94.html"
+    },
+   {
+        tag: "Semana 14",
+        date: "17 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 93: Leve, Presente, Juntos de Novo",
+        description: "Um dia calmo e cheio de gratidão, marcado por sono melhor, escolhas mais leves e o retorno do equilíbrio familiar.",
+        image: "images/Day93.jpg",
+        link: "posts/day-93.html"
+    },
+   {
+        tag: "Semana 14",
+        date: "16 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 92: Fora do Lugar Escuro",
+        description: "Um dia de viagem e reflexão que deixou algo claro: o pior ficou para trás. Ainda existem limites físicos, mas a liberdade voltou.",
+        image: "images/Day92.jpg",
+        link: "posts/day-92.html"
+    },
+   {
+        tag: "Semana 13",
+        date: "15 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 91: Equilíbrio e Consequências",
+        description: "Um dia social e ativo, cheio de movimento, sol e alegria, seguido por um lembrete claro de que a recuperação também reage às escolhas fora do exercício.",
+        image: "images/Day91.jpg",
+        link: "posts/day-91.html"
+    },
+   {
+        tag: "Semana 13",
+        date: "14 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 90: Começo Forte, Pausa Suave",
+        description: "Um dia fisicamente ativo, mas emocionalmente calmo. Força, movimento, viagem e descanso se encaixaram com equilíbrio, com a sensação clara de que a recuperação também precisa de espaço, calor humano e pequenos motivos para comemorar.",
+        image: "images/Day90.jpg",
+        link: "posts/day-90.html"
+    },
+   {
+        tag: "Semana 13",
+        date: "13 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 89: Leveza Depois da Carga",
+        description: "Uma manhã inesperadamente leve depois de um dia pesado de reabilitação. A facilidade do corpo contrastou com o estresse mental, equilibrado por movimento, tempo com as crianças e o lembrete de que a recuperação ainda pede freio.",
+        image: "images/Day89.jpg",
+        link: "posts/day-89.html"
+    },
+   {
+        tag: "Semana 13",
+        date: "12 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 88: Mais Perto da Quadra",
+        description: "Um dia intenso e motivador. Menos tempo para volume fora da terapia, mas uma sessão longa e puxada trouxe cansaço físico, um alívio emocional e um passo claro mais perto do objetivo real.",
+        image: "images/Day88.jpg",
+        link: "posts/day-88.html"
+    },
+   {
+        tag: "Semana 13",
+        date: "11 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 87: Compressão",
+        description: "Um dia comprimido por cadeira, pressa e uma fisio curta, porém intensa. Menos volume, mais incômodo, mas sinais claros de que a flexão continua avançando.",
+        image: "images/Day87.jpg",
+        link: "posts/day-87.html"
+    },
+   {
+        tag: "Semana 13",
+        date: "10 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 86: Força Silenciosa",
+        description: "Um dia mais físico, com sinais reais de melhora misturados com sensações novas. Menos foco no joelho durante o trabalho e mais consciência do cansaço do corpo à noite, daquele tipo que lembra como era treinar de verdade.",
+        image: "images/Day86.jpg",
+        link: "posts/day-86.html"
+    },
+   {
+        tag: "Semana 13",
+        date: "9 Fev 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 85: Entre a Dúvida e a Prova",
+        description: "O dia começou meio nebuloso e com um peso emocional, mas terminou com um lembrete inesperado: progresso nem sempre dá sensação de progresso. A frustração tomou conta no meio do caminho, até que os números e a perspectiva colocaram a história de volta no lugar.",
+        image: "images/Day85.jpg",
+        link: "posts/day-85.html"
+    },
+   {
         tag: "Semana 12",
         date: "8 Fev 2026",
         pain: "2/10",
