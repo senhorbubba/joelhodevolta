@@ -1,4 +1,44 @@
 const posts = [
+ {
+        tag: "Semana 15",
+        date: "Feb 24, 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "100 Dias Depois: O Que o Joelho Me Ensinou",
+        description: "Cem dias de recuperação destilados em clareza. Dor, dúvida, pequenas vitórias, recaídas, disciplina e perspectiva reformularam a forma como eu entendo a cura. O progresso não veio de momentos heroicos, mas de repetição, paciência e contenção. Mobilidade venceu força. Sono venceu motivação. O inchaço dizia a verdade. O álcool mentia. O corpo se curou devagar, a mente aprendeu mais rápido, e a consistência fez o trabalho pesado em silêncio. Ainda não voltei, mas também não estou mais perdido. E talvez esse seja o marco mais importante até aqui.",
+        image: "images/Day100S.jpg",
+        link: "posts/day-100S.html"
+    },
+ {
+        tag: "Semana 15",
+        date: "24 Fev, 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 100: Uma Celebração Silenciosa",
+        description: "Cem dias depois da cirurgia. Não é uma linha de chegada, mas um marco significativo. Um dia marcado por progresso calmo, pequenas vitórias funcionais, reflexão e a escolha consciente de celebrar disciplina em vez de impulso.",
+        image: "images/Day100.jpg",
+        link: "posts/day-100.html"
+    },
+ {
+        tag: "Semana 15",
+        date: "23 Fev, 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 99: De Volta ao Básico",
+        description: "Um dia cansativo e irritado, moldado por uma noite mal dormida e pela rigidez do corpo, mas também pelo retorno à rotina. A fisioterapia trouxe clareza, alívio e o lembrete de que fundamentos como mobilidade e controle do inchaço continuam sendo os mais importantes.",
+        image: "images/Day99.jpg",
+        link: "posts/day-99.html"
+    },
+ {
+        tag: "Semana 14",
+        date: "22 Fev, 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 98: Modo Reset",
+        description: "Um domingo lento e restaurador após dias intensos de viagem. Menos pressão, mais consciência. Recuperação física, calma mental e pequenos sinais de progresso se uniram para reajustar tanto o corpo quanto a mente.",
+        image: "images/Day98.jpg",
+        link: "posts/day-98.html"
+    },
    {
         tag: "Semana 14",
         date: "21 Fev 2026",
