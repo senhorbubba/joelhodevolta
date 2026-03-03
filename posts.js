@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 15",
+        date: "26 Fev, 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 102: Fadiga Produtiva",
+        description: "Um dia cheio que equilibrou avanço físico, envolvimento mental e cansaço honesto. Treino, trabalho e energia social se acumularam, mostrando que a recuperação agora também é aprender a gerenciar a carga, não apenas aumentá-la.",
+        image: "images/Day102.jpg",
+        link: "posts/day-102.html"
+    },
+ {
+        tag: "Semana 15",
         date: "25 Fev, 2026",
         pain: "2/10",
         swelling: "2/10",
