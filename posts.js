@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 15",
+        date: "28 Fev, 2026",
+        pain: "1/10",
+        swelling: "2/10",
+        title: "Dia 104: Recuperação Ativa, Dúvidas Sutis",
+        description: "Um dia produtivo e fisicamente ativo, apesar de uma leve ressaca. Movimento presente do início ao fim, principalmente em torno das atividades das crianças e treinos estruturados. A energia voltou aos poucos. O joelho respondeu bem à carga, mas caminhar ainda parece levemente estranho - um lembrete silencioso de que a recuperação ainda não está completa. No geral, um dia saudável, com a disciplina retomando seu espaço.",
+        image: "images/Day104.jpg",
+        link: "posts/day-104.html"
+    },
+ {
+        tag: "Semana 15",
         date: "27 Fev, 2026",
         pain: "1/10",
         swelling: "2/10",
