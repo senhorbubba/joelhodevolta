@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 15",
+        date: "25 Fev, 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 101: Caminhos Diferentes, Mesma Direção",
+        description: "Um começo de dia forte com fisioterapia deu o tom. Uma abordagem diferente trouxe mais confiança, menos foco na dor e uma percepção mais clara de que o progresso pode vir por caminhos distintos — desde que o trabalho seja intencional.",
+        image: "images/Day101.jpg",
+        link: "posts/day-101.html"
+    },
+ {
+        tag: "Semana 15",
         date: "Feb 24, 2026",
         pain: "2/10",
         swelling: "2/10",
