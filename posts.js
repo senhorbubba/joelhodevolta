@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 15",
+        date: "Mar 03, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Test Post - Delete Me",
+        description: "This is a test post to verify GitHub push works.",
+        image: "images/Daytest-delete-me.png",
+        link: "posts/day-test-delete-me.html"
+    },
+ {
+        tag: "Semana 15",
         date: "Feb 24, 2026",
         pain: "2/10",
         swelling: "2/10",
