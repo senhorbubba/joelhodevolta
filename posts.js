@@ -1,5 +1,15 @@
 const posts = [
  {
+        tag: "Semana 16",
+        date: "2 Mar, 2026",
+        pain: "4/10",
+        swelling: "3/10",
+        title: "Dia 106: Metade do Caminho, com Mais Segurança",
+        description: "Um dia marcado por expectativa, alívio e um checkpoint importante. A consulta confirmou que o progresso é real, mesmo que a recuperação ainda carregue imperfeições. O inchaço continua presente, mas a direção geral está correta. A tranquilidade trazida pela avaliação médica reduziu muitas dúvidas que vinham se acumulando em silêncio. O dia terminou com desconforto no joelho, mas com clareza na mente.",
+        image: "images/Day106.jpg",
+        link: "posts/day-106.html"
+    },
+ {
         tag: "Semana 15",
         date: "29 Fev, 2026",
         pain: "1/10",
