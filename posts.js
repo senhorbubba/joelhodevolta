@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 16",
+        date: "3 Mar, 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 107: Menos Líquido, Mais Perspectiva",
+        description: "O dia começou com rigidez e desconforto localizado após o procedimento de ontem, mas a redução visível do inchaço trouxe tranquilidade. Fisicamente, o joelho exigiu cautela; mentalmente, o dia abriu espaço para reflexão, especialmente sobre paternidade, paciência e como a recuperação vem moldando silenciosamente a dinâmica familiar. Uma sessão de reabilitação mais leve encerrou o dia com sensação de calma e controle.",
+        image: "images/Day107.jpg",
+        link: "posts/day-107.html"
+    },
+ {
+        tag: "Semana 16",
         date: "2 Mar, 2026",
         pain: "4/10",
         swelling: "3/10",
