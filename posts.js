@@ -15,7 +15,7 @@ const posts = [
         pain: "2/10",
         swelling: "2/10",
         title: "Dia 111: Perspectiva em Movimento",
-        description: "Um dia fisicamente exigente, que passou rápido entre treino, logística familiar e uma longa noite social. A corrida apareceu novamente — ainda desconfortável, mas já menos intimidadora - enquanto o corpo suportou muito mais tempo em pé e em movimento do que antes. O momento mais forte do dia veio de forma inesperada, em uma conversa, quando ouvir alguém se preparando para uma cirurgia no joelho fez a fase mais difícil da recuperação parecer subitamente distante.",
+        description: "Um dia fisicamente exigente, que passou rápido entre treino, logística familiar e uma longa noite social. A corrida apareceu novamente - ainda desconfortável, mas já menos intimidadora - enquanto o corpo suportou muito mais tempo em pé e em movimento do que antes. O momento mais forte do dia veio de forma inesperada, em uma conversa, quando ouvir alguém se preparando para uma cirurgia no joelho fez a fase mais difícil da recuperação parecer subitamente distante.",
         image: "images/Day111.jpg",
         link: "posts/day-111.html"
     },
