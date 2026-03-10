@@ -40,7 +40,7 @@ const posts = [
         link: "posts/day-109.html"
     },
  {
-        tag: "Week 16",
+        tag: "Semana 16",
         date: "4 Mar, 2026",
         pain: "1/10",
         swelling: "2/10",
@@ -71,7 +71,7 @@ const posts = [
     },
  {
         tag: "Semana 15",
-        date: "29 Fev, 2026",
+        date: "1 Mar, 2026",
         pain: "1/10",
         swelling: "2/10",
         title: "Dia 105: Treinando o Corpo, Questionando a Mente",
