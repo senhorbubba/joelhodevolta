@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 16",
+        date: "6 Mar, 2026",
+        pain: "1/10",
+        swelling: "2/10",
+        title: "Dia 110: Calma Produtiva",
+        description: "Um dia fisicamente mais leve, mas mentalmente muito eficiente. Sem academia ou fisioterapia, o ritmo mudou para trabalho, natação e família, com o corpo se movendo apenas o suficiente para manter o equilíbrio. No fim do dia, o joelho ficou um pouco mais rígido, um pequeno lembrete de que até os dias tranquilos ainda exigem atenção.",
+        image: "images/Day110.jpg",
+        link: "posts/day-110.html"
+    },
+ {
+        tag: "Semana 16",
         date: "5 Mar, 2026",
         pain: "2/10",
         swelling: "2/10",
