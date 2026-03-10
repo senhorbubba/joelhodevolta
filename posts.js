@@ -1,5 +1,15 @@
 const posts = [
  {
+        tag: "Week 16",
+        date: "4 Mar, 2026",
+        pain: "1/10",
+        swelling: "2/10",
+        title: "Dia 108: Joelho Mais Leve, Mente Mais Leve",
+        description: "Um dia com ritmo melhor, movimentos mais leves e uma mente mais tranquila. O joelho respondeu bem após a infiltração, e mentalmente o dia trouxe mais leveza do que pressão. Conversas simples e momentos comuns trouxeram perspectiva de novo, especialmente a lembrança de que um ano, visto de longe, não é tanto tempo assim.",
+        image: "images/Day108.jpg",
+        link: "posts/day-108.html"
+    },
+ {
         tag: "Semana 16",
         date: "3 Mar, 2026",
         pain: "2/10",
