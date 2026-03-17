@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 17",
+        date: "14 Mar, 2026",
+        pain: "2/10",
+        swelling: "3/10",
+        title: "Dia 118: Ritmo Demais, Recuperação de Menos",
+        description: "O dia carregou o peso de pouco sono, fadiga da viagem e mais energia social do que o corpo idealmente queria. O joelho lidou melhor com o voo do que antes, o que por si só já é progresso, mas o ritmo geral do dia acabou cobrando seu preço no corpo e na mente. Não foi um dia ideal de recuperação, embora até dentro do excesso tenha ficado claro o quanto tudo está mais fácil do que nas fases anteriores.",
+        image: "images/Day118.jpg",
+        link: "posts/day-118.html"
+    },
+ {
+        tag: "Semana 17",
         date: "13 Mar, 2026",
         pain: "1/10",
         swelling: "2/10",
