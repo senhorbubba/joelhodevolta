@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 17",
+        date: "12 Mar, 2026",
+        pain: "1/10",
+        swelling: "2/10",
+        title: "Dia 116: Progresso em Movimento",
+        description: "O dia começou com uma sensação física mais leve, com o joelho respondendo bem e o corpo mostrando de forma positiva o efeito do trabalho de ontem. Foi mais um dia de movimento, compromissos e longos períodos em pé, mas desta vez com mais confiança do que cansaço. Conversas com pessoas que tinham visto fases anteriores da recuperação fizeram o progresso parecer visível de uma forma diferente.",
+        image: "images/Day116.jpg",
+        link: "posts/day-116.html"
+    },
+ {
+        tag: "Semana 17",
         date: "11 Mar, 2026",
         pain: "2/10",
         swelling: "2/10",
