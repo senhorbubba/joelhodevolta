@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 17",
+        date: "15 Mar, 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 119: Ritmo Lento, Dia Cheio",
+        description: "O dia começou com sol, treino e uma boa sensação de estrutura, depois foi se transformando lentamente em um domingo longo, construído em torno de amigos, conversa, comida e um ritmo social leve. A energia permaneceu abaixo do normal por causa dos últimos dias, mas o movimento da manhã ajudou a criar equilíbrio e reduziu aquela culpa que costuma aparecer quando o dia escapa para o excesso.",
+        image: "images/Day119.jpg",
+        link: "posts/day-119.html"
+    },
+ {
+        tag: "Semana 17",
         date: "14 Mar, 2026",
         pain: "2/10",
         swelling: "3/10",
