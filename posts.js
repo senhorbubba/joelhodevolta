@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 17",
+        date: "13 Mar, 2026",
+        pain: "1/10",
+        swelling: "2/10",
+        title: "Dia 117: Em Movimento Novamente",
+        description: "Um dia construído em torno de movimento em todos os sentidos: ritmo familiar, pressão de trabalho, progressão no treino e viagem. O corpo trabalhou forte pela manhã, a mente permaneceu afiada ao longo do dia e, quando a viagem começou, ficou claro que desta vez tudo já parecia diferente da última. A recuperação já não é mais definida por restrição, mas pela forma como a vida volta a se encaixar naturalmente ao redor dela.",
+        image: "images/Day117.jpg",
+        link: "posts/day-117.html"
+    },
+ {
+        tag: "Semana 17",
         date: "12 Mar, 2026",
         pain: "1/10",
         swelling: "2/10",
