@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 19",
+        date: "Mar 26, 2026",
+        pain: "2/10",
+        swelling: "1/10",
+        title: "Dia 130: Ritmo e Distrações",
+        description: "Um dia que começou com estrutura e intenção, mas foi se fragmentando aos poucos por pequenas falhas e mudanças de prioridade. Trabalho, conversas e momentos sociais ocuparam a agenda, enquanto a disciplina com a recuperação escorregou um pouco. O corpo acompanhou, mas o ritmo foi menos controlado.",
+        image: "images/Day130.jpg",
+        link: "posts/day-130.html"
+    },
+ {
+        tag: "Semana 19",
         date: "Mar 25, 2026",
         pain: "2/10",
         swelling: "2/10",
