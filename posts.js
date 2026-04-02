@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 19",
+        date: "Mar 27, 2026",
+        pain: "1/10",
+        swelling: "2/10",
+        title: "Dia 131: Corpo Mais Forte, Medo Persistente",
+        description: "Um dia que equilibrou família, trabalho e recuperação física com foco. O joelho esteve melhor, sem dor, mas a hesitação mental ainda permanece. O treino foi estruturado e produtivo, enquanto a noite novamente caminhou para um ritmo social mais intenso. O progresso físico é claro, mas a confiança ainda está tentando acompanhar.",
+        image: "images/Day131.jpg",
+        link: "posts/day-131.html"
+    },
+ {
+        tag: "Semana 19",
         date: "Mar 26, 2026",
         pain: "2/10",
         swelling: "1/10",
