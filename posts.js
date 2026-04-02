@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 19",
+        date: "Mar 24, 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 128: Entre o Sinal e o Pensamento",
+        description: "Um dia mais tranquilo, marcado mais pela atenção interna do que pela atividade física. O corpo se moveu normalmente, mas a mente permaneceu focada na sensação nova de ontem. O cansaço da viagem ainda está presente, e o equilíbrio entre um sinal real e a amplificação mental ainda não está claro.",
+        image: "images/Day128.jpg",
+        link: "posts/day-128.html"
+    },
+ {
+        tag: "Semana 19",
         date: "Mar 23, 2026",
         pain: "3/10",
         swelling: "2/10",
