@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 19",
+        date: "Mar 25, 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 129: Voltando ao Ritmo",
+        description: "Um dia mais calmo, com um ritmo familiar mais leve e uma volta gradual à rotina. Fisicamente tranquilo, com uma sessão curta em casa no lugar de um treino completo. O joelho esteve mais estável em comparação com os dias anteriores, embora a atenção à dor recente ainda permanecesse no fundo",
+        image: "images/Day129.jpg",
+        link: "posts/day-129.html"
+    },
+ {
+        tag: "Semana 19",
         date: "Mar 24, 2026",
         pain: "2/10",
         swelling: "2/10",
