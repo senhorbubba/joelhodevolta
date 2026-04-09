@@ -1,5 +1,15 @@
 const posts = [
  {
+        tag: "Semana 16",
+        date: "Mar 05, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Connection Test - Delete Me",
+        description: "Testing restored connection.",
+        image: "images/Daytest-conn.png",
+        link: "posts/day-test-conn.html"
+    },
+ {
         tag: "Semana 19",
         date: "Mar 29, 2026",
         pain: "2/10",
