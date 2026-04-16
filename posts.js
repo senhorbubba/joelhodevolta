@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 20",
+        date: "Apr 4, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 139: Equilíbrio e Excesso",
+        description: "Um dia que começou com um esforço físico forte e seguiu com tempo de qualidade em família, em um ritmo que foi ao mesmo tempo produtivo e leve. O treino foi sólido, a recuperação bem apoiada, mas a noite novamente caminhou para o excesso. O progresso continua consistente, mesmo com o equilíbrio ainda sendo testado.",
+        image: "images/Day139.jpg",
+        link: "posts/day-139.html"
+    },
+ {
+        tag: "Semana 20",
         date: "Apr 3, 2026",
         pain: "1/10",
         swelling: "1/10",
