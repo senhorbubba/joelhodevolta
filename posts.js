@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 21",
+        date: "Apr 7, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 142: Corpo Bem, Energia Baixa",
+        description: "Um dia em que o corpo respondeu bem ao movimento, mas a energia não acompanhou. O treino e a caminhada pareceram mais fáceis, sinal claro de progresso, mas o cansaço e a falta de energia dominaram no final do dia. Ficou evidente que a recuperação agora depende não só do treino, mas também de como eu me alimento e organizo o dia.",
+        image: "images/Day142.jpg",
+        link: "posts/day-142.html"
+    },
+ {
+        tag: "Semana 21",
         date: "Apr 6, 2026",
         pain: "1/10",
         swelling: "2/10",
