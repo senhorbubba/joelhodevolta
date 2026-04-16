@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 21",
+        date: "Apr 8, 2026",
+        pain: "1/10",
+        swelling: "2/10",
+        title: "Dia 143: Dados Fortes, Sensações Misturadas",
+        description: "Um dia em que os sinais objetivos mostraram uma recuperação forte, com excelente qualidade de sono, mais força e melhor movimento, enquanto a percepção pessoal ficou atrás. O corpo está evoluindo e os números confirmam isso, mas a energia e o humor ainda variam. O progresso começa a ser mensurável, mesmo quando nem sempre é totalmente sentido.",
+        image: "images/Day143.jpg",
+        link: "posts/day-143.html"
+    },
+ {
+        tag: "Semana 21",
         date: "Apr 7, 2026",
         pain: "1/10",
         swelling: "1/10",
