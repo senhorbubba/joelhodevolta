@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 21",
+        date: "Apr 10, 2026",
+        pain: "2/10",
+        swelling: "1/10",
+        title: "Dia 145: Consciente, Mas Evoluindo",
+        description: "Um dia que começou com tênis e reflexão, passou por um trabalho focado de recuperação e terminou em uma longa noite social. O joelho ficou mais solto depois da sessão com o Taka, embora a consciência ao caminhar ainda esteja presente. O progresso continua, mas o corpo claramente carrega o desgaste da semana.",
+        image: "images/Day145.jpg",
+        link: "posts/day-145.html"
+    },
+ {
+        tag: "Semana 21",
         date: "Apr 9, 2026",
         pain: "1/10",
         swelling: "2/10",
