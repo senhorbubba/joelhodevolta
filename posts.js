@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 20",
+        date: "Apr 1, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 136: Pequenas Vitórias",
+        description: "Um dia construído em torno da rotina, da logística com as crianças e de pequenos momentos de movimento. Sem treino formal, mas o joelho se manteve estável e confiável o tempo todo. O principal sinal não veio do exercício, mas de como caminhar e se movimentar no dia a dia está cada vez mais natural.",
+        image: "images/Day136.jpg",
+        link: "posts/day-136.html"
+    },
+ {
+        tag: "Semana 20",
         date: "Mar 31, 2026",
         pain: "1/10",
         swelling: "2/10",
