@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 20",
+        date: "Apr 5, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 140: Deixando Fluir",
+        description: "Um domingo de Páscoa tranquilo, sem pressão para performar e sem necessidade de seguir estrutura. O dia foi centrado na família, no descanso e em rotinas simples. O corpo sentiu o cansaço do dia anterior e, em vez de forçar, deixei que ele se ajustasse.",
+        image: "images/Day140.jpg",
+        link: "posts/day-140.html"
+    },
+ {
+        tag: "Semana 20",
         date: "Apr 4, 2026",
         pain: "1/10",
         swelling: "1/10",
