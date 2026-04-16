@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 20",
+        date: "Apr 2, 2026",
+        pain: "2/10",
+        swelling: "1/10",
+        title: "Dia 137: Forçando, Sentindo, Ajustando",
+        description: "Um dia estruturado em torno do treino, com retorno ao cardio e um teste mais claro dos limites. O trabalho de força foi consistente, enquanto a corrida ainda expôs pontos que exigem paciência. O corpo lidou bem com a carga, e o cansaço no fim do dia veio com a sensação de dever cumprido, não de preocupação.",
+        image: "images/Day137.jpg",
+        link: "posts/day-137.html"
+    },
+ {
+        tag: "Semana 20",
         date: "Apr 1, 2026",
         pain: "1/10",
         swelling: "1/10",
