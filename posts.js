@@ -1,6 +1,16 @@
 const posts = [
  {
         tag: "Semana 20",
+        date: "Apr 3, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 138: Ritmo Leve",
+        description: "Um dia calmo e de recuperação, construído em torno de tempo com a família e movimento leve. O corpo se manteve ativo de forma natural, sem pressão ou estrutura, permitindo que o cansaço do dia anterior se dissipasse. A recuperação hoje veio pela simplicidade, não pelo esforço.",
+        image: "images/Day138.jpg",
+        link: "posts/day-138.html"
+    },
+ {
+        tag: "Semana 20",
         date: "Apr 2, 2026",
         pain: "2/10",
         swelling: "1/10",
