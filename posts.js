@@ -1,5 +1,185 @@
 const posts = [
  {
+        tag: "Semana 24",
+        date: "Apr 28, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 163: O Obstáculo e a Resposta",
+        description: "Um dia estável, marcado por mais confiança física e uma reflexão mais profunda sobre o significado da recuperação. A força continua evoluindo, o dia a dia está mais leve e a forma de enxergar a lesão começa a mudar, saindo da frustração para um entendimento maior.",
+        image: "images/Day163.jpg",
+        link: "posts/day-163.html"
+    },
+ {
+        tag: "Semana 24",
+        date: "Apr 27, 2026",
+        pain: "1-2/10",
+        swelling: "1-2/10",
+        title: "Dia 162: Voltando a Me Sentir Forte",
+        description: "Um dia exigente que começou com estresse e pressão da rotina, mas terminou com uma das sessões de reabilitação mais fortes até agora. Apesar do cansaço com deslocamento e trabalho, o corpo respondeu muito bem no treino, trazendo a sensação real de que o movimento atlético está voltando.",
+        image: "images/Day162.jpg",
+        link: "posts/day-162.html"
+    },
+ {
+        tag: "Semana 23",
+        date: "Apr 26, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 161: Energia Voltando",
+        description: "Um dia forte e ativo, marcado por alta energia, treino produtivo e bons momentos em família. O corpo respondeu bem desde o início e, embora a massagem profunda tenha mostrado o quanto de tensão estava acumulada, também trouxe alívio. Mais do que tudo, ficou a sensação de que força, movimento e vida normal estão se reconectando.",
+        image: "images/Day161.jpg",
+        link: "posts/day-161.html"
+    },
+ {
+        tag: "Semana 23",
+        date: "Apr 25, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 160: Voltando a Olhar Para Frente",
+        description: "Um dia completo em família, centrado em esporte, movimento e pequenos sinais de que a vida está voltando ao normal. As conversas sobre recuperação já trazem mais otimismo do que preocupação, e pela primeira vez planos futuros ligados ao tênis começam a parecer reais, não apenas distantes.",
+        image: "images/Day160.jpg",
+        link: "posts/day-160.html"
+    },
+ {
+        tag: "Semana 23",
+        date: "Apr 24, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 159: Pequenos Sinais Verdes",
+        description: "Um dia tranquilizador, cheio de pequenas confirmações de que a recuperação segue no caminho certo. Dúvidas sobre sensações estranhas no joelho foram esclarecidas, e pela primeira vez houve um incentivo real para retomar movimentos controlados no tênis. O dia equilibrou progresso, trabalho e um fim de tarde mais calmo em família após a viagem.",
+        image: "images/Day159.jpg",
+        link: "posts/day-159.html"
+    },
+ {
+        tag: "Semana 23",
+        date: "Apr 23, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 158: De Volta ao Ritmo",
+        description: "O primeiro dia depois da praia trouxe uma mistura de cansaço acumulado e retorno à estrutura. O corpo ainda sentia os efeitos de vários dias seguidos de movimento constante, mesmo sem treinos intensos, enquanto o trabalho voltou exigindo atenção total. Um fim de dia tranquilo em família ajudou a fechar essa transição.",
+        image: "images/Day158.jpg",
+        link: "posts/day-158.html"
+    },
+ {
+        tag: "Semana 23",
+        date: "Apr 22, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 157: Retorno Gradual",
+        description: "Um último dia de praia tranquilo, focado em movimento leve, tempo em família e na preparação para voltar para casa. O ritmo mais lento, hábitos mais saudáveis e uma fisioterapia leve trouxeram uma sensação de reset antes do retorno à rotina.",
+        image: "images/Day157.jpg",
+        link: "posts/day-157.html"
+    },
+ {
+        tag: "Semana 23",
+        date: "Apr 21, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 156: Observando e Esperando",
+        description: "Um dia cheio de atividades em família e movimento, mas também com lembretes silenciosos do que ainda está fora de alcance. Ver as crianças aproveitando o esporte trouxe orgulho e alegria, ao mesmo tempo em que evidenciou a distância que ainda existe até voltar completamente ao que eu gosto de fazer.",
+        image: "images/Day156.jpg",
+        link: "posts/day-156.html"
+    },
+ {
+        tag: "Semana 23",
+        date: "Apr 20, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 155: Desacelerando Juntos",
+        description: "Um dia de praia mais tranquilo, focado na família, em pequenas experiências e em respeitar o ritmo de cada um. O foco saiu da recuperação estruturada e foi para simplesmente estar presente. O cansaço e um dos filhos meio indisposto naturalmente reduziram o ritmo, trazendo um final de dia calmo.",
+        image: "images/Day155.jpg",
+        link: "posts/day-155.html"
+    },
+ {
+        tag: "Semana 22",
+        date: "Apr 19, 2026",
+        pain: "1-2/10",
+        swelling: "1/10",
+        title: "Dia 154: Um Vislumbre de Liberdade",
+        description: "Um dia cheio de movimento, família e pequenos passos em direção a se sentir atlético novamente. Movimentos controlados no tênis e fisioterapia na praia trouxeram confiança e cautela ao mesmo tempo, enquanto o passeio de bicicleta à noite trouxe uma sensação rara de liberdade que estava ausente há meses.",
+        image: "images/Day154.jpg",
+        link: "posts/day-154.html"
+    },
+ {
+        tag: "Semana 22",
+        date: "Apr 18, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 153: Deixando o Corpo Respirar",
+        description: "Um dia de praia mais lento e restaurador, centrado em descanso, movimento sem pressão e tempo de qualidade com a família. Depois de semanas de rotina e recuperação estruturada, o corpo respondeu bem a um dia mais leve, guiado por movimento natural e relaxamento.",
+        image: "images/Day153.jpg",
+        link: "posts/day-153.html"
+    },
+ {
+        tag: "Semana 22",
+        date: "Apr 17, 2026",
+        pain: "2-3/10",
+        swelling: "2/10",
+        title: "Dia 152: O Custo de Ficar Parado",
+        description: "Um dia marcado por preparação e transição. O treino veio cedo e intenso antes da viagem longa para a praia, mas as horas no carro mostraram como ficar muito tempo parado ainda pesa para o corpo. O joelho lidou melhor com a carga na academia do que com a imobilidade depois.",
+        image: "images/Day152.jpg",
+        link: "posts/day-152.html"
+    },
+ {
+        tag: "Semana 22",
+        date: "Apr 16, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 151: Além do Joelho",
+        description: "Um dia produtivo em que a atenção foi além do joelho e passou a incluir o restante do corpo e da mente. Treino e trabalho seguiram no ritmo habitual, mas um desconforto nas costas começou a chamar mais atenção. À noite, conversas mais profundas trouxeram reflexões que foram além do lado profissional.",
+        image: "images/Day151.jpg",
+        link: "posts/day-151.html"
+    },
+ {
+        tag: "Semana 22",
+        date: "Apr 15, 2026",
+        pain: "1-2/10",
+        swelling: "1-2/10",
+        title: "Dia 150: O Pior Já Ficou Para Trás",
+        description: "Um dia que misturou perspectiva, evolução e reflexão. Fisicamente, o treino continua avançando para movimentos mais exigentes e específicos do esporte, revelando tanto progresso quanto pontos que ainda precisam de trabalho. Mentalmente, chegar aos 150 dias pós-cirurgia trouxe a clareza de que, mesmo ainda longe do retorno completo, a fase mais difícil já não faz mais parte do presente.",
+        image: "images/Day150.jpg",
+        link: "posts/day-150.html"
+    },
+ {
+        tag: "Semana 22",
+        date: "Apr 14, 2026",
+        pain: "1-2/10",
+        swelling: "2/10",
+        title: "Dia 149: Sentindo o Trabalho",
+        description: "Um dia tranquilo e estruturado, em que o corpo refletiu claramente a carga do treino forte de ontem. O cansaço nas pernas e o leve aumento de inchaço no joelho foram lembretes de que o progresso também tem seu custo físico. O foco hoje mudou para recuperação e para permitir que o corpo absorva o trabalho feito.",
+        image: "images/Day149.jpg",
+        link: "posts/day-149.html"
+    },
+ {
+        tag: "Semana 22",
+        date: "Apr 13, 2026",
+        pain: "1-2/10",
+        swelling: "2-3/10",
+        title: "Dia 148: Um Avanço no Controle",
+        description: "Um dia de trabalho intenso seguido por uma das sessões de fisioterapia mais animadoras das últimas semanas. Apesar do cansaço ainda presente do fim de semana, a sessão com o Cleyber trouxe uma abordagem nova que reduziu significativamente a dor e permitiu movimentos mais fortes. Pela primeira vez em algum tempo, o progresso não só apareceu, mas foi sentido de forma clara no esforço e na confiança.",
+        image: "images/Day148.jpg",
+        link: "posts/day-148.html"
+    },
+ {
+        tag: "Semana 21",
+        date: "Apr 12, 2026",
+        pain: "1-2/10",
+        swelling: "1/10",
+        title: "Dia 147: Recuperação Silenciosa",
+        description: "Um domingo equilibrado, que começou com esforço e terminou com descanso. O treino foi mais controlado e gerenciável, mostrando evolução física clara, enquanto o restante do dia foi intencionalmente desacelerado. Recuperação, família e rotinas simples passaram a ser a prioridade.",
+        image: "images/Day147.jpg",
+        link: "posts/day-147.html"
+    },
+ {
+        tag: "Semana 21",
+        date: "Apr 11, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 146: Desaceleração Forçada",
+        description: "Um sábado mais lento, marcado pelo cansaço e pela recuperação depois do casamento. O corpo pediu descanso desde o início e, dessa vez, eu aceitei sem resistência. Mesmo com pouca energia, o joelho continuou estável e leve, o que se destacou como um contraste importante em relação ao restante do corpo.",
+        image: "images/Day146.jpg",
+        link: "posts/day-146.html"
+    },
+ {
         tag: "Semana 21",
         date: "Apr 10, 2026",
         pain: "2/10",
