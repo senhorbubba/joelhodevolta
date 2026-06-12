@@ -1,5 +1,415 @@
 const posts = [
  {
+        tag: "Semana 30",
+        date: "Jun 8, 2026",
+        pain: "1–2/10",
+        swelling: "1/10",
+        title: "Dia 204: Vendo Ele Crescer",
+        description: "Um dia sem fisioterapia, mas cheio de movimento e emoção. Minhas pernas ainda lembravam da corrida de ontem, especialmente as panturrilhas, tornando a recuperação a prioridade. O grande destaque, porém, foi comemorar o aniversário do meu filho mais velho com seus amigos e perceber que ele está construindo algo muito mais valioso do que notas ou troféus: um excelente grupo de pessoas ao seu redor.",
+        image: "images/Day204.jpg",
+        link: "posts/day-204.html"
+    },
+ {
+        tag: "Semana 29",
+        date: "Jun 7, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 203: Um Corredor Novamente",
+        description: "Um domingo que marcou, de forma silenciosa, mais um grande passo na recuperação. Em vez de ir para a academia, coloquei meu corpo à prova de uma maneira mais funcional, correndo 5 km. A maior vitória não foi o ritmo, mas terminar sem dor. O restante do dia girou em torno do esporte, da família e da percepção de quão longe essa jornada já me trouxe.",
+        image: "images/Day203.jpg",
+        link: "posts/day-203.html"
+    },
+ {
+        tag: "Semana 29",
+        date: "Jun 6, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 202: Um Dia que Valeu a Viagem",
+        description: "Um dia cheio, construído em torno do esporte, da amizade e da família. A manhã começou com mais uma sessão consistente de academia antes de se transformar em um bate-volta para a praia, repleto de boas conversas, ótima comida e muito tempo ao lado de pessoas importantes. Fisicamente cansativo, mas mentalmente revigorante.",
+        image: "images/Day202.jpg",
+        link: "posts/day-202.html"
+    },
+ {
+        tag: "Semana 29",
+        date: "Jun 5, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 201: Celebrando as Pequenas Vitórias",
+        description: "Um dia mais tranquilo, sem treino, dedicado a equilibrar trabalho, família e alguns interesses pessoais. Embora tenha sido difícil manter a produtividade com as crianças em casa, o verdadeiro destaque veio à noite, ao celebrar o excelente desempenho acadêmico do Gabriel. A recuperação está me ensinando que algumas das maiores vitórias acontecem bem longe da quadra de tênis.",
+        image: "images/Day201.jpg",
+        link: "posts/day-201.html"
+    },
+ {
+        tag: "Semana 29",
+        date: "Jun 4, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 200: Duzentos Dias Depois",
+        description: "Duzentos dias após a cirurgia, a jornada parece completamente diferente de onde começou. O dia em si foi simples — treino, família, comida e boas conversas —, mas carregou a satisfação silenciosa da consistência. Olhando para trás, a recuperação deixou de ser uma questão de sobreviver a cada dia e passou a ser sobre voltar a viver a vida enquanto continuo ficando mais forte.",
+        image: "images/Day200.jpg",
+        link: "posts/day-200.html"
+    },
+ {
+        tag: "Semana 29",
+        date: "Jun 3, 2026",
+        pain: "2/10",
+        swelling: "1–2/10",
+        title: "Dia 199: Um Choque de Realidade",
+        description: "Um dia que me lembrou o quanto a reabilitação controlada é diferente dos movimentos da vida real. Correr em ruas com subidas, descidas e superfícies irregulares expôs limitações que a academia simplesmente não consegue simular. Foi um teste valioso — não porque tenha sido perfeito, mas porque mostrou exatamente onde ainda preciso evoluir.",
+        image: "images/Day199.jpg",
+        link: "posts/day-199.html"
+    },
+ {
+        tag: "Semana 29",
+        date: "Jun 2, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 198: De Volta aos Trilhos",
+        description: "Um dia muito melhor depois do cansaço de ontem. A energia voltou, o treino foi forte e a rotina pareceu normal novamente. A noite trouxe empolgação e decepção ao assistir Roland Garros, um lembrete de que, no esporte, assim como na recuperação, esforço nem sempre garante o resultado que esperamos.",
+        image: "images/Day198.jpg",
+        link: "posts/day-198.html"
+    },
+ {
+        tag: "Semana 29",
+        date: "Jun 1, 2026",
+        pain: "1–2/10",
+        swelling: "1/10",
+        title: "Dia 197: Seguindo em Frente",
+        description: "Um dia marcado pelo cansaço e pela recuperação, mais do que pela performance. O fim de semana finalmente cobrou seu preço, e meu corpo deixou claro que precisava descansar. Mesmo assim, continuei em frente com o trabalho e a fisioterapia, aceitando que nem todos os dias são feitos para grandes evoluções — às vezes, basta manter a consistência.",
+        image: "images/Day197.jpg",
+        link: "posts/day-197.html"
+    },
+ {
+        tag: "Semana 28",
+        date: "May 31, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 196: Saindo da Zona de Conforto",
+        description: "Um dia que começou com resistência, mas terminou com inspiração. Forçar-me a treinar deu o tom da manhã, enquanto assistir à Juliana se apresentar no palco foi o grande destaque do dia. Mais do que música, foi uma lição para as crianças — e para mim — de que o crescimento só acontece quando estamos dispostos a sair da nossa zona de conforto.",
+        image: "images/Day196.jpg",
+        link: "posts/day-196.html"
+    },
+ {
+        tag: "Semana 28",
+        date: "May 30, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 195: Vitórias e Derrotas",
+        description: "Um sábado tranquilo, construído em torno do esporte, da família e da perspectiva. O dia começou com mais uma boa sessão de academia e trabalho de cardio antes de seguir para a final de futebol do Gabriel. O resultado foi decepcionante, mas isso faz parte da jornada de qualquer atleta. A tarde acabou se transformando em uma celebração do próprio esporte, terminando com uma noite relaxante assistindo a Roland Garros.",
+        image: "images/Day195.jpg",
+        link: "posts/day-195.html"
+    },
+ {
+        tag: "Semana 28",
+        date: "May 29, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 194: De Volta às Sextas-feiras",
+        description: "Mais uma sexta-feira que já começa a parecer familiar. O tênis está, aos poucos, voltando a fazer parte da minha rotina, trazendo de volta uma empolgação que senti falta durante meses. A sessão foi leve, a companhia foi ótima e nem mesmo um pneu furado na volta para casa conseguiu estragar o clima. O dia terminou da forma como boas sextas-feiras costumam terminar: com família, risadas e uma noite tranquila juntos.",
+        image: "images/Day194.jpg",
+        link: "posts/day-194.html"
+    },
+ {
+        tag: "Semana 28",
+        date: "May 28, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 193: Energia Gera Momentum",
+        description: "Um dia incomumente cheio de energia, que começou antes do nascer do sol e manteve o ritmo ao longo do trabalho, de conversas sobre negócios e de uma sessão intensa de fisioterapia. O corpo respondeu muito bem ao treino, enquanto a mente esteve ocupada com novas oportunidades e mudanças estratégicas. A recuperação já não é o único projeto — ela está se tornando a base para todos os outros.",
+        image: "images/Day193.jpg",
+        link: "posts/day-193.html"
+    },
+ {
+        tag: "Semana 28",
+        date: "May 27, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 192: Construindo Força Além da Academia",
+        description: "Um dia que combinou trabalho, saúde e reflexão. Fisicamente, desafiei minha resistência com uma corrida de 5 km e, mais tarde, vivi a experiência do contraste entre calor e frio. Mentalmente, conversas sobre como proteger crianças no mundo digital e o tempo passado com bons amigos me lembraram que a recuperação é muito mais do que reconstruir um joelho.",
+        image: "images/Day192.jpg",
+        link: "posts/day-192.html"
+    },
+ {
+        tag: "Semana 28",
+        date: "May 26, 2026",
+        pain: "2/10",
+        swelling: "1/10",
+        title: "Dia 191: O Preço de Ficar Sentado",
+        description: "Um dia sem grandes acontecimentos físicos, mas mentalmente exaustivo. A academia deu um começo positivo à manhã, porém as longas horas sentado, o trânsito e o trabalho no escritório deixaram tanto o corpo quanto a mente esgotados. O joelho continua me surpreendendo com novas dores e sensações, lembrando que a recuperação raramente segue uma linha reta.",
+        image: "images/Day191.jpg",
+        link: "posts/day-191.html"
+    },
+ {
+        tag: "Semana 28",
+        date: "May 25, 2026",
+        pain: "1–2/10",
+        swelling: "1/10",
+        title: "Dia 190: Progresso vs. Expectativas",
+        description: "Uma segunda-feira típica, cheia de rotina, trabalho e fisioterapia. O maior desafio de hoje não foi físico, mas mental. Enquanto o Cleyber estava satisfeito com a minha evolução, eu me peguei focando em tudo o que ainda falta. A recuperação continua avançando, mas as expectativas parecem evoluir tão rápido quanto as melhoras.",
+        image: "images/Day190.jpg",
+        link: "posts/day-190.html"
+    },
+ {
+        tag: "Semana 27",
+        date: "May 24, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 189: Aprendendo a Segurar",
+        description: "Um domingo saudável e relaxante, que combinou treino, tempo em família e uma importante lição de paciência. Fisicamente, o corpo continua evoluindo, mas, mentalmente, o maior desafio é resistir ao instinto de correr atrás de cada bola e jogar sem limitações. A recuperação agora é menos sobre reconstruir força e mais sobre controlar a ambição.",
+        image: "images/Day189.jpg",
+        link: "posts/day-189.html"
+    },
+ {
+        tag: "Semana 27",
+        date: "May 23, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 188: Celebrando Juntos",
+        description: "Um dia que equilibrou treino, emoções em família e um tempo especial como casal. Ver o time do Gabriel protagonizar uma virada incrível foi um lembrete de por que amamos o esporte, enquanto comemorar nosso aniversário de casamento trouxe a oportunidade de desacelerar e valorizar tudo o que passamos juntos. Às vezes, recuperar-se também significa se permitir simplesmente aproveitar a vida.",
+        image: "images/Day188.jpg",
+        link: "posts/day-188.html"
+    },
+ {
+        tag: "Semana 27",
+        date: "May 22, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 187: Pequenos Passos de Volta ao Tênis",
+        description: "Um dia que combinou progresso em quadra com um foco deliberado na recuperação. Os movimentos no tênis ficaram um pouco mais dinâmicos, a confiança aumentou e o corpo respondeu bem. Ao mesmo tempo, ficar longe do celular acabou criando espaço para algo igualmente importante: estar verdadeiramente presente com as crianças.",
+        image: "images/Day187.jpg",
+        link: "posts/day-187.html"
+    },
+ {
+        tag: "Semana 27",
+        date: "May 21, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 186: Ganhando Embalo",
+        description: "Um dia impulsionado pelo otimismo trazido pela consulta de ontem com o Dr. Sergio. O retorno positivo do médico se refletiu no treino, no trabalho e na minha forma de pensar. A recuperação já não parece um projeto distante, mas algo concreto e mensurável, com o progresso ficando cada vez mais visível tanto na força quanto na confiança.",
+        image: "images/Day186.jpg",
+        link: "posts/day-186.html"
+    },
+ {
+        tag: "Semana 27",
+        date: "May 20, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 185: A Luz no Fim do Túnel",
+        description: "Um dia dominado pela expectativa e encerrado com tranquilidade. A tão aguardada consulta com o Dr. Sergio trouxe notícias animadoras, confirmou que a recuperação está evoluindo muito bem e, talvez o mais importante, apresentou um prazo realista para o retorno aos esportes. Pela primeira vez, a linha de chegada parece próxima o suficiente para ser alcançada.",
+        image: "images/Day185.jpg",
+        link: "posts/day-185.html"
+    },
+ {
+        tag: "Semana 27",
+        date: "May 19, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 184: A Energia Está Voltando",
+        description: "Um dia muito melhor depois do cansaço acumulado da semana e do fim de semana anteriores. Os níveis de energia começaram a voltar, o treino voltou a ser produtivo e o corpo respondeu bem ao movimento. Pequenos sinais de recuperação apareceram por toda parte, desde a melhora das dores nas costas até uma renovada sensação de motivação e foco.",
+        image: "images/Day184.jpg",
+        link: "posts/day-184.html"
+    },
+ {
+        tag: "Semana 27",
+        date: "May 18, 2026",
+        pain: "2/10",
+        swelling: "1–2/10",
+        title: "Dia 183: O Progresso Escondido Atrás do Cansaço",
+        description: "Uma segunda-feira difícil, em que o cansaço acumulado do fim de semana era impossível de ignorar. O nível de energia estava baixo, as pernas pesadas e nem mesmo vários cafés conseguiram compensar. Ainda assim, por trás desse desgaste estava um dos sinais mais animadores de evolução até agora: uma melhora mensurável na simetria muscular e na força.",
+        image: "images/Day183.jpg",
+        link: "posts/day-183.html"
+    },
+ {
+        tag: "Semana 26",
+        date: "May 17, 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 182: Ouvindo o Corpo",
+        description: "Um dia de recuperação após um fim de semana intenso e social. O corpo claramente pediu descanso e, desta vez, eu ouvi. O cansaço, a desidratação e uma leve sensação de inchaço no joelho serviram como lembretes de que evoluir não elimina a necessidade de recuperação. O dia acabou sendo menos sobre seguir em frente e mais sobre recarregar as energias para a semana que começa.",
+        image: "images/Day182.jpg",
+        link: "posts/day-182.html"
+    },
+ {
+        tag: "Semana 26",
+        date: "May 16, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 181: Estar Presente",
+        description: "Um dia centrado em estar presente para os meus filhos, tanto nas vitórias quanto nas derrotas. A recuperação continuou silenciosamente em segundo plano, mas o maior aprendizado veio ao vê-los competir, sorrir, sofrer e olhar para a lateral do campo em busca de alguém. Isso me lembrou por que simplesmente estar presente é tão importante.",
+        image: "images/Day181.jpg",
+        link: "posts/day-181.html"
+    },
+ {
+        tag: "Semana 26",
+        date: "May 15, 2026",
+        pain: "1–2/10",
+        swelling: "1/10",
+        title: "Dia 180: Voltando a Me Sentir um Atleta",
+        description: "Uma sexta-feira marcante, em que o tênis voltou a fazer parte da vida normal. O corpo ainda está se adaptando e as limitações continuam presentes, mas a sensação de movimento, cansaço e evolução trouxe de volta uma parte da minha identidade que estava ausente havia meses. Ao mesmo tempo, a recuperação do meu humor nas últimas semanas também parece estar me levando novamente aos excessos sociais.",
+        image: "images/Day180.jpg",
+        link: "posts/day-180.html"
+    },
+ {
+        tag: "Semana 26",
+        date: "May 14, 2026",
+        pain: "1–2/10",
+        swelling: "1/10",
+        title: "Dia 179: Mais Perto do Outro Lado",
+        description: "Um dia que equilibrou um treino intenso com uma conexão social significativa. Fisicamente, a recuperação continua avançando para movimentos mais dinâmicos, mesmo que alguns deles ainda pareçam desconfortáveis. Emocionalmente, conversar com alguém que já passou pelo mesmo processo reforçou o quanto eu já percorri dessa jornada.",
+        image: "images/Day179.jpg",
+        link: "posts/day-179.html"
+    },
+ {
+        tag: "Semana 26",
+        date: "May 13, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 178: Recarregando Através das Conexões",
+        description: "Um dia fisicamente mais leve, mas muito importante do ponto de vista mental. Abrir mão da academia permitiu que o corpo se recuperasse, enquanto conversas, networking e tempo ao lado de pessoas motivadas ajudaram a renovar a energia e a perspectiva. Às vezes, a recuperação vem mais das conexões do que do treino.",
+        image: "images/Day178.jpg",
+        link: "posts/day-178.html"
+    },
+ {
+        tag: "Semana 26",
+        date: "May 12, 2026",
+        pain: "1–2/10",
+        swelling: "1/10",
+        title: "Dia 177: Construindo Força e Ideias",
+        description: "Um dia fisicamente exigente, mas muito recompensador, em que o aumento da carga de treino continuou parecendo administrável. Além da recuperação, o dia também deu início a um novo tipo de projeto com o Gabriel, unindo criatividade, tecnologia e as primeiras lições sobre negócios e responsabilidade.",
+        image: "images/Day177.jpg",
+        link: "posts/day-177.html"
+    },
+ {
+        tag: "Semana 26",
+        date: "May 11, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 176: Novas Ferramentas e Nova Energia",
+        description: "Um dia cheio, mas mais leve, em que a recuperação ficou em segundo plano enquanto a curiosidade da família e a tecnologia ganharam destaque. O corpo ainda carregava o cansaço do treino de ontem, tornando esse ritmo mais tranquilo bastante apropriado. Em vez da fisioterapia, a noite foi dedicada à descoberta, à criatividade e ao entusiasmo compartilhado com o Gabriel.",
+        image: "images/Day176.jpg",
+        link: "posts/day-176.html"
+    },
+ {
+        tag: "Semana 25",
+        date: "May 10, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 175: Gratidão e Perspectiva",
+        description: "Um Dia das Mães cheio de significado, marcado pela família, pela gratidão e pela reflexão. O dia equilibrou o progresso físico com um sentimento de reconhecimento, especialmente pelo apoio que recebi durante toda a recuperação. O treino foi forte, mas o impacto mais profundo veio ao perceber as pessoas que carregaram parte dessa jornada ao meu lado.",
+        image: "images/Day175.jpg",
+        link: "posts/day-175.html"
+    },
+ {
+        tag: "Semana 25",
+        date: "May 9, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 174: Momentos que Fecham um Ciclo",
+        description: "Um dia cheio e ativo, centrado nas crianças, no esporte e na conexão familiar. Ver o Kai competir e, mais tarde, compartilhar momentos de tênis com ele trouxe uma forte sensação de continuidade entre gerações. Mesmo sem um treino formal, o dia foi repleto de movimento, energia e recompensa emocional.",
+        image: "images/Day174.jpg",
+        link: "posts/day-174.html"
+    },
+ {
+        tag: "Semana 25",
+        date: "May 8, 2026",
+        pain: "1–2/10",
+        swelling: "1–2/10",
+        title: "Dia 173: De Volta à Quadra",
+        description: "Um dia marcante, cheio de expectativa, emoção e alegria contida. Depois de seis meses afastado, finalmente voltei a pisar em uma quadra de tênis. Fisicamente, tudo ainda está longe do normal, mas, emocionalmente, foi como reencontrar uma parte de mim que estava faltando há muito tempo.",
+        image: "images/Day173.jpg",
+        link: "posts/day-173.html"
+    },
+ {
+        tag: "Semana 25",
+        date: "May 7, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 172: A Noite Antes da Volta",
+        description: "Um dia que começou com energia, movimento e um humor muito melhor, mas terminou com o cansaço acumulado de ter exigido demais do corpo. Emocionalmente, porém, havia uma sensação diferente crescendo por baixo de tudo: expectativa. Amanhã marca meu retorno ao tênis.",
+        image: "images/Day172.jpg",
+        link: "posts/day-172.html"
+    },
+ {
+        tag: "Semana 25",
+        date: "May 6, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 171: Um Daqueles Dias",
+        description: "Um dia mentalmente pesado, marcado muito mais por uma noite mal dormida, estresse e desgaste emocional do que pela recuperação física. O joelho permaneceu tranquilo, mas a energia e o humor oscilaram durante todo o dia. Um lembrete de que a recuperação nem sempre é física e que, às vezes, as batalhas mais difíceis acontecem inteiramente dentro da mente.",
+        image: "images/Day171.jpg",
+        link: "posts/day-171.html"
+    },
+ {
+        tag: "Semana 25",
+        date: "May 5, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 170: Corpo Mais Forte, Mente Cansada",
+        description: "Um dia produtivo, mas cansativo, em que a força física continuou evoluindo enquanto a energia mental foi diminuindo ao longo das horas. O joelho está cada vez mais confiável, e o desempenho na academia continua melhorando, mas equilibrar trabalho, família e recuperação ainda consome muita energia até o fim do dia.",
+        image: "images/Day170.jpg",
+        link: "posts/day-170.html"
+    },
+ {
+        tag: "Semana 25",
+        date: "May 4, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 169: Reorganizando a Rotina",
+        description: "Um dia corrido, dedicado a reorganizar tanto a casa quanto os hábitos pessoais. Entre trabalho, o caos da família, cardio e reflexões sobre saúde e peso, o dia trouxe uma forte sensação de recomeço. Fisicamente, o joelho permaneceu estável, mas o cansaço mental e físico continuou aparecendo por meio do estresse e das dores nas costas.",
+        image: "images/Day169.jpg",
+        link: "posts/day-169.html"
+    },
+ {
+        tag: "Semana 24",
+        date: "May 3, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 168: Ritmo Tranquilo",
+        description: "Um domingo calmo, construído em torno da rotina, do tempo em família e da consistência. O treino pela manhã foi forte, especialmente para as pernas, enquanto o restante do dia desacelerou em um ritmo tranquilo dentro de casa. O joelho está estável, mas ainda pede mais atenção à mobilidade e à flexibilidade.",
+        image: "images/Day168.jpg",
+        link: "posts/day-168.html"
+    },
+ {
+        tag: "Semana 24",
+        date: "May 2, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 167: Um Dia para Lembrar",
+        description: "Um dia cheio de esporte, família e pequenas lembranças de tudo aquilo para o qual estou trabalhando para voltar. Estar perto das atividades que amo não trouxe frustração, mas motivação. Pela primeira vez em muito tempo, consegui enxergar o futuro com mais entusiasmo do que ansiedade.",
+        image: "images/Day167.jpg",
+        link: "posts/day-167.html"
+    },
+ {
+        tag: "Semana 24",
+        date: "May 1, 2026",
+        pain: "2/10",
+        swelling: "1–2/10",
+        title: "Dia 166: Longas Viagens e Recuperação Lenta",
+        description: "Um feriado marcado pelo ritmo da família, pelo descanso interrompido e por longas horas na estrada. O corpo lidou razoavelmente bem com o dia, mas o tempo prolongado sentado no carro mais uma vez me lembrou que viajar continua sendo uma das partes mais difíceis da recuperação.",
+        image: "images/Day166.jpg",
+        link: "posts/day-166.html"
+    },
+ {
+        tag: "Semana 24",
+        date: "Apr 30, 2026",
+        pain: "1–2/10",
+        swelling: "1–2/10",
+        title: "Dia 165: Seguindo em Frente na Rotina",
+        description: "Um dia cheio e exigente, construído em torno da rotina, do trabalho e do treino. Fisicamente, a força continua melhorando, especialmente nas pernas, mas o dia também mostrou como a recuperação pode ser rapidamente afetada por uma noite mal dormida e alguns excessos. A evolução é clara, mesmo quando o equilíbrio escapa novamente.",
+        image: "images/Day165.jpg",
+        link: "posts/day-165.html"
+    },
+ {
+        tag: "Semana 24",
+        date: "Apr 29, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 164: O Peso da Recuperação",
+        description: "Um dia de reflexão, focado não apenas na evolução da recuperação, mas também nas mudanças físicas que vêm com meses longe da atividade plena. Ver o número na balança trouxe certa frustração, mas também a percepção de que o corpo está se reconstruindo de várias maneiras ao mesmo tempo.",
+        image: "images/Day164.jpg",
+        link: "posts/day-164.html"
+    },
+ {
         tag: "Semana 24",
         date: "Apr 28, 2026",
         pain: "1/10",
