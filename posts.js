@@ -2,7 +2,7 @@ const posts = [
  {
         tag: "Semana 30",
         date: "Jun 8, 2026",
-        pain: "1–2/10",
+        pain: "1-2/10",
         swelling: "1/10",
         title: "Dia 204: Vendo Ele Crescer",
         description: "Um dia sem fisioterapia, mas cheio de movimento e emoção. Minhas pernas ainda lembravam da corrida de ontem, especialmente as panturrilhas, tornando a recuperação a prioridade. O grande destaque, porém, foi comemorar o aniversário do meu filho mais velho com seus amigos e perceber que ele está construindo algo muito mais valioso do que notas ou troféus: um excelente grupo de pessoas ao seu redor.",
@@ -45,7 +45,7 @@ const posts = [
         pain: "1/10",
         swelling: "1/10",
         title: "Dia 200: Duzentos Dias Depois",
-        description: "Duzentos dias após a cirurgia, a jornada parece completamente diferente de onde começou. O dia em si foi simples — treino, família, comida e boas conversas —, mas carregou a satisfação silenciosa da consistência. Olhando para trás, a recuperação deixou de ser uma questão de sobreviver a cada dia e passou a ser sobre voltar a viver a vida enquanto continuo ficando mais forte.",
+        description: "Duzentos dias após a cirurgia, a jornada parece completamente diferente de onde começou. O dia em si foi simples, treino, família, comida e boas conversas, mas carregou a satisfação silenciosa da consistência. Olhando para trás, a recuperação deixou de ser uma questão de sobreviver a cada dia e passou a ser sobre voltar a viver a vida enquanto continuo ficando mais forte.",
         image: "images/Day200.jpg",
         link: "posts/day-200.html"
     },
@@ -53,9 +53,9 @@ const posts = [
         tag: "Semana 29",
         date: "Jun 3, 2026",
         pain: "2/10",
-        swelling: "1–2/10",
+        swelling: "1-2/10",
         title: "Dia 199: Um Choque de Realidade",
-        description: "Um dia que me lembrou o quanto a reabilitação controlada é diferente dos movimentos da vida real. Correr em ruas com subidas, descidas e superfícies irregulares expôs limitações que a academia simplesmente não consegue simular. Foi um teste valioso — não porque tenha sido perfeito, mas porque mostrou exatamente onde ainda preciso evoluir.",
+        description: "Um dia que me lembrou o quanto a reabilitação controlada é diferente dos movimentos da vida real. Correr em ruas com subidas, descidas e superfícies irregulares expôs limitações que a academia simplesmente não consegue simular. Foi um teste valioso, não porque tenha sido perfeito, mas porque mostrou exatamente onde ainda preciso evoluir.",
         image: "images/Day199.jpg",
         link: "posts/day-199.html"
     },
@@ -72,10 +72,10 @@ const posts = [
  {
         tag: "Semana 29",
         date: "Jun 1, 2026",
-        pain: "1–2/10",
+        pain: "1-2/10",
         swelling: "1/10",
         title: "Dia 197: Seguindo em Frente",
-        description: "Um dia marcado pelo cansaço e pela recuperação, mais do que pela performance. O fim de semana finalmente cobrou seu preço, e meu corpo deixou claro que precisava descansar. Mesmo assim, continuei em frente com o trabalho e a fisioterapia, aceitando que nem todos os dias são feitos para grandes evoluções — às vezes, basta manter a consistência.",
+        description: "Um dia marcado pelo cansaço e pela recuperação, mais do que pela performance. O fim de semana finalmente cobrou seu preço, e meu corpo deixou claro que precisava descansar. Mesmo assim, continuei em frente com o trabalho e a fisioterapia, aceitando que nem todos os dias são feitos para grandes evoluções, às vezes, basta manter a consistência.",
         image: "images/Day197.jpg",
         link: "posts/day-197.html"
     },
@@ -85,7 +85,7 @@ const posts = [
         pain: "1/10",
         swelling: "1/10",
         title: "Dia 196: Saindo da Zona de Conforto",
-        description: "Um dia que começou com resistência, mas terminou com inspiração. Forçar-me a treinar deu o tom da manhã, enquanto assistir à Juliana se apresentar no palco foi o grande destaque do dia. Mais do que música, foi uma lição para as crianças — e para mim — de que o crescimento só acontece quando estamos dispostos a sair da nossa zona de conforto.",
+        description: "Um dia que começou com resistência, mas terminou com inspiração. Forçar-me a treinar deu o tom da manhã, enquanto assistir à Juliana se apresentar no palco foi o grande destaque do dia. Mais do que música, foi uma lição para as crianças, e para mim, de que o crescimento só acontece quando estamos dispostos a sair da nossa zona de conforto.",
         image: "images/Day196.jpg",
         link: "posts/day-196.html"
     },
@@ -115,7 +115,7 @@ const posts = [
         pain: "1/10",
         swelling: "1/10",
         title: "Dia 193: Energia Gera Momentum",
-        description: "Um dia incomumente cheio de energia, que começou antes do nascer do sol e manteve o ritmo ao longo do trabalho, de conversas sobre negócios e de uma sessão intensa de fisioterapia. O corpo respondeu muito bem ao treino, enquanto a mente esteve ocupada com novas oportunidades e mudanças estratégicas. A recuperação já não é o único projeto — ela está se tornando a base para todos os outros.",
+        description: "Um dia incomumente cheio de energia, que começou antes do nascer do sol e manteve o ritmo ao longo do trabalho, de conversas sobre negócios e de uma sessão intensa de fisioterapia. O corpo respondeu muito bem ao treino, enquanto a mente esteve ocupada com novas oportunidades e mudanças estratégicas. A recuperação já não é o único projeto, ela está se tornando a base para todos os outros.",
         image: "images/Day193.jpg",
         link: "posts/day-193.html"
     },
@@ -142,7 +142,7 @@ const posts = [
  {
         tag: "Semana 28",
         date: "May 25, 2026",
-        pain: "1–2/10",
+        pain: "1-2/10",
         swelling: "1/10",
         title: "Dia 190: Progresso vs. Expectativas",
         description: "Uma segunda-feira típica, cheia de rotina, trabalho e fisioterapia. O maior desafio de hoje não foi físico, mas mental. Enquanto o Cleyber estava satisfeito com a minha evolução, eu me peguei focando em tudo o que ainda falta. A recuperação continua avançando, mas as expectativas parecem evoluir tão rápido quanto as melhoras.",
@@ -213,7 +213,7 @@ const posts = [
         tag: "Semana 27",
         date: "May 18, 2026",
         pain: "2/10",
-        swelling: "1–2/10",
+        swelling: "1-2/10",
         title: "Dia 183: O Progresso Escondido Atrás do Cansaço",
         description: "Uma segunda-feira difícil, em que o cansaço acumulado do fim de semana era impossível de ignorar. O nível de energia estava baixo, as pernas pesadas e nem mesmo vários cafés conseguiram compensar. Ainda assim, por trás desse desgaste estava um dos sinais mais animadores de evolução até agora: uma melhora mensurável na simetria muscular e na força.",
         image: "images/Day183.jpg",
@@ -242,7 +242,7 @@ const posts = [
  {
         tag: "Semana 26",
         date: "May 15, 2026",
-        pain: "1–2/10",
+        pain: "1-2/10",
         swelling: "1/10",
         title: "Dia 180: Voltando a Me Sentir um Atleta",
         description: "Uma sexta-feira marcante, em que o tênis voltou a fazer parte da vida normal. O corpo ainda está se adaptando e as limitações continuam presentes, mas a sensação de movimento, cansaço e evolução trouxe de volta uma parte da minha identidade que estava ausente havia meses. Ao mesmo tempo, a recuperação do meu humor nas últimas semanas também parece estar me levando novamente aos excessos sociais.",
@@ -252,7 +252,7 @@ const posts = [
  {
         tag: "Semana 26",
         date: "May 14, 2026",
-        pain: "1–2/10",
+        pain: "1-2/10",
         swelling: "1/10",
         title: "Dia 179: Mais Perto do Outro Lado",
         description: "Um dia que equilibrou um treino intenso com uma conexão social significativa. Fisicamente, a recuperação continua avançando para movimentos mais dinâmicos, mesmo que alguns deles ainda pareçam desconfortáveis. Emocionalmente, conversar com alguém que já passou pelo mesmo processo reforçou o quanto eu já percorri dessa jornada.",
@@ -272,7 +272,7 @@ const posts = [
  {
         tag: "Semana 26",
         date: "May 12, 2026",
-        pain: "1–2/10",
+        pain: "1-2/10",
         swelling: "1/10",
         title: "Dia 177: Construindo Força e Ideias",
         description: "Um dia fisicamente exigente, mas muito recompensador, em que o aumento da carga de treino continuou parecendo administrável. Além da recuperação, o dia também deu início a um novo tipo de projeto com o Gabriel, unindo criatividade, tecnologia e as primeiras lições sobre negócios e responsabilidade.",
@@ -312,8 +312,8 @@ const posts = [
  {
         tag: "Semana 25",
         date: "May 8, 2026",
-        pain: "1–2/10",
-        swelling: "1–2/10",
+        pain: "1-2/10",
+        swelling: "1-2/10",
         title: "Dia 173: De Volta à Quadra",
         description: "Um dia marcante, cheio de expectativa, emoção e alegria contida. Depois de seis meses afastado, finalmente voltei a pisar em uma quadra de tênis. Fisicamente, tudo ainda está longe do normal, mas, emocionalmente, foi como reencontrar uma parte de mim que estava faltando há muito tempo.",
         image: "images/Day173.jpg",
@@ -383,7 +383,7 @@ const posts = [
         tag: "Semana 24",
         date: "May 1, 2026",
         pain: "2/10",
-        swelling: "1–2/10",
+        swelling: "1-2/10",
         title: "Dia 166: Longas Viagens e Recuperação Lenta",
         description: "Um feriado marcado pelo ritmo da família, pelo descanso interrompido e por longas horas na estrada. O corpo lidou razoavelmente bem com o dia, mas o tempo prolongado sentado no carro mais uma vez me lembrou que viajar continua sendo uma das partes mais difíceis da recuperação.",
         image: "images/Day166.jpg",
@@ -392,8 +392,8 @@ const posts = [
  {
         tag: "Semana 24",
         date: "Apr 30, 2026",
-        pain: "1–2/10",
-        swelling: "1–2/10",
+        pain: "1-2/10",
+        swelling: "1-2/10",
         title: "Dia 165: Seguindo em Frente na Rotina",
         description: "Um dia cheio e exigente, construído em torno da rotina, do trabalho e do treino. Fisicamente, a força continua melhorando, especialmente nas pernas, mas o dia também mostrou como a recuperação pode ser rapidamente afetada por uma noite mal dormida e alguns excessos. A evolução é clara, mesmo quando o equilíbrio escapa novamente.",
         image: "images/Day165.jpg",
@@ -1035,7 +1035,7 @@ const posts = [
         pain: "2/10",
         swelling: "2/10",
         title: "Dia 101: Caminhos Diferentes, Mesma Direção",
-        description: "Um começo de dia forte com fisioterapia deu o tom. Uma abordagem diferente trouxe mais confiança, menos foco na dor e uma percepção mais clara de que o progresso pode vir por caminhos distintos — desde que o trabalho seja intencional.",
+        description: "Um começo de dia forte com fisioterapia deu o tom. Uma abordagem diferente trouxe mais confiança, menos foco na dor e uma percepção mais clara de que o progresso pode vir por caminhos distintos, desde que o trabalho seja intencional.",
         image: "images/Day101.jpg",
         link: "posts/day-101.html"
     },
@@ -1727,7 +1727,7 @@ const posts = [
     pain: "3/10",
     swelling: "6/10",
     title: "Dia 34: Ferramentas Novas, Multidões de Sempre",
-    description: "Um começo cedo e uma nova ferramenta de recuperação trouxeram estrutura de volta ao dia. O trabalho de fisioterapia manteve a consistência, mas as caminhadas, as multidões e a fadiga pós-viagem mantiveram o inchaço alto. O progresso continua — só com mais atrito do que o ideal.",
+    description: "Um começo cedo e uma nova ferramenta de recuperação trouxeram estrutura de volta ao dia. O trabalho de fisioterapia manteve a consistência, mas as caminhadas, as multidões e a fadiga pós-viagem mantiveram o inchaço alto. O progresso continua, só com mais atrito do que o ideal.",
     image: "images/Day34.jpg",
     link: "posts/day-34.html"
 },
@@ -1817,7 +1817,7 @@ const posts = [
     pain: "4/10",
     swelling: "7/10",
     title: "Dia 25: Avançando e Pagando o Preço",
-    description: "O dia começou com uma melhora pequena, mas bem-vinda, e confirmou o impacto de uma fisioterapia consistente. O tratamento da manhã ajudou, mas um dia longo em pé fez o inchaço subir de novo. O progresso está aí — mas claramente vem com um custo.",
+    description: "O dia começou com uma melhora pequena, mas bem-vinda, e confirmou o impacto de uma fisioterapia consistente. O tratamento da manhã ajudou, mas um dia longo em pé fez o inchaço subir de novo. O progresso está aí, mas claramente vem com um custo.",
     image: "images/Day25.jpg",
     link: "posts/day-25.html"
 },
@@ -1827,7 +1827,7 @@ const posts = [
     pain: "5/10",
     swelling: "6/10",
     title: "Dia 24: Rigidez, Verdade e Não Desistir",
-    description: "O dia começou rígido e teimoso, com os ganhos de ontem sumindo mais rápido do que o esperado. A perda de peso ficou visível, a fisio ficou intensa e a diferença na ativação do quadríceps ficou impossível de ignorar. Progresso doloroso — mas progresso real.",
+    description: "O dia começou rígido e teimoso, com os ganhos de ontem sumindo mais rápido do que o esperado. A perda de peso ficou visível, a fisio ficou intensa e a diferença na ativação do quadríceps ficou impossível de ignorar. Progresso doloroso, mas progresso real.",
     image: "images/Day24.jpg",
     link: "posts/day-24.html"
 },
@@ -1888,7 +1888,7 @@ const posts = [
     pain: "5/10",
     swelling: "4/10",
     title: "Dia 18: Quando os Nervos Falam",
-    description: "A melhora continuou, mas a sensibilidade nervosa se fez presente. Um lembrete direto de que a recuperação não é apenas muscular ou mecânica — o sistema nervoso também precisa ser reeducado.",
+    description: "A melhora continuou, mas a sensibilidade nervosa se fez presente. Um lembrete direto de que a recuperação não é apenas muscular ou mecânica, o sistema nervoso também precisa ser reeducado.",
     image: "images/Day18.jpg",
     link: "posts/day-18.html"
 },
@@ -1938,7 +1938,7 @@ const posts = [
     pain: "4/10",
     swelling: "5/10",
     title: "Dia 13: Fazendo por Conta Própria",
-    description: "Sem fisioterapia agendada, o Dia 13 exigiu autodisciplina. Os exercícios foram improvisados em meio à rotina familiar, o calor aumentou o inchaço e a contenção virou o desafio — nada de piscina, nada de álcool e atenção constante às escolhas alimentares.",
+    description: "Sem fisioterapia agendada, o Dia 13 exigiu autodisciplina. Os exercícios foram improvisados em meio à rotina familiar, o calor aumentou o inchaço e a contenção virou o desafio, nada de piscina, nada de álcool e atenção constante às escolhas alimentares.",
     image: "images/Day13.jpg",
     link: "posts/day-13.html"
 },
@@ -1968,7 +1968,7 @@ const posts = [
     pain: "3/10",
     swelling: "7/10",
     title: "Dia 10: Rotina, Técnica e Limites",
-    description: "O Dia 10 trouxe rotina, técnica melhor e mais um lembrete de limites. Aprender a andar corretamente com as muletas ajudou, mas dias sociais longos ainda cobram seu preço. O progresso é real — a exaustão e o inchaço também.",
+    description: "O Dia 10 trouxe rotina, técnica melhor e mais um lembrete de limites. Aprender a andar corretamente com as muletas ajudou, mas dias sociais longos ainda cobram seu preço. O progresso é real, a exaustão e o inchaço também.",
     image: "images/Day10.jpg",
     link: "posts/day-10.html"
 },
@@ -1978,7 +1978,7 @@ const posts = [
     pain: "3/10",
     swelling: "6/10",
     title: "Dia 9: De Volta ao Mundo",
-    description: "Hoje pareceu um avanço importante. A energia voltou, a academia se tornou possível novamente e a vida fora de casa recomeçou — mas com um custo. Pequenas vitórias vieram acompanhadas de fadiga real, mostrando o quão exigente a recuperação ainda é, mesmo quando o progresso parece visível.",
+    description: "Hoje pareceu um avanço importante. A energia voltou, a academia se tornou possível novamente e a vida fora de casa recomeçou, mas com um custo. Pequenas vitórias vieram acompanhadas de fadiga real, mostrando o quão exigente a recuperação ainda é, mesmo quando o progresso parece visível.",
     image: "images/Day9.jpg",
     link: "posts/day-9.html"
 },
@@ -2029,7 +2029,7 @@ const posts = [
     pain: "6/10",
     swelling: "8/10",
     title: "Dia 4: Testando Limites",
-    description: "O Dia 4 foi sobre testar limites — reduzir analgésicos, retomar a vida social e iniciar movimento de verdade. O corpo respondeu com rigidez, fadiga e sono ruim, lembrando que o progresso não é linear e que a recuperação ainda exige disciplina.",
+    description: "O Dia 4 foi sobre testar limites, reduzir analgésicos, retomar a vida social e iniciar movimento de verdade. O corpo respondeu com rigidez, fadiga e sono ruim, lembrando que o progresso não é linear e que a recuperação ainda exige disciplina.",
     image: "images/Day4.jpg",
     link: "posts/day-4.html"
 },
@@ -2049,7 +2049,7 @@ const posts = [
     pain: "10/10",
     swelling: "10/10",
     title: "Dia 2: Dor, Dúvida e Pequenas Vitórias",
-    description: "O Dia 2 foi marcado por dor intensa, fadiga e frustração — tentando estar presente no aniversário da minha esposa enquanto o corpo reagia com força. Entre orientações conflitantes de recuperação, desconforto com a extensão e breves momentos de alívio, o dia terminou com uma pequena vitória: encontrar uma posição que permitiu dormir.",
+    description: "O Dia 2 foi marcado por dor intensa, fadiga e frustração, tentando estar presente no aniversário da minha esposa enquanto o corpo reagia com força. Entre orientações conflitantes de recuperação, desconforto com a extensão e breves momentos de alívio, o dia terminou com uma pequena vitória: encontrar uma posição que permitiu dormir.",
     image: "images/Day2.jpg",
     link: "posts/day-2.html"
 },
