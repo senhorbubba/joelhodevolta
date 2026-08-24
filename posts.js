@@ -1,5 +1,425 @@
 const posts = [
  {
+        tag: "Semana 36",
+        date: "Jul 20, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 246: Velho Demais Para Isso",
+        description: "Quatro horas de sono depois da final, vitais completamente fora, e um dia passado sobrevivendo em vez de vivendo. O Cleyber me obrigou a fazer a fisioterapia mesmo assim, e ainda bem. Fizemos um teste de força isométrica comparando as pernas, e o resultado foi mais animador do que eu sinto na academia.",
+        image: "images/Day246.webp",
+        link: "posts/day-246.html"
+    },
+ {
+        tag: "Semana 35",
+        date: "Jul 19, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 245: A Final",
+        description: "Tênis com o Gustavo, com uma corrida rápida de 2 km antes para aquecer. Me movendo com mais confiança e velocidade agora, embora as reações ainda atrasem e ainda exista algum medo de forçar demais. À noite, a final da Copa do Mundo num bar, e cerveja muito além da conta.",
+        image: "images/Day245.webp",
+        link: "posts/day-245.html"
+    },
+ {
+        tag: "Semana 35",
+        date: "Jul 18, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 244: Sem Mais Dor nos Joelhos",
+        description: "Treino de força e uma corrida indoor de 5 km em bom ritmo, com a resistência claramente melhorando. Eu não sinto mais dor nos joelhos, consigo acelerar direito e me sinto mais forte. A manhã me cobrou no clube mais tarde, mas brincar com as crianças ajudou.",
+        image: "images/Day244.webp",
+        link: "posts/day-244.html"
+    },
+ {
+        tag: "Semana 35",
+        date: "Jul 17, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 243: Descansando Ativamente",
+        description: "Fisioterapia de pernas de manhã, depois uma decepção no clube quando o tênis foi cancelado pelo recesso de inverno, com cordas novas esperando para serem testadas. A noite foi uma caminhada no parque com as crianças e uma instalação de luzes, que acabou sendo o substituto certo.",
+        image: "images/Day243.webp",
+        link: "posts/day-243.html"
+    },
+ {
+        tag: "Semana 35",
+        date: "Jul 16, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 242: Os Primeiros Vinte Segundos",
+        description: "Levantar só é difícil por uns vinte segundos, e depois a energia chega. Peito e tríceps de manhã, uma corrida indoor de 5 km no almoço, e à noite alongamento e rolo que eu já tinha quase esquecido como fazer. Quero minha consistência do começo da lesão de volta.",
+        image: "images/Day242.webp",
+        link: "posts/day-242.html"
+    },
+ {
+        tag: "Semana 35",
+        date: "Jul 15, 2026",
+        pain: "2/10",
+        swelling: "1/10",
+        title: "Dia 241: Empurrando Através da Patela",
+        description: "Um dia de trabalho com as crianças em casa, o que significou me trancar num quarto para conseguir fazer algo. Fisioterapia sozinho de novo, já que o Clayber está viajando, seguindo as orientações dele e empurrando força através do desconforto. A patela está melhor, mas ainda avisa que está lá.",
+        image: "images/Day241.webp",
+        link: "posts/day-241.html"
+    },
+ {
+        tag: "Semana 35",
+        date: "Jul 14, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 240: Sem Academia, Muito Movimento",
+        description: "Um dia preguiçoso no treino e cheio em todo o resto. Café da manhã com um amigo, uma ligação de cliente, almoço com outro amigo, um café de negócios e depois França contra Espanha no bar. Que jogo. Cheguei em casa alto mas feliz, e ainda consegui alongar.",
+        image: "images/Day240.webp",
+        link: "posts/day-240.html"
+    },
+ {
+        tag: "Semana 35",
+        date: "Jul 13, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 239: Último Passeio por Brasília",
+        description: "Uma reunião cancelada com um cliente liberou a tarde, então levei as crianças para um último passeio por Brasília. Prédios impressionantes, e uma sensação estranha ao ver quanta gente e quanto dinheiro é preciso para governar o país. Depois voltamos para São Paulo e a viagem acabou.",
+        image: "images/Day239.webp",
+        link: "posts/day-239.html"
+    },
+ {
+        tag: "Semana 34",
+        date: "Jul 12, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 238: Caminho Errado, Cachoeira Certa",
+        description: "Me sentindo culpado por não fazer nada além de trilha, levantei para uma corrida de quarenta minutos pelo condomínio e uma sessão leve de fisioterapia com elásticos. Depois dirigimos para o lugar errado, perdemos mais de uma hora, e ainda assim terminamos o dia numa cachoeira linda.",
+        image: "images/Day238.webp",
+        link: "posts/day-238.html"
+    },
+ {
+        tag: "Semana 34",
+        date: "Jul 11, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 237: Caminhando na Lua",
+        description: "Uma trilha mais longa até o Vale da Lua, que realmente dá a sensação de caminhar em outro planeta. As crianças aguentaram bem a distância, a água gelada resolveu a ressaca, e minha perna encarou uma quantidade séria de caminhada sem nenhum problema.",
+        image: "images/Day237.webp",
+        link: "posts/day-237.html"
+    },
+ {
+        tag: "Semana 34",
+        date: "Jul 10, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 236: Rumo à Chapada dos Veadeiros",
+        description: "Saída cedo e duas horas de estrada até a Chapada dos Veadeiros, onde fizemos nossa primeira trilha com as crianças e mergulhamos em piscinas naturais. O joelho ficou ótimo o tempo todo, embora as pedras escorregadias exigissem atenção real. A noite foi piscina, drinks e boa companhia.",
+        image: "images/Day236.webp",
+        link: "posts/day-236.html"
+    },
+ {
+        tag: "Semana 34",
+        date: "Jul 9, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 235: Duas Horas e um Jogo de Amarelinha",
+        description: "Uma sessão de core e bicicleta antes de viajar, sabendo que a viagem não deixaria muito espaço para treino. Depois duas horas presos na locadora de carros, que viramos num jogo de amarelinha polonesa com as crianças, antes de chegar na casa do pai do meu amigo.",
+        image: "images/Day235.webp",
+        link: "posts/day-235.html"
+    },
+ {
+        tag: "Semana 34",
+        date: "Jul 8, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 234: Quase Ioga",
+        description: "Sem academia hoje, então fiz o que eu chamo de quase ioga, um conjunto de posições que ainda lembro dos aquecimentos do tênis juvenil com meu antigo treinador Waldemar Fejfer. Mais tarde uma conversa de negócios com um amigo, e à noite o Cleyber estava de volta.",
+        image: "images/Day234.webp",
+        link: "posts/day-234.html"
+    },
+ {
+        tag: "Semana 34",
+        date: "Jul 7, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 233: Alongando Durante os Jogos",
+        description: "Treino de força de manhã, depois um dia curto de trabalho em casa com uma reunião de cliente. A noite foi Argentina contra Egito e Suíça contra Colômbia, com alongamento acontecendo o tempo todo. Talvez a rotina esteja realmente voltando.",
+        image: "images/Day233.webp",
+        link: "posts/day-233.html"
+    },
+ {
+        tag: "Semana 34",
+        date: "Jul 6, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 232: Por Que o Fisioterapeuta Importa",
+        description: "Pernas e fisioterapia feitos sozinho, já que o Cleyber estava viajando. Consigo executar o programa por conta própria, mas não consigo me empurrar do jeito que ele me empurra. Ter alguém do lado pedindo mais uma quando você está cansado faz diferença real.",
+        image: "images/Day232.webp",
+        link: "posts/day-232.html"
+    },
+ {
+        tag: "Semana 33",
+        date: "Jul 5, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 231: Empurrando o Teto",
+        description: "Treino de força e uma corrida indoor de 5 km numa casa silenciosa, com as crianças ainda fora. Dei bastante hoje e senti que minha velocidade está voltando e que consigo sustentar trabalho mais duro. Empurrando mais, mas ainda muito consciente dos limites.",
+        image: "images/Day231.webp",
+        link: "posts/day-231.html"
+    },
+ {
+        tag: "Semana 33",
+        date: "Jul 4, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 230: Um Tipo Silencioso de Força",
+        description: "Pernas e remo indoor, depois um dia tranquilo em casa. Uma caminhada de manhã com as crianças antes de elas saírem com os avós, deixando um raro período de calma com a minha esposa. A carga de treino está subindo e eu me sinto genuinamente forte.",
+        image: "images/Day230.webp",
+        link: "posts/day-230.html"
+    },
+ {
+        tag: "Semana 33",
+        date: "Jul 3, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 229: Nunca Desistir",
+        description: "Mais uma sessão de tênis sozinho cheia de exercícios, me movendo mais rápido e exigindo mais das pernas do que antes. As reações ainda estão atrasadas e o timing ainda está fora, mas melhora toda semana. À noite, ver Cabo Verde resistir à Argentina foi um bom lembrete do que é raça de verdade.",
+        image: "images/Day229.webp",
+        link: "posts/day-229.html"
+    },
+ {
+        tag: "Semana 33",
+        date: "Jul 2, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 228: Reconstruindo os Pequenos Hábitos",
+        description: "Uma hora de academia em peito e tríceps, depois trabalho em casa com algumas ligações. O dia terminou com alongamento, tentando trazer de volta uma rotina que era automática nos primeiros meses dessa recuperação.",
+        image: "images/Day228.webp",
+        link: "posts/day-228.html"
+    },
+ {
+        tag: "Semana 33",
+        date: "Jul 1, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 227: A Diferença Está Diminuindo",
+        description: "Uma sessão forte com o Cleyber depois de um bom tempo sem nos vermos, incluindo trabalho de pivô e muita movimentação. Ele ficou muito satisfeito com o resultado, e as medidas confirmaram. A diferença entre as duas pernas está menor do que estava, o que é progresso real, mas ainda falta bastante.",
+        image: "images/Day227.webp",
+        link: "posts/day-227.html"
+    },
+ {
+        tag: "Semana 33",
+        date: "Jun 30, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 226: Cardio e Conversas",
+        description: "Uma manhã de remo e corrida indoor, colocando o cardio de volta na rotina de forma consistente. O resto do dia foi conversa, um almoço sobre ideias de negócio e um café sobre prospecção de clientes e conexão de redes.",
+        image: "images/Day226.webp",
+        link: "posts/day-226.html"
+    },
+ {
+        tag: "Semana 33",
+        date: "Jun 29, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 225: Cinco Placas",
+        description: "Uma sessão de academia focada em pernas com um pouco de fisioterapia, e cheguei a cinco placas, um número que teria parecido absurdo alguns meses atrás. Mais tarde, enquanto o Kai treinava tênis, encaixei trinta minutos de cardio e vinte de elásticos na beira da quadra.",
+        image: "images/Day225.webp",
+        link: "posts/day-225.html"
+    },
+ {
+        tag: "Semana 32",
+        date: "Jun 28, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 224: Um Domingo Deliberadamente Lento",
+        description: "Um domingo preguiçoso curando a ressaca, com sauna, um jogo da Copa e Toy Story 5 no cinema. Almoço com a família no shopping, depois as crianças saíram com os avós e passamos a noite fazendo muito pouco.",
+        image: "images/Day224.webp",
+        link: "posts/day-224.html"
+    },
+ {
+        tag: "Semana 32",
+        date: "Jun 27, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 223: Noventa Minutos e uma Noite Longa",
+        description: "Noventa minutos de pernas e ombros de manhã, e a força está realmente voltando agora. Tênis com a Naomi, almoço com as crianças no bairro, um pouco de violão e depois uma festa junina no clube que foi até uma da manhã.",
+        image: "images/Day223.webp",
+        link: "posts/day-223.html"
+    },
+ {
+        tag: "Semana 32",
+        date: "Jun 26, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 222: Eu Estou Voltando",
+        description: "Uma sessão de tênis sozinho em que pedi ao meu treinador para começar a me mexer pela quadra, e funcionou. Confiante, sólido, me movendo direito. Cheguei em casa genuinamente empolgado, com a sensação clara de que estou voltando. Os músculos me lembraram disso à noite.",
+        image: "images/Day222.webp",
+        link: "posts/day-222.html"
+    },
+ {
+        tag: "Semana 32",
+        date: "Jun 25, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 221: Última Manhã em Trancoso",
+        description: "O último dia neste pequeno paraíso começou com mais uma sessão de pernas antes de viajar. Um último café da manhã enorme, um mergulho espremido no fim e depois o transfer para casa. Teve vinho no caminho para o aeroporto, o que diz tudo sobre o plano de detox.",
+        image: "images/Day221.webp",
+        link: "posts/day-221.html"
+    },
+ {
+        tag: "Semana 32",
+        date: "Jun 24, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 220: Nove Buracos e um Dia Longo",
+        description: "Nove buracos caminhando num campo incrível, e joguei melhor do que esperava. Depois bolas no driving range com as crianças, uma praia ventando demais, piscina e um jogo do Brasil na Copa com bebida demais. Um ótimo dia que durou umas três horas a mais do que devia.",
+        image: "images/Day220.webp",
+        link: "posts/day-220.html"
+    },
+ {
+        tag: "Semana 32",
+        date: "Jun 23, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 219: Trapézio e a Primeira Conta no Banco",
+        description: "Uma corrida bem cedo para abrir espaço para a academia da Juliana, e depois um dia de atividades de circo com as crianças. Os três subiram no trapézio e venceram um medo real para fazer isso. Também é aniversário do Gabriel, e o presente dele foi a primeira conta no banco.",
+        image: "images/Day219.webp",
+        link: "posts/day-219.html"
+    },
+ {
+        tag: "Semana 32",
+        date: "Jun 22, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 218: Deixando Eles Descobrirem",
+        description: "Uma corrida cedo fora do resort, com subidas e bom ritmo, e nenhuma dor. Mais tarde, batendo bola com a Juliana enquanto as crianças treinavam, e vendo o Kai pedir para ficar mais tempo na quadra. A vontade de empurrar existe, mas é melhor quando eles encontram o amor pelo esporte sozinhos.",
+        image: "images/Day218.webp",
+        link: "posts/day-218.html"
+    },
+ {
+        tag: "Semana 31",
+        date: "Jun 21, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 217: Escadas, Areia e Tênis",
+        description: "Uma hora completa de pernas, força e core na academia do resort, seguida de um treino de escada acidental quando o elevador quebrou e esquecemos as toalhas. A melhor parte foi levar o Kai para treinar tênis e ver o quanto ele está evoluindo.",
+        image: "images/Day217.webp",
+        link: "posts/day-217.html"
+    },
+ {
+        tag: "Semana 31",
+        date: "Jun 20, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 216: Chegando ao Paraíso",
+        description: "As férias começam hoje. Voamos para a Bahia com as crianças para alguns dias num resort em Trancoso, e depois do caos habitual de viajar com três filhos chegamos a algo bem próximo do paraíso. Sem treino, mas com uma noite de sono bem merecida.",
+        image: "images/Day216.webp",
+        link: "posts/day-216.html"
+    },
+ {
+        tag: "Semana 31",
+        date: "Jun 19, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 215: Ideias Que Dão Energia",
+        description: "As costas estão melhores, o suficiente para treinar pernas mas não para golfe. Duas conversas, uma num café e outra com um ex-sócio, me deixaram mais energizado do que qualquer treino conseguiria. O joelho aguentou um dia inteiro de caminhada e moto sem reclamar.",
+        image: "images/Day215.webp",
+        link: "posts/day-215.html"
+    },
+ {
+        tag: "Semana 31",
+        date: "Jun 18, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 214: Um Novo Tipo de Dor",
+        description: "O tênis acabou depois de cinquenta minutos quando a dor nas costas de ontem voltou muito mais forte. Quarenta minutos de massagem e alongamento na quadra não resolveram, e nada em casa resolveu também. TENS e calor ajudaram um pouco, mas é uma péssima hora, logo antes de uma viagem.",
+        image: "images/Day214.webp",
+        link: "posts/day-214.html"
+    },
+ {
+        tag: "Semana 31",
+        date: "Jun 17, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 213: De Volta ao Driving Range",
+        description: "Uma manhã de trabalho comprimida me comprou uma tarde no driving range, minha primeira sessão de golfe depois de uma longa pausa. A batida na bola estava melhor do que o esperado, mas apareceu uma fisgada no lado esquerdo das costas. À noite, apresentação da startup para clientes da indústria.",
+        image: "images/Day213.webp",
+        link: "posts/day-213.html"
+    },
+ {
+        tag: "Semana 31",
+        date: "Jun 16, 2026",
+        pain: "2/10",
+        swelling: "2/10",
+        title: "Dia 212: Joelhos Doloridos e Portas Novas",
+        description: "Ainda dolorido das infiltrações de ontem, com o joelho visivelmente mais cheio, então o treino ficou leve. Um almoço que começou como um papo para colocar em dia virou um prospect de verdade, e o dia na escola terminou cantando parabéns para o meu filho mais velho.",
+        image: "images/Day212.webp",
+        link: "posts/day-212.html"
+    },
+ {
+        tag: "Semana 31",
+        date: "Jun 15, 2026",
+        pain: "3/10",
+        swelling: "2/10",
+        title: "Dia 211: Liberado, Mas Não Pronto",
+        description: "O Dr. Sergio revisou a ressonância e ficou realmente satisfeito com a cicatrização, mais avançada do que o esperado, e me liberou para voltar aos esportes com cautela. Ele também me avisou que a próxima lesão tem mais chance de vir no outro joelho. O dia terminou com infiltração de ácido hialurônico nos dois joelhos.",
+        image: "images/Day211.webp",
+        link: "posts/day-211.html"
+    },
+ {
+        tag: "Semana 30",
+        date: "Jun 14, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 210: Assistindo da Margem",
+        description: "Uma manhã difícil depois de uma noite pesada, agravada por ter que dizer não ao wakeboard enquanto todo mundo ia. Em vez disso assisti o Majchrzak ganhar um ATP 250, comi paella com meus vizinhos espanhóis e fiquei acordado até tarde demais por causa de mais um jogo.",
+        image: "images/Day210.webp",
+        link: "posts/day-210.html"
+    },
+ {
+        tag: "Semana 30",
+        date: "Jun 13, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 209: Ibiúna e uma Mesa Longa",
+        description: "Treino de pernas de manhã na academia e depois a viagem para Ibiúna, onde a virose finalmente começou a passar. Pingue-pongue com as crianças, muita caminhada até o parque e bebida começando cedo demais. Exagerei de novo, mas a companhia valeu.",
+        image: "images/Day209.webp",
+        link: "posts/day-209.html"
+    },
+ {
+        tag: "Semana 30",
+        date: "Jun 12, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 208: Chuva, Chocolate e Hora Errada",
+        description: "Um pneu furado na bicicleta me colocou na moto, e uma chuva forte durante o tênis me mandou para casa encharcado, o que não é nada ideal para quem ainda está doente. O trabalho nos projetos novos rendeu bem, e o Dia dos Namorados encerrou minha dieta com uma barra de chocolate.",
+        image: "images/Day208.webp",
+        link: "posts/day-208.html"
+    },
+ {
+        tag: "Semana 30",
+        date: "Jun 11, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 207: Cerimônias, Balé e Copa do Mundo",
+        description: "Um dia feito quase inteiramente dos meus filhos crescendo na minha frente. Uma cerimônia à luz de velas de manhã, uma apresentação de balé à tarde e o início da Copa do Mundo à noite. Ainda brigando com essa virose, mas consegui fazer alongamento e core mesmo assim.",
+        image: "images/Day207.webp",
+        link: "posts/day-207.html"
+    },
+ {
+        tag: "Semana 30",
+        date: "Jun 10, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 206: De Volta ao Hospital",
+        description: "Um dia que começou com uma celebração de aprendizado na escola do Kai e terminou com fundadores e investidores numa sala cheia de ideias. No meio disso, uma ressonância do joelho, que me colocou de volta num ambiente hospitalar que eu já tinha quase conseguido esquecer. Não é um lugar de que eu sinta falta.",
+        image: "images/Day206.webp",
+        link: "posts/day-206.html"
+    },
+ {
+        tag: "Semana 30",
+        date: "Jun 9, 2026",
+        pain: "1/10",
+        swelling: "1/10",
+        title: "Dia 205: Me Sentindo Eu Mesmo de Novo",
+        description: "Um dia em que o tênis voltou a parecer natural. O movimento ainda é controlado e o timing não voltou por completo, mas a confiança segue crescendo. A força está voltando na academia, os ajustes no equipamento funcionaram bem, e a linha entre trabalhar, aprender e construir está cada vez mais borrada graças à IA.",
+        image: "images/Day205.jpg",
+        link: "posts/day-205.html"
+    },
+ {
         tag: "Semana 30",
         date: "Jun 8, 2026",
         pain: "1-2/10",
